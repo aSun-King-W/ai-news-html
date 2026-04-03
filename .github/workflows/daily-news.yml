@@ -1,0 +1,114 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    # 每天UTC时间0:30运行（北京时间上午8:30）
+    - cron: '30 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/daily-news.yml'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      # 2. 设置Node.js环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. 配置环境变量（如果有）
+      - name: Setup environment variables
+        run: |
+          if [ -f .env.example ]; then
+            cp .env.example .env
+            # 如果配置了secrets，可以在这里设置
+            if [ -n "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+              sed -i "s|your_api_key_here|${{ secrets.ANTHROPIC_API_KEY }}|g" .env
+            fi
+          fi
+
+      # 5. 生成HTML日报（启用AI摘要）
+      - name: Generate HTML news digest
+        run: npx tsx src/cli.ts fetch --html-output --ai-summary --output-dir ./dist
+
+      # 6. 准备部署文件
+      - name: Prepare deployment files
+        run: |
+          # 创建dist目录（如果不存在）
+          mkdir -p dist
+
+          # 复制最新的HTML文件为index.html（便于GitHub Pages访问）
+          latest_html=$(ls -t dist/ai-news-*.html | head -1)
+          if [ -f "$latest_html" ]; then
+            cp "$latest_html" dist/index.html
+            echo "✅ 已将 $latest_html 复制为 dist/index.html"
+          else
+            echo "⚠️  未找到HTML文件"
+          fi
+
+          # 创建CNAME文件（如果需要自定义域名）
+          # echo "example.com" > dist/CNAME
+
+          # 创建.nojekyll文件以禁用Jekyll处理
+          touch dist/.nojekyll
+
+          # 列出生成的文件
+          ls -la dist/
+
+      # 7. 配置git用户
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 8. 提交并推送更改
+      - name: Commit and push changes
+        run: |
+          # 检查是否有文件需要提交
+          if git status --porcelain | grep -q '^[ MADRC]'; then
+            echo "🔄 检测到更改，正在提交..."
+
+            # 添加所有更改
+            git add dist/
+            git add output/ 2>/dev/null || true
+
+            # 提交更改
+            git commit -m "📰 更新AI新闻日报: $(date +'%Y年%m月%d日 %H:%M')"
+
+            # 推送更改
+            git push origin HEAD:main
+            echo "✅ 更改已提交并推送"
+          else
+            echo "ℹ️  没有检测到更改，跳过提交"
+          fi
+
+      # 9. 部署到GitHub Pages（可选）
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages  # 部署到gh-pages分支
+          keep_files: false  # 清理旧文件
+          commit_message: "🚀 部署AI新闻日报: $(date +'%Y-%m-%d')"
