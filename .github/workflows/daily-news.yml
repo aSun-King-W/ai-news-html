@@ -1,28 +1,24 @@
-name: Daily AI News Update
+name: Daily AI News Update (Fixed)
 
 on:
   schedule:
     # 每天UTC时间0:30运行（北京时间上午8:30）
     - cron: '30 0 * * *'
   workflow_dispatch:  # 允许手动触发
-  push:
-    branches: [ main ]
-    paths:
-      - '.github/workflows/daily-news.yml'
-      - 'src/**'
-      - 'package.json'
-      - 'package-lock.json'
+
+# 必要权限配置
+permissions:
+  contents: write  # 写入内容权限（用于推送到gh-pages分支）
 
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. 检出代码
+      # 1. 检出代码（使用默认的GITHUB_TOKEN，无需额外指定）
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       # 2. 设置Node.js环境
@@ -39,17 +35,33 @@ jobs:
       # 4. 配置环境变量（如果有）
       - name: Setup environment variables
         run: |
-          if [ -f .env.example ]; then
-            cp .env.example .env
-            # 如果配置了secrets，可以在这里设置
-            if [ -n "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+          # 如果配置了API密钥，则创建.env文件
+          if [ -n "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "✅ 检测到ANTHROPIC_API_KEY，配置环境变量"
+            if [ -f .env.example ]; then
+              cp .env.example .env
               sed -i "s|your_api_key_here|${{ secrets.ANTHROPIC_API_KEY }}|g" .env
+            else
+              echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}" > .env
+            fi
+          else
+            echo "⚠️  未检测到ANTHROPIC_API_KEY，跳过AI摘要功能"
+            # 不创建.env文件，让cli.ts检测到空值
+            if [ -f .env ]; then
+              rm .env  # 删除可能存在的旧.env文件
             fi
           fi
 
-      # 5. 生成HTML日报（启用AI摘要）
+      # 5. 生成HTML日报（根据API密钥启用AI摘要）
       - name: Generate HTML news digest
-        run: npx tsx src/cli.ts fetch --html-output --ai-summary --output-dir ./dist
+        run: |
+          if [ -n "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "✅ ANTHROPIC_API_KEY存在，启用AI摘要功能"
+            npx tsx src/cli.ts fetch --html-output --ai-summary --output-dir ./dist
+          else
+            echo "⚠️  ANTHROPIC_API_KEY未设置，跳过AI摘要功能"
+            npx tsx src/cli.ts fetch --html-output --output-dir ./dist
+          fi
 
       # 6. 准备部署文件
       - name: Prepare deployment files
@@ -66,49 +78,25 @@ jobs:
             echo "⚠️  未找到HTML文件"
           fi
 
-          # 创建CNAME文件（如果需要自定义域名）
-          # echo "example.com" > dist/CNAME
-
           # 创建.nojekyll文件以禁用Jekyll处理
           touch dist/.nojekyll
 
           # 列出生成的文件
           ls -la dist/
 
-      # 7. 配置git用户
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # 8. 提交并推送更改
-      - name: Commit and push changes
-        run: |
-          # 检查是否有文件需要提交
-          if git status --porcelain | grep -q '^[ MADRC]'; then
-            echo "🔄 检测到更改，正在提交..."
-
-            # 添加所有更改
-            git add dist/
-            git add output/ 2>/dev/null || true
-
-            # 提交更改
-            git commit -m "📰 更新AI新闻日报: $(date +'%Y年%m月%d日 %H:%M')"
-
-            # 推送更改
-            git push origin HEAD:main
-            echo "✅ 更改已提交并推送"
-          else
-            echo "ℹ️  没有检测到更改，跳过提交"
-          fi
-
-      # 9. 部署到GitHub Pages（可选）
+      # 7. 部署到GitHub Pages (gh-pages分支)
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages  # 部署到gh-pages分支
-          keep_files: false  # 清理旧文件
-          commit_message: "🚀 部署AI新闻日报: $(date +'%Y-%m-%d')"
+          publish_branch: gh-pages
+          keep_files: false
+          commit_message: "🚀 部署AI新闻日报: $(date +'%Y-%m-%d %H:%M:%S')"
+
+      # 8. 输出部署信息
+      - name: Show deployment info
+        run: |
+          echo "✅ AI新闻日报已成功部署到GitHub Pages!"
+          echo "🌐 访问地址: https://${{ github.repository_owner }}.github.io/$(echo ${{ github.repository }} | cut -d'/' -f2)/"
+          echo "📱 公众号菜单可配置此链接"

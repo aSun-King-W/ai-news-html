@@ -65,6 +65,12 @@ npx tsx src/cli.ts fetch --ai-summary
 # 生成HTML格式日报（美观的手机页面）
 npx tsx src/cli.ts fetch --html-output
 
+# 生成公众号文章格式（适合复制到公众号编辑器）
+npx tsx src/cli.ts fetch --wechat-article
+
+# 生成公众号文章HTML版本（网页查看）
+npx tsx src/cli.ts fetch --wechat-html
+
 # 指定输出目录
 npx tsx src/cli.ts fetch --output-dir ./reports
 
@@ -73,6 +79,12 @@ npx tsx src/cli.ts fetch --hours 12
 
 # 组合使用：启用AI摘要并生成HTML日报
 npx tsx src/cli.ts fetch --hours 48 --ai-summary --html-output
+
+# 生成带AI摘要的公众号文章
+npx tsx src/cli.ts fetch --ai-summary --wechat-article
+
+# 生成所有格式：HTML、公众号文章、Markdown
+npx tsx src/cli.ts fetch --ai-summary --html-output --wechat-article
 
 # 查看帮助
 npx tsx src/cli.ts --help
@@ -161,10 +173,39 @@ npx tsx src/cli.ts fetch --html-output --output-dir ./dist
    - **网页地址**：`https://你的用户名.github.io/ai-news-html/`（GitHub Pages地址）
 4. 提交审核（约1-3个工作日）
 
+### 替代方案：公众号文章发布（解决"链接内容不属于当前公众号"问题）
+如果菜单跳转遇到审核问题，可使用公众号文章格式手动发布：
+
+1. **生成公众号文章**：
+   ```bash
+   npx tsx src/cli.ts fetch --ai-summary --wechat-article
+   ```
+
+2. **复制到公众号编辑器**：
+   - 登录公众号后台 → 新建图文消息
+   - 粘贴生成的文章内容
+   - 添加封面图（建议使用AI相关图片）
+   - 设置摘要和作者
+
+3. **发布文章**：
+   - 保存为草稿或直接发布
+   - 用户通过公众号历史消息查看
+
+4. **优点**：
+   - ✅ 完全符合微信规定
+   - ✅ 无需外部链接跳转
+   - ✅ 支持富文本格式
+   - ✅ 可插入图片和样式
+
+5. **缺点**：
+   - ⚠️ 需要每天手动发布（5分钟）
+   - ⚠️ 个人订阅号每天只能群发一次
+
 ### 访问方式
-- **手机微信**：进入公众号 → 点击菜单 → 查看最新AI新闻
+- **公众号菜单跳转**：进入公众号 → 点击菜单 → 查看HTML日报（需审核）
+- **公众号文章**：进入公众号 → 历史消息 → 查看文章（手动发布）
 - **电脑浏览器**：直接访问GitHub Pages链接
-- **自动更新**：每日上午8:30自动更新内容
+- **自动更新**：每日上午8:30自动生成最新内容
 
 ### 页面特点
 - 🎨 **美观自由风设计**：渐变背景、卡片式布局、平滑动画

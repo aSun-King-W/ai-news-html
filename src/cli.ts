@@ -7,6 +7,7 @@ import { filterRecentArticles, deduplicateArticles, filterAIArticles } from './p
 import { sortArticlesByDate } from './processors/sorter';
 import { generateMarkdown, generateFilename } from './generators/markdown';
 import { generateHtml, generateHtmlFilename } from './generators/html';
+import { generateWechatArticle, generateWechatHtml, generateWechatFilename, generateWechatHtmlFilename } from './generators/wechat';
 import { Article } from './types/article';
 import { AISummarizer } from './services/summarizer';
 import * as fs from 'fs/promises';
@@ -25,6 +26,8 @@ async function main() {
     .option('-h, --hours <hours>', '抓取多少小时内的文章', HOURS_BACK.toString())
     .option('--ai-summary', '启用AI摘要功能（需要ANTHROPIC_API_KEY环境变量）', false)
     .option('--html-output', '生成HTML格式日报（美观的手机页面）', false)
+    .option('--wechat-article', '生成公众号文章格式（适合复制到公众号编辑器）', false)
+    .option('--wechat-html', '生成公众号文章HTML版本（网页查看）', false)
     .action(async (options) => {
       try {
         console.log('🚀 开始抓取AI新闻...\n');
@@ -120,6 +123,30 @@ async function main() {
           await fs.writeFile(htmlOutputPath, html, 'utf-8');
           console.log(`✅ HTML日报已生成: ${htmlOutputPath}`);
           console.log(`📱 手机访问: 将此文件部署到GitHub Pages或云存储`);
+        }
+
+        // 9. 生成公众号文章（如果启用）
+        if (options.wechatArticle) {
+          console.log('\n📱 正在生成公众号文章格式...');
+          const wechatArticle = generateWechatArticle(articlesForOutput);
+          const wechatFilename = generateWechatFilename();
+          const wechatOutputPath = path.join(options.outputDir, wechatFilename);
+
+          await fs.writeFile(wechatOutputPath, wechatArticle, 'utf-8');
+          console.log(`✅ 公众号文章已生成: ${wechatOutputPath}`);
+          console.log(`📋 使用方法: 复制内容到公众号编辑器发布`);
+        }
+
+        // 10. 生成公众号文章HTML版本（如果启用）
+        if (options.wechatHtml) {
+          console.log('\n🌐 正在生成公众号文章HTML版本...');
+          const wechatHtml = generateWechatHtml(articlesForOutput);
+          const wechatHtmlFilename = generateWechatHtmlFilename();
+          const wechatHtmlOutputPath = path.join(options.outputDir, wechatHtmlFilename);
+
+          await fs.writeFile(wechatHtmlOutputPath, wechatHtml, 'utf-8');
+          console.log(`✅ 公众号HTML版本已生成: ${wechatHtmlOutputPath}`);
+          console.log(`📱 适合网页查看或嵌入其他平台`);
         }
 
       } catch (error) {
