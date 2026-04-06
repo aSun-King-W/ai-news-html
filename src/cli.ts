@@ -7,7 +7,6 @@ import { filterRecentArticles, deduplicateArticles, filterAIArticles } from './p
 import { sortArticlesByDate } from './processors/sorter';
 import { generateMarkdown, generateFilename } from './generators/markdown';
 import { generateHtml, generateHtmlFilename } from './generators/html';
-//import { generateWechatArticle, generateWechatHtml, generateWechatFilename, generateWechatHtmlFilename } from './generators/wechat';
 import { Article } from './types/article';
 import { AISummarizer } from './services/summarizer';
 import * as fs from 'fs/promises';
