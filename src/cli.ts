@@ -154,6 +154,58 @@ async function main() {
       }
     });
 
+  program
+    .command('agent')
+    .description('运行 Agent（感知-思考-行动循环）')
+    .argument('[name]', 'agent 名称: orchestrator, fetch-agent, summarize-agent, render-agent')
+    .option('--force', '强制重新运行管线（仅 orchestrator）')
+    .action(async (name?: string, options?: { force?: boolean }) => {
+      const agents = ['orchestrator', 'fetch-agent', 'summarize-agent', 'render-agent'];
+
+      if (!name) {
+        console.log('可用的 Agent:');
+        for (const a of agents) {
+          console.log(`  - ${a}`);
+        }
+        console.log('\n用法: npx tsx src/cli.ts agent <name>');
+        return;
+      }
+
+      if (!agents.includes(name)) {
+        console.error(`未知 agent: ${name}`);
+        console.error(`可用选项: ${agents.join(', ')}`);
+        process.exit(1);
+      }
+
+      const specPath = path.resolve(__dirname, '..', '.specs', `${name}.spec.md`);
+
+      console.log(`🤖 启动 Agent: ${name}`);
+      console.log(`📄 Spec: ${specPath}\n`);
+
+      switch (name) {
+        case 'orchestrator': {
+          const { runOrchestrator } = await import('./agents/orchestrator-agent');
+          await runOrchestrator({ force: options?.force });
+          break;
+        }
+        case 'fetch-agent': {
+          const { runFetchAgent } = await import('./agents/fetch-agent');
+          await runFetchAgent();
+          break;
+        }
+        case 'summarize-agent': {
+          const { runSummarizeAgent } = await import('./agents/summarize-agent');
+          await runSummarizeAgent();
+          break;
+        }
+        case 'render-agent': {
+          const { runRenderAgent } = await import('./agents/render-agent');
+          await runRenderAgent();
+          break;
+        }
+      }
+    });
+
   program.parse();
 }
 

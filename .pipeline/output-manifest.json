@@ -1,0 +1,15 @@
+{
+  "pipelineId": "pipeline-2026-04-24T09-25-24-957Z",
+  "generatedAt": "2026-04-24T09:27:53.949Z",
+  "articleCount": 81,
+  "outputs": [
+    {
+      "format": "markdown",
+      "path": "D:\\学习\\claude_project\\ai-news-html\\output\\ai-news-2026-04-24.md"
+    },
+    {
+      "format": "html",
+      "path": "D:\\学习\\claude_project\\ai-news-html\\output\\ai-news-2026-04-24.html"
+    }
+  ]
+}

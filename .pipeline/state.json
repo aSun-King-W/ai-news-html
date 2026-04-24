@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "pipelineId": "pipeline-2026-04-24T09-25-24-957Z",
+  "status": "COMPLETED",
+  "currentStage": "",
+  "startedAt": "2026-04-24T09:25:24.958Z",
+  "completedAt": "2026-04-24T09:27:53.950Z",
+  "config": {
+    "outputDir": "./output",
+    "hoursBack": 24,
+    "formats": [
+      "markdown",
+      "html"
+    ]
+  },
+  "agents": {
+    "fetch": {
+      "status": "success",
+      "retries": 0,
+      "error": null
+    },
+    "summarize": {
+      "status": "success",
+      "retries": 0,
+      "error": null
+    },
+    "render": {
+      "status": "success",
+      "retries": 0,
+      "error": null
+    }
+  }
+}
