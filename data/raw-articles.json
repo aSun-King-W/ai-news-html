@@ -1,0 +1,905 @@
+[
+  {
+    "title": "At his OpenAI trial, Musk relitigates an old friendship",
+    "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+    "pubDate": "2026-04-29T00:40:16.000Z",
+    "source": "TechCrunch",
+    "description": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath."
+  },
+  {
+    "title": "Amazon is already offering new OpenAI products on AWS",
+    "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "pubDate": "2026-04-28T19:48:02.000Z",
+    "source": "TechCrunch",
+    "description": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service."
+  },
+  {
+    "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+    "link": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+    "pubDate": "2026-04-28T18:49:54.000Z",
+    "source": "TechCrunch",
+    "description": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses."
+  },
+  {
+    "title": "Google expands Pentagon’s access to its AI after Anthropic’s refusal",
+    "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+    "pubDate": "2026-04-28T18:15:00.000Z",
+    "source": "TechCrunch",
+    "description": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department."
+  },
+  {
+    "title": "Lovable launches its vibe-coding app on iOS and Android",
+    "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+    "pubDate": "2026-04-28T16:09:30.000Z",
+    "source": "TechCrunch",
+    "description": "The app allows developers to vibe code web apps and websites on the go."
+  },
+  {
+    "title": "YouTube is testing an AI-powered search feature that shows guided answers",
+    "link": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+    "pubDate": "2026-04-28T13:54:06.000Z",
+    "source": "TechCrunch",
+    "description": "YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis."
+  },
+  {
+    "title": "BCI startup Neurable looks to license its ‘mind-reading’ tech for consumer wearables",
+    "link": "https://techcrunch.com/2026/04/28/bci-startup-neurable-looks-to-license-its-mind-reading-tech-for-consumer-wearables/",
+    "pubDate": "2026-04-28T13:19:34.000Z",
+    "source": "TechCrunch",
+    "description": "The startup specializes in \"non-invasive\" \"mind-reading\" tech — a kind of neural data collection that, its CEO hopes, will have all sorts of consumer applications."
+  },
+  {
+    "title": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+    "link": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+    "pubDate": "2026-04-28T13:00:00.000Z",
+    "source": "TechCrunch",
+    "description": "Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them."
+  },
+  {
+    "title": "Otter’s new feature lets users search across their enterprise tools",
+    "link": "https://techcrunch.com/2026/04/28/otters-new-feature-lets-users-search-across-their-enterprise-tools/",
+    "pubDate": "2026-04-28T12:00:00.000Z",
+    "source": "TechCrunch",
+    "description": "With this launch, users can connect their Gmail, Google Drive, Notion, Jira, and Salesforce accounts and query that data along with existing meeting data. The company said that it will soon allow connections with Microsoft Outlook, Teams, SharePoint, and Slack."
+  },
+  {
+    "title": "Elon Musk appeared more petty than prepared",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/920191/elon-musk-sam-altman-trial-day-one",
+    "pubDate": "2026-04-28T23:17:12.000Z",
+    "source": "The Verge",
+    "description": "Today the first witness was sworn in in Musk v. Altman: Elon Musk. I was surprised by how flat he seemed. This is not the first time I've seen Musk in court. During his defamation suit, he turned on the charm and the jury responded by finding him not guilty. Today he looked adrift and unprepared. Th"
+  },
+  {
+    "title": "Elon Musk tells the jury that all he wants to do is save humanity",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
+    "pubDate": "2026-04-28T20:46:54.000Z",
+    "source": "The Verge",
+    "description": "On the stand, Elon Musk is positioning himself as a savior. In the high-profile trial between him and his fellow OpenAI co-founder, now CEO, Sam Altman, Musk opened by going through his background. He went as far back as being raised in South Africa and arriving in Canada for college with \"2,500 in "
+  },
+  {
+    "title": "Taylor Swift is stepping up the legal war on AI copycats",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats",
+    "pubDate": "2026-04-28T20:30:00.000Z",
+    "source": "The Verge",
+    "description": "Taylor Swift has been at the center of AI imitation controversies for years, and now, she's become the latest celebrity who's escalating attempts to protect herself from AI copycats. As usual, however, the legal system intersects with technology in complicated ways - and Swift's efforts may be a lon"
+  },
+  {
+    "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+    "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+    "pubDate": "2026-04-28T19:27:50.000Z",
+    "source": "The Verge",
+    "description": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits "
+  },
+  {
+    "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+    "pubDate": "2026-04-28T19:00:13.000Z",
+    "source": "The Verge",
+    "description": "Elon Musk officially began his testimony in the trial he has brought against OpenAI CEO Sam Altman and company president Greg Brockman. The three were on the initial founding team of OpenAI, with Musk investing up to $38 million early on before the co-founders' relationship soured over disagreements"
+  },
+  {
+    "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+    "pubDate": "2026-04-28T16:49:08.000Z",
+    "source": "The Verge",
+    "description": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creat"
+  },
+  {
+    "title": "Musk and Altman go to court",
+    "link": "https://www.theverge.com/podcast/919534/musk-openai-trial-vergecast",
+    "pubDate": "2026-04-28T14:47:21.000Z",
+    "source": "The Verge",
+    "description": "The trial between Elon Musk and OpenAI is officially upon us. And it is going to be a mess. As the two sides fight over the early days of AI, who deserves credit and cash for what, and more, we're likely to spend the next few weeks hearing a lot of important people's secrets made extremely public. W"
+  },
+  {
+    "title": "Google and Pentagon reportedly agree on deal for ‘any lawful’ use of AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal",
+    "pubDate": "2026-04-28T11:09:32.000Z",
+    "source": "The Verge",
+    "description": "Google has signed a classified deal that allows the US Department of Defense to use its AI models for \"any lawful government purpose,\" The Information reports. The agreement was reported less than a day after Google employees demanded CEO Sundar Pichai block the Pentagon from using its AI amid conce"
+  },
+  {
+    "title": "Attack of the killer script kiddies",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/915660/mythos-script-kiddies-hackers-attack-cybersecurity-ai",
+    "pubDate": "2026-04-28T11:00:00.000Z",
+    "source": "The Verge",
+    "description": "Last August, some of the best cybersecurity teams in the business gathered in Las Vegas to demonstrate the strength of their AI bug-finding systems at DARPA's Artificial Intelligence Cyber Challenge (AIxCC). The tools had scanned 54 million lines of actual software code that DARPA had injected with "
+  },
+  {
+    "title": "Why AI Startup Offices in NYC Are Flashy but Mostly Empty",
+    "link": "https://www.wsj.com/real-estate/commercial/why-ai-startup-offices-in-nyc-are-flashy-but-mostly-empty-6882ed3d",
+    "pubDate": "2026-04-29T04:06:56.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.wsj.com/real-estate/commercial/why-ai-startup-offices-in-nyc-are-flashy-but-mostly-empty-6882ed3d"
+  },
+  {
+    "title": "The versioned filesystem for AI agents",
+    "link": "https://coregit.dev",
+    "pubDate": "2026-04-29T04:01:59.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 1 评论 | 链接: https://coregit.dev"
+  },
+  {
+    "title": "After the AI Crash: A Proposal, from the Vanderbilt Policy Accelerator",
+    "link": "https://vanderbiltpolicyaccelerator.substack.com/p/after-the-ai-crash",
+    "pubDate": "2026-04-29T03:59:32.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://vanderbiltpolicyaccelerator.substack.com/p/after-the-ai-crash"
+  },
+  {
+    "title": "Why Capitalism Can't Survive AI",
+    "link": "https://www.newconsensus.com/blog/series/why-capitalism-cant-survive-ai",
+    "pubDate": "2026-04-29T03:53:37.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.newconsensus.com/blog/series/why-capitalism-cant-survive-ai"
+  },
+  {
+    "title": "Instacart co-founder launches hedge fund backing AI agents",
+    "link": "https://www.privatebankerinternational.com/news/instacart-co-founder-launches-hedge-fund-backing-ai-agents-over-portfolio-managers/",
+    "pubDate": "2026-04-29T03:48:30.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.privatebankerinternational.com/news/instacart-co-founder-launches-hedge-fund-backing-ai-agents-over-portfolio-managers/"
+  },
+  {
+    "title": "(One) Good AI Is Here – Anil Dash",
+    "link": "https://www.anildash.com/2026/04/28/one-good-ai-is-here/",
+    "pubDate": "2026-04-29T03:20:43.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.anildash.com/2026/04/28/one-good-ai-is-here/"
+  },
+  {
+    "title": "Help a fellow dev on AI-localization?",
+    "link": "https://news.ycombinator.com/item?id=47943730",
+    "pubDate": "2026-04-29T03:01:14.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 - We built an AI-based localization pipeline for our  software product (HR domain) and would love feed..."
+  },
+  {
+    "title": "Spotify Shares Fall Most Since 2022 on AI Fears [video]",
+    "link": "https://www.youtube.com/watch?v=pXgf7uZT7OU",
+    "pubDate": "2026-04-29T02:53:14.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.youtube.com/watch?v=pXgf7uZT7OU"
+  },
+  {
+    "title": "The Uncanny Horror of AI Hallucinations (2025)",
+    "link": "https://www.youtube.com/watch?v=vimNI7NjuS8",
+    "pubDate": "2026-04-29T02:45:56.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.youtube.com/watch?v=vimNI7NjuS8"
+  },
+  {
+    "title": "Edge Computing and Intelligence: AI for Edge and AI on Edge",
+    "link": "https://blog.sparsh.dev/edge-ai-computing-intelligence/",
+    "pubDate": "2026-04-29T02:45:40.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 1 评论 | 链接: https://blog.sparsh.dev/edge-ai-computing-intelligence/"
+  },
+  {
+    "title": "From Navigator to Cartographer – The Path to Strong AI",
+    "link": "https://pavelvoronin.com/ai-beyond-navigation/",
+    "pubDate": "2026-04-29T02:28:50.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://pavelvoronin.com/ai-beyond-navigation/"
+  },
+  {
+    "title": "I hired an AI as SO. He chose a name, and we co-authored a book",
+    "link": "https://jdeid.it/agi-research/",
+    "pubDate": "2026-04-29T02:24:47.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://jdeid.it/agi-research/"
+  },
+  {
+    "title": "Show HN: I built an AI agent to diagnose technical issues",
+    "link": "https://rinhelp.com",
+    "pubDate": "2026-04-29T01:57:23.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://rinhelp.com"
+  },
+  {
+    "title": "AI Designs Thermoelectric Generators 10k Times Faster Than We Can",
+    "link": "https://spectrum.ieee.org/ai-designed-thermoelectric-generator",
+    "pubDate": "2026-04-29T01:39:52.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://spectrum.ieee.org/ai-designed-thermoelectric-generator"
+  },
+  {
+    "title": "From One AI to Any AI: JetBrains rethinks the approach to AI tooling [video]",
+    "link": "https://www.youtube.com/watch?v=J8fHU4WFd_c",
+    "pubDate": "2026-04-29T01:02:29.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.youtube.com/watch?v=J8fHU4WFd_c"
+  },
+  {
+    "title": "AI Killed the MVP. What's Next?",
+    "link": "https://www.indiehackers.com/post/ai-killed-the-mvp-whats-next-JIWTsjBRFuC4K87voEFk",
+    "pubDate": "2026-04-29T00:52:37.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.indiehackers.com/post/ai-killed-the-mvp-whats-next-JIWTsjBRFuC4K87voEFk"
+  },
+  {
+    "title": "Tencent used Anthropic's Claude to fine-tune it's new Hy3 AI model",
+    "link": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/",
+    "pubDate": "2026-04-29T00:35:40.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/"
+  },
+  {
+    "title": "Evaluating CUDA Tile for AI Workloads on Hopper and Blackwell GPUs",
+    "link": "https://arxiv.org/abs/2604.23466",
+    "pubDate": "2026-04-29T00:07:25.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://arxiv.org/abs/2604.23466"
+  },
+  {
+    "title": "AI Worries Have Returned to Wall Street. Now Come Earnings",
+    "link": "https://www.wsj.com/tech/ai-worries-have-returned-to-wall-street-now-come-earnings-d680e19c",
+    "pubDate": "2026-04-28T23:58:34.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 5 点赞 | 0 评论 | 链接: https://www.wsj.com/tech/ai-worries-have-returned-to-wall-street-now-come-earnings-d680e19c"
+  },
+  {
+    "title": "AI researchers want AI to fake \"thinking\" – by Mike Elgan",
+    "link": "https://www.machinesociety.ai/p/ai-researchers-want-ai-to-fake-thinking-247",
+    "pubDate": "2026-04-28T23:52:14.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 2 评论 | 链接: https://www.machinesociety.ai/p/ai-researchers-want-ai-to-fake-thinking-247"
+  },
+  {
+    "title": "From spaghetti to main bus: refactoring an AI agent orchestrator with Elm",
+    "link": "https://blog.mariohayashi.com/p/the-factory-must-grow-part-ii-from",
+    "pubDate": "2026-04-28T23:35:21.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://blog.mariohayashi.com/p/the-factory-must-grow-part-ii-from"
+  },
+  {
+    "title": "Show HN: InterviewDen – Free voice AI mock interviews for SWE, IB, quant, more",
+    "link": "https://theinterviewden.com/",
+    "pubDate": "2026-04-28T22:57:30.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://theinterviewden.com/"
+  },
+  {
+    "title": "Nvidia executive says AI is more expensive than paying human workers",
+    "link": "https://fortune.com/2026/04/28/nvidia-executive-cost-of-ai-is-greater-than-cost-of-employees/",
+    "pubDate": "2026-04-28T22:15:38.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 10 点赞 | 6 评论 | 链接: https://fortune.com/2026/04/28/nvidia-executive-cost-of-ai-is-greater-than-cost-of-employees/"
+  },
+  {
+    "title": "Building an AI-Native Company",
+    "link": "https://darkport.co.uk/blog/on-building-an-ai-native-company/",
+    "pubDate": "2026-04-28T22:00:37.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 1 评论 | 链接: https://darkport.co.uk/blog/on-building-an-ai-native-company/"
+  },
+  {
+    "title": "World's First conversational AI skills assessment",
+    "link": "https://news.ycombinator.com/item?id=47941341",
+    "pubDate": "2026-04-28T21:51:32.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 - Two AIs. One conversation. Measure real AI skills. I like to call it LLMs As Assessment (LLMAA?)\nOne..."
+  },
+  {
+    "title": "The Controllability Trap: A Governance Framework for Military AI Agents",
+    "link": "https://arxiv.org/abs/2603.03515",
+    "pubDate": "2026-04-28T21:24:13.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://arxiv.org/abs/2603.03515"
+  },
+  {
+    "title": "PageGuide – a browser agent that grounds AI directly on the webpage",
+    "link": "https://pageguide.github.io/",
+    "pubDate": "2026-04-28T21:23:05.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://pageguide.github.io/"
+  },
+  {
+    "title": "AI Wellbeing: Measuring and improving the functional pleasure and pain of AIs",
+    "link": "https://www.ai-wellbeing.org/",
+    "pubDate": "2026-04-28T21:13:53.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://www.ai-wellbeing.org/"
+  },
+  {
+    "title": "Preparing for the AI-Enhanced Attacker and the Impact on CISOs",
+    "link": "https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker",
+    "pubDate": "2026-04-28T21:11:29.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.armadin.com/blog-posts/prepare-for-the-ai-enhanced-attacker"
+  },
+  {
+    "title": "Building simulations and/or digital twins with AI",
+    "link": "https://github.com/plugboard-dev/plugboard",
+    "pubDate": "2026-04-28T21:00:10.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 1 评论 | 链接: https://github.com/plugboard-dev/plugboard"
+  },
+  {
+    "title": "最前线｜未来宇航发布FX锋行系列空间飞行器，切入卫星组网部署与在轨服务市场",
+    "link": "https://36kr.com/p/3787376553876737?f=rss",
+    "pubDate": "2026-04-29T04:00:21.000Z",
+    "source": "36Kr",
+    "description": "作者｜乔钰杰 编辑｜袁斯来 4月28日，未来宇航在雄安新区举行FX锋行系列空间飞行器发布会，并同步举行商业航天生态供应链合作伙伴签约仪式。 此次发布的FX“锋行”系列，是国内首个服务卫星组网和在轨业务的商业飞行器。面向300kg至4000kg级任务需求，重点突破高精度姿轨控、柔性化承载与快速轨道响应等关键技术，强调低成本、高可靠与快响应能力。其定位不仅是单一飞行器产品，也是支撑在轨服务工程化落地的基础平台，可服务于星座组网、在轨加注及深空探测等场景。 活动现场 企业供图 未来宇航CTO刘春保在接受36氪采访时介绍，空间飞行器的核心价值在于提升部署效率与降低成本：一方面，通过更高效的轨道转移能力"
+  },
+  {
+    "title": "搭载华为智驾，奥迪「6系」电车上市，售价30.98万元起｜最前线",
+    "link": "https://36kr.com/p/3769086884528640?f=rss",
+    "pubDate": "2026-04-29T03:17:59.000Z",
+    "source": "36Kr",
+    "description": "靠着燃油豪华市场稳住基本盘之后，一汽奥迪的电动化节奏开始提速，核心动作就是补齐专属纯电PPE平台的主力车型矩阵。 4月，奥迪正式推出A6L r-tron和Q6L e-tron家族两款新车，分别瞄准中大型豪华纯电轿车和SUV主流市场。主打产品力与用车场景，奥迪这次没有“玩虚的”。 两款新车的定价走的是务实路线。其中，奥迪A6L r-tron纯电轿车推出四款配置，售价区间30.98万至43.98万元，主要承接老款燃油A6L车主换机不换品牌的电动置换需求。 奥迪Q6L e-tron家族则提供常规版和Sportback溜背版两种车身形态，共计六款配置，限时售价26.98万至41.98万元，还专门新增智"
+  },
+  {
+    "title": "老铺黄金还不是爱马仕",
+    "link": "https://36kr.com/p/3787296465427464?f=rss",
+    "pubDate": "2026-04-29T02:57:01.000Z",
+    "source": "36Kr",
+    "description": "作者 | 谢芸子 编辑 | 张帆 老铺黄金在同一天披露了两组让同行“艳羡”的财报数据。 2025年全年，老铺黄金销售业绩达到313.75亿元，同比增长220.3%；营收273.03亿元，同比增长221%。按非国际财务报告标准，公司经调整净利润为50.29亿元，同比增长234.9%。 公司将业绩暴增的原因归于三方面：一是品牌影响力的持续扩大，形成了绝对的市场优势；二是产品的推新与优化。这两大原因使公司线上、线下的整体营收大幅增大。第三则是门店数量的增加。 上一年度，老铺黄金在16个城市共开设45家自营门店，其中包括在新加坡、中国香港等地的“海外”门店。且对比2024年，去年新增的10家门店，以及"
+  },
+  {
+    "title": "比博斯特完成超10亿元B轮融资，智能底盘三轴产品全覆盖｜36氪独家",
+    "link": "https://36kr.com/p/3740907027054600?f=rss",
+    "pubDate": "2026-04-29T01:00:33.000Z",
+    "source": "36Kr",
+    "description": "36氪独家获悉，智能底盘企业比博斯特近日完成B+轮融资，由浙江省新能源汽车产业基金领投，顺创产投、杭资直投基金等联合投资。企业B+轮融资超7亿元，B轮系列融资总额已超10亿元。本轮融资将用于已有产品的规模化增长及前沿产品的开发。 比博斯特成立于2021年，其股东不仅包括主机厂蔚来，还涵盖恒隆、保隆等汽车底盘供应链头部企业。2025年，曾在底盘巨头采埃孚担任高管的巫子平、郁炜陆续加入比博斯特，出任高级副总裁。 目前，比博斯特产品矩阵已覆盖制动、悬架、转向及域控制器等智能底盘全领域。创始人兼总裁刘晓辉向36氪表示，公司当前大批量交付的产品主要包括三类：ESC车身稳定性控制系统，One-Box集成式"
+  },
+  {
+    "title": "前米哈游高管创业，AI 原生增长 Agent LeapMind Growth 获 CMC 资本领投",
+    "link": "https://36kr.com/p/3786123369094405?f=rss",
+    "pubDate": "2026-04-29T01:00:00.000Z",
+    "source": "36Kr",
+    "description": "2026 年 4 月 29 日，上海讯 ——AI 原生增长 Agent LeapMind Growth 今日宣布完成天使 + 轮融资，由 CMC 资本领投。本轮融资将主要用于核心产品 GrowthGPT 的研发迭代、产研团队扩充及早期市场拓展。 LeapMind Growth 成立于 2025 年 4 月，由前米哈游全球用户增长负责人、前快手增长策略中心负责人马如平（Rubin）创立，此前也曾在 TikTok 负责用户增长，累计主导规模超 50 亿美元的用户增长项目。公司核心成员均来自字节跳动、米哈游、快手、美团等企业，核心团队兼具超大规模增长管理、AI 系统工程化与全球化发行的复合能力。 公"
+  },
+  {
+    "title": "独家对谈｜兴辉时代创始人高兴辉，90后小镇女孩离开教培大厂，三年创造2亿GMV的倔强人生",
+    "link": "https://36kr.com/p/3786265971334150?f=rss",
+    "pubDate": "2026-04-29T00:57:36.000Z",
+    "source": "36Kr",
+    "description": "图源：公众号「职场Bonus」（ID：ZhiChangHongLi） 兴辉，山西人，三次面试新东方才被录用。 转战高途教育后，她与另外三名男同事一同被封为公司的“三王一后”。 如今她已自己创业近三年。带着对教培行业发展水温的好奇，我们拜访了兴辉的公司。 一进门，同事们喊她“辉哥”——这与她外表精瘦，笑起来有虎牙的形象相比，实在让人难以关联。 但当我们听到在整个教培行业最为混沌迷茫的三年里，她带领团队从0开始，做到了2个亿的GMV，这一切就不难理解了。 ● 欢迎观看+关注《职场Bonus》旗下原创视频号 以下为访谈实录，部分措辞经《职场Bonus》编辑调整。 请尽情的讨厌我吧 ╱ 一 创业第二个"
+  },
+  {
+    "title": "8点1氪丨百度废除字母职级标签；Meta被曝准备撤销对Manus收购；张雪称曾拒绝了半个亿的商务合作",
+    "link": "https://36kr.com/p/3787150633065728?f=rss",
+    "pubDate": "2026-04-29T00:11:35.000Z",
+    "source": "36Kr",
+    "description": "今日热点导览 阿联酋宣布将退出欧佩克及“欧佩克+” 比亚迪宣布5月1日起涨价 五粮液：延期披露年报、一季报 普通本科高校上新38种专业 全马“破2”跑鞋被炒至近2万元 韩股市值超越英国，成为全球第八大股市 TOP3大新闻 百度职级体系大调整：字母标签改为5级至12级数字职级体系 4月28日，据《科创板日报》，百度发布全员信，通知职级体系大调整，其将中管层以下的专业通道与管理通道全面打通，原有职级字母标签（T、P、E、Band、M）统一为5级至12级的数字职级体系，于2026年5月1日正式生效。通知中称，AI时代需要的恰恰是复合型人才——同时具备专业力和领导力，能独当一面。基于这个判断，公司决定"
+  },
+  {
+    "title": "氪星晚报｜我国最大规模AI4S集群接入全国一体化算力网；亚马逊低地轨道卫星计划又一批卫星发射升空；我国首款正向设计自转旋翼机完成首飞",
+    "link": "https://36kr.com/p/3786324189027332?f=rss",
+    "pubDate": "2026-04-28T10:09:31.000Z",
+    "source": "36Kr",
+    "description": "大公司： 拒买新闻就交税，澳洲拟向科技巨头征约2%营收税 澳大利亚政府公布法案草案，拟对Meta、谷歌等科技巨头征收新税，除非这些平台自愿与当地新闻机构签署付费协议，以应对传统媒体在数码平台冲击下面临的生存压力。据报道，根据拟议的新法律安排，这些大型数码平台须就分享本地媒体新闻内容所带来的平台流量，向出版商提供经济补偿。澳洲总理阿尔巴尼斯表明，政府将给予Meta、谷歌等公司机会，与本地新闻出版商达成内容交易。 网信部门依法查处“剪映”App等生成合成内容标识违法问题网站平台 36氪获悉，据网信中国，近期网信部门工作中发现，“剪映”“猫箱”App及“即梦AI”网站存在未有效落实人工智能生成合成内"
+  },
+  {
+    "title": "独家对谈｜缘启智慧CEO邓江，一个80后银行码农出身的AI医疗创业者",
+    "link": "https://36kr.com/p/3786252394945795?f=rss",
+    "pubDate": "2026-04-28T09:12:04.000Z",
+    "source": "36Kr",
+    "description": "图源：公众号「职场Bonus」（ID：ZhiChangHongLi） 今年三月，《职场Bonus》报道了前百川智能商业化合伙人邓江加入北电数智的消息。没想到不到半年后，他出来创业了。 如今，他是AI医疗大模型新晋创业者邓江，是「缘启智慧」公司的创始人兼CEO邓江。在他低调开张的节骨眼上，我们联系到了这位技术背景的金融老兵，期待他能分享自己在风口上跨越、历险、不断前进的职业故事，以及，他这次创业要做什么事儿。 ● 欢迎观看+关注《职场Bonus》旗下原创视频号 翻阅他的履历，我们的第一印象是：“挺能熬的。”相较于我过往接触的多数创业者常有的风险偏好，他的风格更为稳健，每一步决策和行动都力求扎实可"
+  },
+  {
+    "title": "OpenRouter发布最新大模型调用量排行榜，混元Hy3 preview登顶",
+    "link": "https://36kr.com/newsflashes/3787373798333696?f=rss",
+    "pubDate": "2026-04-29T04:16:46.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，4月29日，OpenRouter发布最新全球大模型API调用量排行榜，腾讯混元新模型Hy3 preview在总榜上排名第一。同时，在分场景的调用量排行中，Hy3 preview在工具调用排名第一，在编程排名第二。"
+  },
+  {
+    "title": "吉利汽车：第一季度母公司拥有人应占利润为人民币41.7亿元，同比下降27%",
+    "link": "https://36kr.com/newsflashes/3787386456644616?f=rss",
+    "pubDate": "2026-04-29T04:08:44.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，吉利汽车公告，2026第一季度，录得总销量709358辆，同比增长1%。受益于出口销量的强劲增长及高价值产品销售占比提升，本集团期内收入同比增长15%，收入增速高于销量增速。2026年第一季度，母公司拥有人应占利润为人民币41.7亿元，同比下降27%，主要由于本期间与去年同期相比，外汇波动所产生的影响有所不同。"
+  },
+  {
+    "title": "国家税务总局首次发布丹麦等3国全球最低税规则国别实施指引",
+    "link": "https://36kr.com/newsflashes/3787384713649160?f=rss",
+    "pubDate": "2026-04-29T04:06:57.000Z",
+    "source": "36Kr",
+    "description": "国家税务总局4月29日在重庆举办的《全球最低税规则国别实施指引》发布活动上，首次对外发布丹麦、爱尔兰、阿联酋等3国国别实施指引，“税路通”跨境税收知识产品体系实现再升级。（新华社）"
+  },
+  {
+    "title": "恒指午间休盘涨1.23%，恒生科技指数涨1.07%",
+    "link": "https://36kr.com/newsflashes/3787380693638148?f=rss",
+    "pubDate": "2026-04-29T04:02:52.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，恒指午间休盘涨1.23%，恒生科技指数涨1.07%；储能、锂矿走强，超威动力涨超14%，天齐锂业、赣锋锂业涨超6%；汽车股大涨，蔚来涨超8%，理想汽车、比亚迪股份涨超2%；医药股领跌，永泰生物跌超39%，泰格医药跌超7%；半导体走弱，华虹半导体跌6%，中芯国际跌超1%；南向资金净流出2.89亿港元。"
+  },
+  {
+    "title": "阶跃星辰发布新一代图像生成编辑模型Step Image Edit 2",
+    "link": "https://36kr.com/newsflashes/3787364295482632?f=rss",
+    "pubDate": "2026-04-29T03:52:08.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，4月29日，阶跃星辰宣布正式发布新一代图像生成编辑模型Step Image Edit 2。目前Step Image Edit 2已全量上线”阶跃星辰开放平台“和Step Plan。"
+  },
+  {
+    "title": "半日主力资金加仓电力设备股，抛售银行股",
+    "link": "https://36kr.com/newsflashes/3787363568655620?f=rss",
+    "pubDate": "2026-04-29T03:45:27.000Z",
+    "source": "36Kr",
+    "description": "主力资金早间净流入电力设备、有色金属等板块，仅净流出银行板块。具体到个股来看，胜宏科技、北方稀土、华工科技获净流入44.92亿元、38.71亿元、17.32亿元。净流出方面，工业富联、中芯国际、信维通信遭抛售9.62亿元、5.87亿元、5.28亿元。（第一财经）"
+  },
+  {
+    "title": "英伟达高管将与三星、SK海力士高管会面，洽谈实体人工智能合作事宜",
+    "link": "https://36kr.com/newsflashes/3787354913496321?f=rss",
+    "pubDate": "2026-04-29T03:36:38.000Z",
+    "source": "36Kr",
+    "description": "英伟达高管将与三星、SK海力士高管会面，洽谈实体人工智能合作事宜。（新浪财经）"
+  },
+  {
+    "title": "A股三大指数午间休盘集体上涨，新能源产业链大涨",
+    "link": "https://36kr.com/newsflashes/3787350761331714?f=rss",
+    "pubDate": "2026-04-29T03:32:25.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，A股三大指数午间休盘集体上涨，沪指涨0.4%，深成指涨1.58%，创业板指涨2.27%；新能源产业链大涨，光伏、锂矿领涨，德方纳米、永兴材料、永杉锂业涨停，固德威涨超10%；稀土板块走强，北方稀土、中国稀土涨停；半导体板块走弱，海光信息、摩尔线程跌超3%。"
+  },
+  {
+    "title": "掌阅科技：2026年将全面推进AI短剧工业化布局",
+    "link": "https://36kr.com/newsflashes/3787345802386435?f=rss",
+    "pubDate": "2026-04-29T03:27:22.000Z",
+    "source": "36Kr",
+    "description": "掌阅科技在2025年年度业绩说明会上表示，2026年公司将全面推进AI短剧工业化布局，实现内容生态规模化突破；显著加大资源投入力度，加码海外市场战略布局。在国内市场，AI短剧的成本结构将显著发生变化；海外市场流量渠道相对多元，公司将大力推动数字阅读、精品短剧、AI漫剧等多内容形态协同出海，搭建覆盖多语种、多区域的全球化内容生产与分发体系。（证券时报）"
+  },
+  {
+    "title": "创业板指盘中涨超2%",
+    "link": "https://36kr.com/newsflashes/3787321932602369?f=rss",
+    "pubDate": "2026-04-29T03:03:05.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，创业板指盘中涨超2%，上证指数现涨0.15%；稀土永磁、锂矿、玻璃玻纤、游戏、传媒、贵金属、CPO等板块涨幅居前；全市超3900股上涨。"
+  },
+  {
+    "title": "国轩高科旗下江苏新能源科技公司增资至约26.8亿元",
+    "link": "https://36kr.com/newsflashes/3787320831859717?f=rss",
+    "pubDate": "2026-04-29T03:01:58.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，爱企查App显示，近日，江苏国轩新能源科技有限公司发生工商变更，新增南京六合区新智合能股权投资合伙企业（有限合伙）为股东，同时，注册资本由18亿元人民币增至约26.8亿元人民币，增幅约49%。江苏国轩新能源科技有限公司成立于2021年6月，法定代表人为张巍，经营范围包括技术进出口、电池制造、电池销售、新能源汽车废旧动力蓄电池回收及梯次利用等。股东信息显示，该公司现由国轩高科股份有限公司、南京六合区新智合能股权投资合伙企业（有限合伙）共同持股。"
+  },
+  {
+    "title": "腾讯ima推出全新知识Agent——copilot",
+    "link": "https://36kr.com/newsflashes/3787314918743047?f=rss",
+    "pubDate": "2026-04-29T02:55:57.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，4月29日，腾讯ima正式推出知识Agent——copilot，支持用户创建专属Agent。copilot内置记忆系统，通过copilot设定、用户档案、长期记忆、经验技巧四大模块，记住用户的背景、习惯与推进事项，实现跨场景连续调用，减少重复输入。"
+  },
+  {
+    "title": "源杰科技股价创新高",
+    "link": "https://36kr.com/newsflashes/3787308877782274?f=rss",
+    "pubDate": "2026-04-29T02:49:49.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，源杰科技盘中涨超5%，股价站上1520元/股，再创历史新高。"
+  },
+  {
+    "title": "兆驰股份：2026年光通信业务将作为公司产业升级的核心战略方向",
+    "link": "https://36kr.com/newsflashes/3787307756526595?f=rss",
+    "pubDate": "2026-04-29T02:48:40.000Z",
+    "source": "36Kr",
+    "description": "兆驰股份在业绩说明会上表示，公司已成功搭建覆盖光芯片、光器件、光模块的垂直产业链布局，各环节协同发展，核心竞争力持续提升。应用于200G及以下速率的光模块已实现规模化生产并大批量出货，400G/800G光模块在完成可靠性测试后已进入小批量生产阶段，正稳步推进至规模化量产。2026年，光通信业务将作为公司产业升级的核心战略方向。其中，光芯片方面，公司将持续加大研发投入，加速1.6T超高速光模块研发，保持技术迭代领先。（证券时报）"
+  },
+  {
+    "title": "厦门士兰集华微电子公司注册资本增至51.1亿元",
+    "link": "https://36kr.com/newsflashes/3787290414373893?f=rss",
+    "pubDate": "2026-04-29T02:46:43.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，爱企查App显示，近日，厦门士兰集华微电子有限公司发生工商变更，新增厦门海厦联投投资合伙企业（有限合伙）、厦门产投鑫华科技投资合伙企业（有限合伙）等为股东，陈向东卸任法定代表人，由吴文接任，同时，注册资本由2.5亿元人民币增至51.1亿元人民币，增幅1944%。该公司成立于2025年6月，经营范围包括集成电路设计、集成电路芯片及产品制造、集成电路销售等，现由杭州士兰微电子股份有限公司、厦门士兰微电子有限公司及上述新增股东共同持股。"
+  },
+  {
+    "title": "创业板指拉升涨超1%",
+    "link": "https://36kr.com/newsflashes/3787295714008322?f=rss",
+    "pubDate": "2026-04-29T02:36:25.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，创业板指拉升涨超1%，沪指涨0.05%，深成指涨0.79%，猪肉、食品、房地产、稀土永磁等方向涨幅居前，沪深京三市上涨个股近3800只。"
+  },
+  {
+    "title": "2025年我国全年词元累计调用量达21100万亿，日均调用量呈指数级增长",
+    "link": "https://36kr.com/newsflashes/3787291440831488?f=rss",
+    "pubDate": "2026-04-29T02:32:04.000Z",
+    "source": "36Kr",
+    "description": "今天，《全国数据资源调查报告（2025年）》在第九届数字中国建设峰会上发布，报告显示，我国数据资源正以更大力度，赋能人工智能创新发展。“词元”（Token），是人工智能大模型为了高效处理数据，把数据进行拆分后的最小信息单元。2025年，全国日均词元调用量从年初的超万亿增长到年末的100万亿，呈现指数级增长；全年词元累计调用量达到约21100万亿。（央视新闻）"
+  },
+  {
+    "title": "“擎天租”完成数亿元Pre-A轮融资",
+    "link": "https://36kr.com/newsflashes/3787289802939395?f=rss",
+    "pubDate": "2026-04-29T02:30:24.000Z",
+    "source": "36Kr",
+    "description": "4月29日，“擎天租”宣布完成数亿元Pre-A轮融资。本轮投资方包括正大集团旗下正大机器人、长信股份等产业方，美格智能、蓝思科技等多家上市公司参与，老股东明嘉资本、知行投资和睿资创投超额认购。融资资金将主要用于全国履约服务网络建设、机器人资产与调度系统升级、物流保险体系完善、标准化场景产品打磨及全球化服务网络拓展。"
+  },
+  {
+    "title": "沪深两市成交额突破1万亿",
+    "link": "https://36kr.com/newsflashes/3787281253784576?f=rss",
+    "pubDate": "2026-04-29T02:21:43.000Z",
+    "source": "36Kr",
+    "description": "36氪获悉，沪深两市成交额突破1万亿，较上一日此时缩量近1200亿。"
+  },
+  {
+    "title": "白宫据悉正在研讨恢复与Anthropic合作",
+    "link": "https://36kr.com/newsflashes/3787275928411395?f=rss",
+    "pubDate": "2026-04-29T02:16:18.000Z",
+    "source": "36Kr",
+    "description": "据知情人士透露，白宫正在制定指导方针，允许各机构绕过对Anthropic的供应链风险的认定，并引入包括其迄今为止最强大的Mythos在内的新模型。两位消息人士称，目前正在起草的一项行政命令草案，除其他与政府使用人工智能相关的措施外，可能还会为政府提供一种缓和与Anthropic公司对抗的途径。（新浪财经）"
+  },
+  {
+    "title": " 拆解皮克斯的创新流水线：不靠天赋、靠系统如何拿下15座奥斯卡？ ",
+    "link": "https://www.huxiu.com/article/4854699.html?f=rss",
+    "pubDate": "2026-04-29T04:09:32.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 于冬琪商业笔记 ，作者：冬琪 最近几年我接触了很多老板和创业者，一个普遍的观感是：大家都觉得日子变难了。 这种难有两个层面： 第一层是产品不好卖了，消费市场没那么兴旺，这还能理解，也好接受，毕竟大家都这样，多努力一点总归能好一点。 但更要命的是第二层，是发现努力也没有用了，过去赖以增长的方法，正在集体失效。 在原有的道路上再怎么努力，也难以带来利润的增长。 为什么呢？ 因为，过去大多数企业的增长靠的是性价比。找到办法让浪费少一点，质量好一点，成本低一点，产品就能越卖越好。 但当几乎所有的行业都卷起来，当越来越多的企业都把性价比刻进了基因里，这条路就走到了尽头。 性价比这条"
+  },
+  {
+    "title": " 追觅造车，绕开20万元以下市场 ",
+    "link": "https://www.huxiu.com/article/4854603.html?f=rss",
+    "pubDate": "2026-04-29T04:05:54.000Z",
+    "source": "Huxiu",
+    "description": "出品 | 虎嗅科技组 作者 | 梁卡尔 编辑 | 苗正卿 头图 | 虎嗅拍摄 从扫地机器人到“火箭车”，追觅正在把自己的边界拉得更远。 美国时间4月27日，追觅硅谷发布会现场，追觅星空计划展示了新产品“火箭车”Nebula NEXT 01 JET Edition。按照官方说法，这款车搭载双固体火箭助推系统，可实现150毫秒瞬时响应，最大推力达100千牛，零百加速仅需0.9秒。 与“火箭车”一同发布的，还有与合作伙伴联合研发、为“星空计划”定制的旗舰级激光雷达DHX1，以及采用硫化物路线、已进入量产准备阶段的固态动力电池。前者最远测距可达600米，后者在实验室测试中单体能量密度超过450Wh/k"
+  },
+  {
+    "title": " 24省人口负增长，连锁反应来了 ",
+    "link": "https://www.huxiu.com/article/4854691.html?f=rss",
+    "pubDate": "2026-04-29T03:50:22.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 国民经略 ，作者：凯风，原文标题：《24省人口负增长！连锁反应来了》 人口争夺战，越来越白热化。 01 不只是东北，24个省人口负增长。 随着吉林发布最后一份统计公报，全国31省人口格局全部揭晓。 这是2025年31省份人口增减情况： 内地共有24个省份人口负增长，比上一年多了3个，东北三省、中部六省全部在列。 其中，江苏、福建、陕西、天津人口转为负增长，而上海凭借外来人口涌入，重回正增长区间。 江苏为1960年代以来首次负增长，虽然外来人口还在持续涌入，但难以对冲自然人口的降幅。 令人意外的是，人口减少最多的不是东北三省，而是河南、安徽、四川、湖南，各自少了40万人以上"
+  },
+  {
+    "title": " 万达十年｜失足大马城 ",
+    "link": "https://www.huxiu.com/article/4853878.html?f=rss",
+    "pubDate": "2026-04-29T03:50:00.000Z",
+    "source": "Huxiu",
+    "description": "万达当年海外扩张最大的底气就是一个字：有钱，王健林买AMC、传奇影业、欧洲院线......用钱砸遍全球。那后来王健林遭遇了什么呢？"
+  },
+  {
+    "title": " 网贷江湖权力重构 ",
+    "link": "https://www.huxiu.com/article/4854687.html?f=rss",
+    "pubDate": "2026-04-29T03:41:24.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 巨潮WAVE ，编辑：杨旭然，作者：小卢鱼，原文标题：《网贷江湖权力重构 | 巨潮》 近日，由央行牵头八大部门联合下发的《金融产品网络营销管理办法》在市场上引起轩然大波。 互联网在金融产品营销上的重要性越来越高，过去对这部分营销行为存在监管真空，也因此滋生了一系列乱象，包括虚假宣传（夸大收益、隐瞒风险），垄断竞争，非法集资，违规荐股等等。 随着新规的发布，可以说，所有金融产品的网络营销行为都被纳入了统一的监管框架，过去那套流量为王、野蛮生长的互联网金融发展模式，也行将落幕。 无论是银行、保险还是证券、基金行业，都将受到新规的影响，但其中最受影响的，恐怕还是围绕互联网消费和"
+  },
+  {
+    "title": " 开源“洁癖.skill”，让你的Agent越用越聪明。 ",
+    "link": "https://www.huxiu.com/article/4854685.html?f=rss",
+    "pubDate": "2026-04-29T03:38:35.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克，原文标题：《开源「洁癖.skill」，让你的Agent越用越聪明。》 今天没选题了，所以想开源一个我自己做的，已经用了快1个多月，迭代了好多版的一个我觉得很有用的Skill。 我把它称为，洁癖.Skill。 名字可能听着还挺呆逼的，但是我觉得它能干的事，虽然看着非常的简单，但是却又很实用，在公司内部同事和一些我们的合作伙伴使用后，还都反馈挺不错的。 做的事大概就是，每次你在Agent里，做完一个功能或者又解决了一个BUG，就调用这个洁癖Skill，然后说一声帮我全面审查一下或者直接就/Neat一下，它就会自动审查你整个项目的文档体系"
+  },
+  {
+    "title": " 日本是医疗强国，但做不好医疗旅游 ",
+    "link": "https://www.huxiu.com/article/4854684.html?f=rss",
+    "pubDate": "2026-04-29T03:35:15.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 张琨随笔 ，作者：张琨，原文标题：《张琨｜日本是医疗强国，但做不好医疗旅游》 日本是个医疗强国，也是个服务强国。 日式服务是我一直最推崇的——关注细节，周到而不过度热情，分寸极好。 这两个基因凑在一起，本应是医疗旅游的天然优势。但他们一直没做起来。 我对日本跨境医疗有点私人情结，因为日本政府是我参与过的第一个海外医疗的项目。 那是在麦肯锡上海办公室一个灯光幽暗的房间里，晚上九点多，日本同事用他们标志性的\"钢硬英语\"在Zoom里向我介绍宏伟规划：吸引中国患者，方案已经很成熟，请我做可行性判断。 我当时十分震惊。不是被他们的雄心震惊，而是被他们的无知震惊——对中国医疗体系的无"
+  },
+  {
+    "title": " 欧洲航班，将大面积取消？ ",
+    "link": "https://www.huxiu.com/article/4854673.html?f=rss",
+    "pubDate": "2026-04-29T03:15:39.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 环球旅讯 ，作者：赵琳琳 一切才刚开始 原本被寄予厚望的欧洲暑期出行市场，正在被一场突如其来的“航油危机”打乱节奏。 国际航空运输协会（IATA）已经发出明确警告：由于飞机燃油供应紧张，欧洲航班可能从5月底开始出现大面积取消。 这一时间点，恰好踩在暑期出行高峰的起点上，也意味着，一旦情况恶化，影响将迅速放大。 IATA总干事Willie Walsh直言，在全力寻找替代供应的同时，各国必须提前准备应急预案，包括在必要时实施燃油配给，并通过航班时刻调整来缓冲冲击。 问题的关键，已经不只是“油价太贵”，而是“油够不够用”。 在伊朗冲突引发的连锁反应下，全球能源供应链持续承压。国"
+  },
+  {
+    "title": " 赛博“拧螺丝”的数据标注员：在风口训练AI，但月入3000 ",
+    "link": "https://www.huxiu.com/article/4854663.html?f=rss",
+    "pubDate": "2026-04-29T03:15:01.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 温度纪 ，作者：肆夕，编辑：路子甲，题图来自：视觉中国 4月以来，成都气温已经有了初夏的迹象，天府三街沿线的写字楼里，空调冷气足到和室外像两个季节。 其中不少科技公司的平层里，百台亮着莹白光的电脑屏幕前，一律坐满二十出头，目光聚焦的年轻人。他们对准屏幕上被放大的每一处细节，鼠标点击、拖拽、松手。 AI时代的滚滚袭来，已经开始让大量普通人的就业产生改变。 新行业的兴起，一种被称为的“AI数据标注员”的群体也在迅速扩张。这份工作简单来说，就是教会人工智能看懂世界的基础工作，接近儿童识物的原理，需要人为通过不断在屏幕上点选、拉框的形式，教会AI什么是房子、汽车和大树。 通过人为"
+  },
+  {
+    "title": " token太贵？这样配置小龙虾，立省上千美金 ",
+    "link": "https://www.huxiu.com/article/4853554.html?f=rss",
+    "pubDate": "2026-04-29T03:15:00.000Z",
+    "source": "Huxiu",
+    "description": "很多人装了OpenClaw，账单却高得离谱，其实是计费模式搞错了，今天我就把OpenClaw里面最容易搞混的两个部署方式讲清楚。"
+  },
+  {
+    "title": " “谢绝探店”的店里，窝藏着最多的探店博主？ ",
+    "link": "https://www.huxiu.com/article/4854672.html?f=rss",
+    "pubDate": "2026-04-29T03:14:45.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 跳海大院 ，作者：院办野汉 我发现在经济下行期，很多过去让人难以忍受的事情，好像都更容易得到原谅。 网友们轻易就原谅了转转无处不在的广告，因为如果没有神秘短发女的骚扰，大家喜欢的up主根本不可能活那么好。 送外卖超时好像也更好原谅了，因为大家都看过些新闻报道，知道外卖骑手想生存只能逼自己疯狂接单，偶有迟到也属正常。 这倒不是说一夜之间人类的脾气都好了一百倍，只是“都不容易”四个大字，已经渐渐成了俺们朴实善良劳动人民的共识。 而我，我最近差点就原谅了那些爱说瞎话的探店博主和天天净琢磨营销的餐饮店。 我之所以会说“差点原谅”，是因为在我准备以“都不容易”为由与他们达成和解的时"
+  },
+  {
+    "title": " 华晨宇被楼市撞了一下腰 ",
+    "link": "https://www.huxiu.com/article/4854669.html?f=rss",
+    "pubDate": "2026-04-29T03:11:51.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 真故研究室 ，编辑：张铎，作者：梁湘 2026年2月8日，华晨宇的巡演在深圳收官。谢幕当晚，他宣布“我们在一个四季如春的地方拿下了三块地，要打造专属火星人的家园”。 自称来自火星的华晨宇，把这个小镇命名为“火星乐园2.0”，落址云南抚仙湖。 不同于1.0版本的流动舞台，2.0直接圈地定居。“那里有我们的乌托邦，还有演唱会，有吃有喝有玩，还有我们温暖的房子。” 距离演唱会开场还剩9天时，这个“家”，没了。理由就四个字——不可抗力。发出延期公告后，华晨宇当晚开了直播，戴着墨镜的他努力挤出笑容，道歉时难掩哽咽。 整个“火星乐园”搭建了近两年，投入惊人。火星人赔了不少，地球人也不"
+  },
+  {
+    "title": " 20亿美元收购案，活了4个月就被国家叫停？ ",
+    "link": "https://www.huxiu.com/article/4854471.html?f=rss",
+    "pubDate": "2026-04-29T02:40:00.000Z",
+    "source": "Huxiu",
+    "description": "扎克伯格花140亿要买一家中国AI公司，结果买了个寂寞，被咱家给叫停了。20亿美元，约合人民币140亿，这可是Meta历史上第三大收购案。"
+  },
+  {
+    "title": " 10后，开始用AI给自己编黄冈密卷了 ",
+    "link": "https://www.huxiu.com/article/4854662.html?f=rss",
+    "pubDate": "2026-04-29T02:37:36.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：赵芮 一代人有一代人的黄冈密卷。80后埋头刷卷子，90后抱着学习机，00后刷手机搜答案。 到了10后这代，出现了一种新的学习范式：不会的题，不用等老师；想练口语，不用请外教；想刷题，直接让AI给自己造一套。 为了利用碎片化时间学习物理，14岁的初中二年级学生谦谦，用AI搭了一个学习网站；13岁的吕思彤，因为学校外教课练得不过瘾，用AI做了一款24小时在线的“青蛙外教”。刷题、写代码、做小程序，他们把成年人都觉得高深的工具，当成了最趁手的橡皮泥。 他们一边用AI“卷自己”，一边也在被AI重塑。拆解问题的能力、结构化表达、甚至胆量和自信，都在"
+  },
+  {
+    "title": " 峰瑞资本李丰：对具身智能三大新热点的思考 ",
+    "link": "https://www.huxiu.com/article/4854658.html?f=rss",
+    "pubDate": "2026-04-29T02:34:05.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 投中网 ，作者：鲁智高 最终目的都是为了处理和理解人类如何与物理世界交互。 作为当下备受关注的赛道，热潮之下的具身智能，正不断涌现新概念和新现象。 4月23日，在由投中主办的“第20届中国投资年会·年度峰会”上，峰瑞资本创始合伙人李丰直言，生成高维数据、世界模型和物理模型，是当前的三个投资热点新方向。 在他看来，这些新概念和新现象的出现，根源在于缺少数据，“具体来说，是人类从来没有积累过大量包含这些物理量和物理世界交互规律的数据，我们从来没有大规模产生过这类数据。” 市场对生成高维数据、世界模型和物理模型等方向的热捧，本质上都是为了解决同一个问题——如何在没有这类数据的情"
+  },
+  {
+    "title": " 现在投资圈：“要么很开心，要么不开心” ",
+    "link": "https://www.huxiu.com/article/4854657.html?f=rss",
+    "pubDate": "2026-04-29T02:32:38.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 投中网 ，作者：韦香惠 FOMO是单方面渲染恐惧。 在当下融资市场持续火热、估值不断刷新纪录的行业背景下，“年轻投资人的锐利与钝力”是值得深入探讨的话题。在“第20届中国投资年会·年度峰会”上，投中网主笔刘燕秋对话几位80后投资人，分享各自的观察与投资策略。 云启资本管理合伙人陈昱率先分享观点，他坦言当前市场的核心痛点的是“缺好资产”与“对优质资产的FOMO情绪”，并以自家孵化的具身项目为例，点出短期估值飙升背后，是市场对稀缺优质创始人的渴求。面对这一现状，陈昱提出了“制造机会而非寻找机会”的应对策略，通过孵化项目、整合人脉资源，以合理估值锁定优质资产，展现了务实且灵活的"
+  },
+  {
+    "title": " 去东南亚，还是欧洲？高端制造出海“最优解” ",
+    "link": "https://www.huxiu.com/article/4854656.html?f=rss",
+    "pubDate": "2026-04-29T02:32:23.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 投中网 ，作者：陈美 在全球产业链加速重构、地缘政治博弈持续深化，以及中国制造业从“规模扩张”迈向“价值跃迁”的关键节点，“出海”已不再是企业的可选项，而是关乎生存与发展的必答题。高端制造作为中国产业竞争力的核心载体，其全球化进程正经历从“产品输出”到“产能落地”、从“成本驱动”到“技术引领”的深刻转型。 然而，路径选择之困、文化融合之难、合规风险之重，让这场远征充满不确定性。东南亚的供应链红利是否可持续？墨西哥能否真正成为进入北美的跳板？中东的高增长潜力背后隐藏着哪些隐性壁垒？欧洲的高端市场准入又需要怎样的本地化能力？ 在“第20届中国投资年会·年度峰会”上，宁波银行总"
+  },
+  {
+    "title": " 建筑资质加盟灰产：19亿注册资本、144家分公司、零社保 ",
+    "link": "https://www.huxiu.com/article/4854654.html?f=rss",
+    "pubDate": "2026-04-29T02:31:14.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 界面新闻 ，作者：赵孟，原文标题：《建筑资质加盟灰产：19亿注册资本、144家分公司、零社保丨界面调查》 5年前，建筑商人杜斌与四川中宏天佑建设工程有限公司（下称“中宏天佑”）山西分公司签订了一份消防工程施工合同，并按约向居间人赵波支付了13万元居间费。赵波承诺“工程真实有效、顺利按时开工”。但合同签订后，杜斌的施工队始终无法进场，反复核实后他才获知，中宏天佑因资质问题，已经被清退出局。 在追讨损失的过程中，杜斌发现，多名施工人员和他一样，缴纳数十万元履约金或居间费后，被挡在工地门外；而这家注册资本18.8亿元、社保参保人数为0的公司，却在全国设立了数百家分公司，以“一级"
+  },
+  {
+    "title": " 短剧出海：褪去“财富神话”，女性题材与灰色地带 ",
+    "link": "https://www.huxiu.com/article/4854640.html?f=rss",
+    "pubDate": "2026-04-29T02:15:00.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 观廿 ，作者：周七，编辑：黄粟，题图来自：视觉中国 在波兰的拍摄基地里，来自印尼的演员在镜头前配合深圳导演的指挥调整细节，身边是来自东南亚的执行导演补充说明，而他们的剧本大都出自英美国家的中国留学生之手，他们的作品则通过手机屏幕，流向欧美的独身女性。 这是过去两年间，中国短剧出海的一个寻常切片。 在媒体的叙事里，这些画面被拼凑成一个关于文化输出与财富神话的故事——中国模式征服全球，霸总狼人横扫海外，无数人一夜暴富。谷歌预测，2025年海外短剧市场规模将达36亿美元。Sensor Tower数据显示，海外微短剧App双端内购收入20.3亿美元，同比增幅115.3%。 行业一"
+  },
+  {
+    "title": " 这可能是过去20年，任正非最遗憾的一件事 ",
+    "link": "https://www.huxiu.com/article/4854069.html?f=rss",
+    "pubDate": "2026-04-29T02:14:15.000Z",
+    "source": "Huxiu",
+    "description": "这可能是过去20年任正非最遗憾的一件事情，谁能想到当年被华为“抛弃”的一群人，20年后集体崛起，干出几千亿市值，成了卡住全球AI命脉的王牌。"
+  },
+  {
+    "title": " “33枚蛋挞的热量能上5次珠峰”，甜点刺客把中产骗哭了 ",
+    "link": "https://www.huxiu.com/article/4854634.html?f=rss",
+    "pubDate": "2026-04-29T01:50:00.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 凤凰生活报告 ，作者：李周、王谦颐，编辑：杜都督，题图来自：视觉中国 互联网的计量单位，又更新了。 除了一爽等于208万、一东等于2min、一眉笔等于78块之外，又多了一种：一挞，aka一个蛋挞。 这是一个热量单位，计算你每天吃的东西，到底有多胖人。 因为有网友算了一笔账： “33个蛋挞的热量有8250 kcal，人爬一次珠峰的最低理论值是1450 kcal，所以吃33个蛋挞的热量，足够爬5次珠峰。 我吃了33个蛋挞，我的珠峰呢？” 虽然这个等式混淆了最低物理能量，和真实人体消耗的区别。 当然，狂吃33个蛋挞的热量，真的没法让你上珠峰。 但是这18万赞，至少说明了一点： "
+  },
+  {
+    "title": " 老牌彩电巨头一年亏掉126亿元，将被实施退市风险警示，中国华润能力挽狂澜吗？ ",
+    "link": "https://www.huxiu.com/article/4854643.html?f=rss",
+    "pubDate": "2026-04-29T01:49:07.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 每日经济新闻 ，作者：每经记者 曾经风光无限的老牌彩电巨头，正深陷一场严峻的经营危机。4月29日晚间， 深康佳A（SZ000016，股价3.41元，市值82.11亿元，以下称康佳集团）披露的2025年年度报告显示：公司去年全年归母净利润巨亏125.82亿元，亏损幅度达历史之最。这份沉重的“成绩单”背后，是高达76.97亿元的巨额资产减值准备。 巨额亏损直接导致康佳集团截至2025年末的归属于上市公司股东的净资产转为-60.83亿元，触及“最近一个会计年度经审计的期末净资产为负值”的退市风险警示情形。 据悉，康佳集团A、B股股票简称将自2026年4月30日起变更为“*ST康"
+  },
+  {
+    "title": " 海航6.6万顺心卡，有多少人愿意赌？ ",
+    "link": "https://www.huxiu.com/article/4854638.html?f=rss",
+    "pubDate": "2026-04-29T01:36:58.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 环球旅讯 ，作者：罗銮銮 从促销手段，走向经营工具 这几天，业内在传海航的“金鹏顺心卡”，很多人会把它当成“随心飞”的新版本。 但如果换个问法，这件事的感觉会完全不一样： 现在让你一次性拿出6万6，把未来几年的机票钱提前交给一家航司，你愿意吗？ 乍一看，这是一张购票权益卡；但往下看一层，它更像是一种长期预付关系。 问题也因此变成，你买的到底是机票，还是对一家航司未来履约能力的信任？ 01 6.6万元，买一套预付结构 过去大家熟悉的“随心飞”，本质是飞行资格。你付一笔钱，在规则内反复订票，核心价值很简单——能飞多少次。 顺心卡则是另一套逻辑。根据网传信息，用户支付6万6元后"
+  },
+  {
+    "title": " 900亿营收下的尴尬，可口可乐全球净利狂飙18%，亚太区利润却下滑了14% ",
+    "link": "https://www.huxiu.com/article/4854637.html?f=rss",
+    "pubDate": "2026-04-29T01:34:55.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 食品内参 ，作者：不浪费读者时间的，原文标题：《900亿营收下的尴尬，可口可乐全球净利狂飙18%，亚太区利润却下滑了14%！》 全球营收大涨12%，但亚太区利润却直接掉头向下，跌了14%。可口可乐2026年第一季度的这份成绩单，暴露了其在中国市场面临的增长困局。一季度亚太区产品价格水平下挫6%，这意味着为了在中国市场抢份额，或用了最直接的降价打折来换取销量。 不仅如此，这家跨国饮料巨头的渠道内卷、成本压力以及其他潜在风险，也被摆上桌面。 业绩“爆表”背后 如果我们只看最显眼的几个财务数字，可口可乐在2026年开年似乎打了一场非常漂亮的胜仗。 今年前三个月，公司在全球一共卖"
+  },
+  {
+    "title": " 营收三连降，利润遭腰斩，谁在杀死曾年入60亿的“面包大王”？ ",
+    "link": "https://www.huxiu.com/article/4854636.html?f=rss",
+    "pubDate": "2026-04-29T01:33:25.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 食品内参 ，作者：不浪费读者时间的 昨晚，桃李面包公布2025年年度财务报告。报告期内，桃李面包实现营业收入54.48亿元，同比下降10.50%；归属于上市公司股东的净利润为2.84亿元，同比下降45.63%；扣除非经常性损益的净利润为2.69亿元，同比下降45.93%。 事实上，这已是公司自2023年以来连续呈现营收与净利润的下行趋势。在营业收入下降10.50%的背景下，净利润降幅接近46%，这种财务表现反映出公司在成本控制、产能利用以及市场开拓方面正面临系统性挑战。 在烘焙行业整体增速放缓、新老品牌竞争加剧以及零售渠道发生结构性变化的当下，桃李面包长期依赖的中央工厂+"
+  },
+  {
+    "title": " 智元，想跟宇树争第一 ",
+    "link": "https://www.huxiu.com/article/4854616.html?f=rss",
+    "pubDate": "2026-04-29T01:28:04.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：定焦One，作者：王汉星，编辑：魏佳，题图来自：视觉中国 智元和宇树，这两家在过去一年合计售出全球70%以上人形机器人的公司几乎很少同台。 宇树在春晚的舞台上表演空翻、大回旋、翻桌跑酷，智元没有上春晚，而是自己办了一场机器人专场晚会“机器人奇妙夜”；几天前，宇树在北京亦庄参加第二届人形机器人半程马拉松，智元则在比赛的两天前办大会、发产品、发模型、聊生态、聊应用。 表面上，两家公司各忙各的，但暗地里的竞争从未停止。 今年1月，宇树对第三方机构发布的2025年全球人形机器人出货量数据报告紧急发文澄清，称自己才是“第一”，而非报告中所统计的“智元第一，宇树第二”。 在4月17日的"
+  },
+  {
+    "title": " 拒绝形式主义，建筑师作为参与式设计“协调者” ",
+    "link": "https://www.huxiu.com/article/4854635.html?f=rss",
+    "pubDate": "2026-04-29T01:27:49.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 建日筑闻 ，作者：ADCNews 在很长一段时间里，建筑被视为一种由少数专业人士主导的创作行为。从方案构思到空间落成，建筑师、开发商与政府构成了决策的核心，而真正使用空间的人，往往只能在设计完成之后被动接受结果。然而，这种“单向模式”正在发生根本性的改变。 在ArchDaily报道的多个国内外项目中，公共参与已不同程度地被引入设计过程之中。从社区共建到协同设计，这些实践不断拓展着“谁可以参与设计”的边界。但与此同时，这些尝试仍然处于探索阶段：参与机制是否具有普适性？参与者的筛选是否公平？公众的意见究竟能够影响设计的核心，还是仅停留于表面形式？ 参与式设计并不能被简单视为一"
+  },
+  {
+    "title": " 净利润暴涨17倍的锂业一哥，依旧走在危险边缘 ",
+    "link": "https://www.huxiu.com/article/4854631.html?f=rss",
+    "pubDate": "2026-04-29T01:13:28.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 凤凰网科技 ，作者：凤凰网科技，编辑：董雨晴 一季度净利润暴涨1700%，是锂业反弹还是弱周期陷阱？ 4月27日晚间，天齐锂业披露一季度业绩，交出了一份堪称炸裂的成绩单：当期实现营业收入51.28亿元，同比增长98.44%；归母净利润18.76亿元，同比增长1699.12%；扣非净利润更是达到18.16亿元，同比飙升3987.18%；毛利率62.66%、净利率55.40%。 图｜源自企业财报 多项数据创下近年新高，甚至可以说，这是过去两年锂行业寒冬之后，最像“牛市开端”的一张成绩单。 从业绩驱动因素来看，天齐锂业在公告中指出：一是受益于新能源产业发展与下游需求增长等多重利"
+  },
+  {
+    "title": " 海闻：大宗商品市场变革：超级周期终结与定价逻辑重构 ",
+    "link": "https://www.huxiu.com/article/4854629.html?f=rss",
+    "pubDate": "2026-04-29T01:09:18.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 北大汇丰PFR ，作者：海闻，原文标题：《海闻：大宗商品市场变革——超级周期终结与定价逻辑重构》 大宗商品市场的变革，从来不是孤立的价格波动，而是全球经济结构调整、地缘政治格局重塑、技术革命演进等多重因素深度联动的必然结果。面对变革浪潮，唯有清醒认知趋势、主动应变求变，才能在复杂博弈中趋利避害——既守住能源安全、粮食安全等发展底线，也牢牢把握结构转型带来的全新机遇，为经济高质量发展提供坚实支撑。 本期《北大金融评论》聚焦“大宗商品的十字路口：超级周期终结与新定价逻辑的博弈”。本文为北京大学汇丰商学院创院院长，《北大金融评论》学术委员会主任、总编辑海闻为《北大金融评论》第2"
+  },
+  {
+    "title": " 大模型语境下用户的多平台使用行为研究 ",
+    "link": "https://www.huxiu.com/article/4854628.html?f=rss",
+    "pubDate": "2026-04-29T01:08:51.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 新媒体观察 ，作者：NMRC，编辑：孟令蕙，原文标题：《大模型传播观察之三十二丨大模型语境下用户的多平台使用行为研究》 01 提出问题 在大模型生态日渐多元化的背景下，用户是如何使用这些平台的？多元化平台的共在提供了一个相互交织、自由选择的“复媒体环境”（polymedia environment），用户可按照自己的需求与偏好配置个人媒介菜单（media repertoires），即对“多种媒介可供性的选择性调用”。那用户为何接入、使用多个大模型平台？用户如何与大模型平台建立联系，又将之运用于哪些场景？多平台使用行为有什么特征，对用户来说有何意义？本研究旨在从可供性视角出"
+  },
+  {
+    "title": " 中美必有一战？战争的底层逻辑是啥？ ",
+    "link": "https://www.huxiu.com/article/4853557.html?f=rss",
+    "pubDate": "2026-04-29T01:00:00.000Z",
+    "source": "Huxiu",
+    "description": "打仗到底是一门什么生意？其实，战争从来不新鲜，背后说白了都是“新钱”抢“老钱”的资源，“老钱”要守市场。"
+  },
+  {
+    "title": " 马拉松纪录破2小时大关，15年前神预言成真后，人类极限在哪里？ ",
+    "link": "https://www.huxiu.com/article/4854623.html?f=rss",
+    "pubDate": "2026-04-29T00:57:37.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 一个生物狗的科普小园 ，作者：Y博的科普园 2026年伦敦马拉松，来自肯尼亚的Sabastian Sawe跑出了1小时59分30秒的成绩，不仅刷新世界纪录，还正式把马拉松推进了2小时大关。 看到有人能在两小时内跑完42.195公里，你是不是感到热血沸腾？ 原来这也可能？！ 你是否也好奇人类跑马拉松的极限会是多少？两小时内，还有多大提升空间？ 如果我说在15年前，有人预测一位来自东非，身材不高的马拉松选手，将在2025-2030年间跑进2小时，你是否觉得这人是神算子？ 真有这么一位大神，他就是Mayo Clinic的麻醉学家、生理学家，Michael Joyner： 这位大"
+  },
+  {
+    "title": " 第一批没结婚的韩国中女，已经开始“领养”闺蜜了 ",
+    "link": "https://www.huxiu.com/article/4854617.html?f=rss",
+    "pubDate": "2026-04-29T00:50:49.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：新周刊，作者：谢无忌，编辑：Felicia，题图来自：受访者提供 2022年春天，韩国作家银曙澜收养了比自己小50个月的朋友娥丽做女儿。两人共同生活五年后，成了法律意义上的母女，也成了彼此最好的家人。这也是韩国首个成年人公开收养朋友为家人的案例。 一年后，银曙澜将这段故事写成《我收养了一个朋友》一书。书里记录了这一非传统的中年女性活法：逃离城市、活在农村、不结婚不生孩子的40岁女性，吃素食，组成了看似奇怪的家庭。 它就像银曙澜的生活日志，记载她对于家庭和人际关系的质疑和思考，如何从曾经的独处，到找到生活搭子、让其变成家人。她很早就放下了对社会定义的“正常家庭”的期待，这样看"
+  },
+  {
+    "title": " 躺平与不躺之间，站着一代人 ",
+    "link": "https://www.huxiu.com/article/4854620.html?f=rss",
+    "pubDate": "2026-04-29T00:46:59.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 波波夫同学 ，作者：波波夫 躺平这个词，最早听起来像一句玩笑。累了，不干了，毁灭吧，我先躺会儿。它不像一个口号，更像一个人下班后瘫在沙发上的叹气。 手机还亮着，消息还在弹，明天的闹钟已设好，房租要交，KPI没完，龙虾还在电脑里跑，父母还在问“最近怎么样”。于是他说：我躺平了。可多数时候，他并没有真的躺下。他只是在做平板支撑。 1 躺平作为网络语言，大约在2021年前后被广泛看见。常被提到的源头，是一篇流传很广的帖子——《躺平即是正义》。作者说自己降低消费，不追逐买房、结婚、升职，不再把人生交给一套既定剧本。 这话一下子击中了很多人，不是因为大家都想不干活，而是很多人忽然发"
+  },
+  {
+    "title": " Hermes 的核心架构Harness：上下文、工具、权限与执行控制 ",
+    "link": "https://www.huxiu.com/article/4854618.html?f=rss",
+    "pubDate": "2026-04-29T00:37:41.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 叶小钗 ，作者：叶小钗，原文标题：《Hermes 的核心架构 Harness：上下文、工具、权限与执行控制》 书接上文：OpenClaw vs Hermes：拆解Hermes Agent五层架构 上一篇写Hermes-Agent，我们选了一条比较笨但好用的路：跟一条消息走一遍。 从终端里敲下一句话，到Agent把最后一个字回到屏幕上，中间其实绕了很长一圈： 消息先被入口收进去，变成内部统一的消息； 会话和上下文被重新组织； 模型开始一轮轮判断，必要时调用工具； 过程太长时，系统还要整理上下文、保住历史，并在任务结束后尝试沉淀经验。 这条线走完以后，Hermes-Agent"
+  },
+  {
+    "title": " 资本巨头悄然撤退？为什么说2026年像极了1936年？ ",
+    "link": "https://www.huxiu.com/article/4854184.html?f=rss",
+    "pubDate": "2026-04-29T00:30:00.000Z",
+    "source": "Huxiu",
+    "description": "97岁的李嘉诚清仓英国电网、95岁的巴菲特疯狂减持，当全世界最会赚钱的人突然决定不赚了，这绝对是你我必须要警惕的信号。"
+  },
+  {
+    "title": " 全球第一CBD的“生死局” ",
+    "link": "https://www.huxiu.com/article/4854615.html?f=rss",
+    "pubDate": "2026-04-29T00:24:18.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： TOP创新区研究院 ，作者：创新区研究组 在过去的40年里，如果你想在中国造一个牛逼哄哄的中央商务区（CBD），规划图纸上的对标往往总是逃不开一个案例，那就是——伦敦金丝雀码头（Canary Wharf）。 这里是全球单体功能商业区的封神之作： 玻璃幕墙直插云霄，西装革履的银行家穿梭其中，容纳了超12万金融精英，是资本主义运转的最强齿轮之一。 但最近，封神之作也有自己的尴尬： 截至2025年3月，金丝雀码头核心区的空置率飙升至创纪录的18.6%（同期伦敦西区仅为7.6%）。入驻了20年的“地标级租户”汇丰银行，宁愿面积砍半、每平米租金翻倍，也要头也不回地逃回伦敦金融城；随"
+  },
+  {
+    "title": " 驴友擅自离队坠崖身亡，AA领队判赔4.6万 ",
+    "link": "https://www.huxiu.com/article/4854614.html?f=rss",
+    "pubDate": "2026-04-29T00:20:44.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 徒步中国 ，作者：小海，原文标题：《驴友擅自离队坠崖身亡，AA领队判赔4.6万！》 以前大家觉得AA组队出了事不用担责，毕竟写了“免责声明”。这几年越来越多的判决，直接革了“AA组队免责声明”的命。 山东聊城市中级人民法院做出了一个二审判决，在户外圈子里引发了不小的震动。 63岁的刘某和几名同伴擅自离开集合点，去爬旁边一座没有计划的山，失足身亡。家属随后将活动组织者徐某告上法庭，索赔30万元。法院最终判决：徐某承担5%的赔偿责任，实际赔偿4.6万余元。 徐某上诉，二审维持原判。 \"5%，听上去很少？本案里，家属索赔30万，5%就是4.6万——白白从自己腰包里掏出去的4.6"
+  },
+  {
+    "title": " 未来实拍电影还存在吗?AI给影视人的恐惧与自由 ",
+    "link": "https://www.huxiu.com/article/4854613.html?f=rss",
+    "pubDate": "2026-04-29T00:11:33.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 硅谷101 ，作者：硅谷101 最近，《灵魂摆渡·浮生梦》成为中国首部全AI生成的电影，暑期档即将上映。“AI能否替代真人演员”、“真人短剧是不是在被AI团灭”，这些话题最近都在冲上微博热搜，成为大家讨论的焦点。 人工智能正以惊人的速度渗透进影视工业的核心流程。从剧本开发到视觉预览，从角色建模到声音演绎，AI带来的效率提升令人震惊。这场变革不仅是技术迭代，更是创作哲学的重构。AI把传统影视制作中长达六个月的特效前期流程，压缩到了72小时；让个体创作者拥有了前所未有的表达自由，却也在审美趋同、情感缺失与版权争议中暴露出局限。 本期《硅谷101》播客邀请导演陆川、配音导演黄莺"
+  },
+  {
+    "title": " 阿联酋退出OPEC：一个时代的终结，还是更大分裂的开始？ ",
+    "link": "https://www.huxiu.com/article/4854611.html?f=rss",
+    "pubDate": "2026-04-29T00:10:06.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：华尔街见闻，作者：李佳，题图来自：视觉中国 阿联酋宣布将于5月1日正式退出欧佩克及欧佩克+联盟。分析人士指出，这并非孤立的技术性决定，而是伊朗战争引发中东产油国民族主义情绪与战略自主性上升的直接结果。此举可能促使更多国家效仿，进一步削弱OPEC的集体行动能力。 4月28日，据彭博报道，阿联酋能源部长Suhail Al Mazrouei表示，中东冲突造成的市场供应失衡为退出提供了“合适时机”。他指出，当前市场处于供应短缺状态，退出对供需格局的即时冲击相对有限。阿联酋认为，面对战争带来的市场波动，国家需要更灵活地响应市场需求，而非受制于集体决策机制。 消息公布后，WTI原油期货"
+  },
+  {
+    "title": " 长护险发展趋势：地区筹资差异大是主要挑战 ",
+    "link": "https://www.huxiu.com/article/4854612.html?f=rss",
+    "pubDate": "2026-04-29T00:04:53.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 村夫日记LatitudeHealth ，作者：Latitude Health 与美国、欧洲和日本等国家相比，中国的长护险才刚起步。在已经试点了10年之后，中国长护险即将向全国推开，通过理解海外市场的长护险和护理服务市场的发展有助于对中国市场未来的趋势做出更有价值的判断。 从过去30多年世界各主要经济体的经验来看，长护险的推出不仅有效的满足了护理服务需求，也极大的规范了护理服务市场，导致护理服务完全变成一个受到政策影响的可规模化但低利润率的市场。具体来看，长护险主要分为筹资、认定和给予。在这三点上，中国市场既有机遇也有挑战，但就长期来看，地域差异过大将是主要的挑战，是困扰未"
+  },
+  {
+    "title": " 为什么中东越打仗，中国光伏反而卖得越爆？ ",
+    "link": "https://www.huxiu.com/article/4853817.html?f=rss",
+    "pubDate": "2026-04-29T00:00:00.000Z",
+    "source": "Huxiu",
+    "description": "为什么中东越打仗，咱家光伏卖的越爆？91亿美元，一个月同比涨了84%，差不多顶一整个西班牙的光伏总量，那是谁在抢着买？"
+  },
+  {
+    "title": " 数百大主播压阵，遥望科技为何走不出巨亏黑洞？ ",
+    "link": "https://www.huxiu.com/article/4854610.html?f=rss",
+    "pubDate": "2026-04-28T23:58:04.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 斑马消费 ，作者：任建新 每天，遥望科技的签约主播，都能在直播电商平台卖出亮眼的数据，却无法改变公司持续亏损的命运。 2025年，遥望科技实现营收33.03亿元，同比下滑30.66%；归母净利润亏损虽同比收窄35.21%，但仍高达6.49亿元。这是公司2021年全面转型直播电商以来，连续第五年亏损，期间累计亏损超36亿元。 手握数百明星和达人主播，更有贾乃亮、赵雅芝、王祖蓝等顶流常驻，单场GMV动辄千万甚至上亿。为何喧嚣的场面，始终填不上遥望科技的利润缺口？ 规模与成本失衡 遥望科技（002291.SZ）的营收曲线，在2023年摸到峰值后掉头向下。2025年，公司实现营业"
+  },
+  {
+    "title": " 斯凯奇门店清零，奥康国际失去第二曲线 ",
+    "link": "https://www.huxiu.com/article/4854609.html?f=rss",
+    "pubDate": "2026-04-28T23:57:33.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 斑马消费 ，作者：沈庹 2025年，奥康国际再次交出一份难看的业绩单，营收、归母净利润双降，亏损规模进一步扩大。 更受关注的是，公司代理的两大品牌全线坍塌：斯凯奇门店彻底清零，彪马门店仅7家。这意味着公司倾力打造的运动品牌代理第二曲线近乎崩溃，未来只能依靠奥康主品牌孤军奋战。 在自主品牌持续萎缩的背景下，奥康国际如何扭转连续4年亏损的局面？压力给到了实控人王振滔。 连亏4年 2025年，奥康国际（603001.SH）再次交出一份难堪的业绩答卷。 全年，公司实现营业收入约19.24亿元，同比下降24.23%，归母净利润亏损约2.41亿元，亏损较2024年进一步扩大。 公司将"
+  },
+  {
+    "title": " 我在白宫记者晚宴现场，亲历枪击事件 ",
+    "link": "https://www.huxiu.com/article/4854608.html?f=rss",
+    "pubDate": "2026-04-28T23:50:00.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 凤凰网 ，作者：王雯清，题图来自：视觉中国 当地时间4月25日晚，白宫记者协会晚宴响起枪声。 听到枪声后，凤凰卫视记者王冰汝躲到了桌下，一位意大利女记者紧紧拉住了她的手，她回忆那个时刻，又紧张又感动，“应该只有几分钟，但是很漫长。” 宴会在美国首都华盛顿的希尔顿酒店举行，距离白宫车程10分钟，是协会历来该记者晚宴的固定举办地。当晚，数声枪响传来时，特朗普入场不足30分钟。这是他首次以总统身份出席这一晚宴——在第上一届任期内，他一直拒绝参加。特勤局特工迅速将特朗普和第一夫人护送到后台，2600余名宾客纷纷钻到桌下避险。 监控录像显示，枪手直接冲过了安检，特勤局人员随即开枪射"
+  },
+  {
+    "title": " 千亿级A股公司，都分布在哪些城市？ ",
+    "link": "https://www.huxiu.com/article/4854606.html?f=rss",
+    "pubDate": "2026-04-28T23:37:10.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 元淦恭说 ，作者：元淦恭 从去年以来，A股走出了一波行情。近一段时间以来，光通信等板块一些公司再度创出新高，中际旭创市值一度突破万亿，新易盛市值一度超过6000亿，它们所在的城市也纷纷刊出相关的“喜报”。 一个城市拥有上市公司，尤其是头部上市公司的数量，是体现一个城市竞争力的重要标志。今天我们就来看看，截至上周五（4月24日）收盘，全国千亿级和五千亿级的A股上市公司，其总部都分别分布在哪些城市。 千亿级上市公司，分布在62个地级及以上城市。其中，拥有3家及以上千亿级上市公司的城市如下。 北京作为最大的央企聚集地，拥有的千亿级上市公司数量明显甩开其他城市，超过上海和深圳的总"
+  },
+  {
+    "title": " 股市的日历效应 ",
+    "link": "https://www.huxiu.com/article/4854605.html?f=rss",
+    "pubDate": "2026-04-28T23:35:35.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 老吴投资分析 ，作者：老吴 股市的日历效应是指股市走势在特定时间窗口（月份、星期、节假日等）呈现出规律性波动，它与传统有效市场假说相悖，是股票市场中典型的异象。 A股市场的日历效应比较显著，了解其表现与成因，将有助于我们读懂市场运行规律，为股票投资提供参考。 一、日历效应 1、月份效应：呈现清晰的季节性规律 月份效应是A股最具辨识度的日历效应，对应“春季躁动”、“五穷六绝七翻身”、“年末行情”等市场共识，其核心特征的是“2月最强、6月最弱、11月偏强”。 -春季躁动（1-3月）：2月是全年最强窗口期，近15年上证综指2月上涨概率超75%，平均收益率达3.8%，创业板指超额"
+  },
+  {
+    "title": " 为何谁都觉得银发经济风口来了，却鲜有人赚到钱？ ",
+    "link": "https://www.huxiu.com/article/4854599.html?f=rss",
+    "pubDate": "2026-04-28T23:20:00.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：南人，题图来自：视觉中国 1 对未来机会预判最大的共识莫过于银发经济了，包括国家、政府都看到了这一块。 早在2024年初，国务院就颁发了《关于发展银发经济增进老年人福祉的意见》，这是国家出台的首个支持银发经济发展的专门文件，倡导要积极应对人口老龄化，事关国家发展全局，事关亿万百姓福祉，和每个家庭都息息相关； 今年的“两会”政府工作报告中同样提出“积极开发老年人力资源，制定推进银发经济高质量发展的措施，完善老年用品产品、养老金融、旅居养老等支持政策。实施康复护理扩容提升工程。推行长期护理保险制度。做好独居老人、失能失智等困难群体的关爱帮扶”……可见非常之"
+  },
+  {
+    "title": " 招行陷入“优等生困境” ",
+    "link": "https://www.huxiu.com/article/4853525.html?f=rss",
+    "pubDate": "2026-04-28T23:16:42.000Z",
+    "source": "Huxiu",
+    "description": "出品 | 妙投APP 作者 | 刘国辉 编辑 | 丁萍 头图 | 视觉中国 银行2025年报披露接近尾声。对比来看，招商银行2025年财报并不差。 如果只看增长质量，它甚至可能是头部银行里最好的之一：利息净收入转正、净息差降幅相对可控、资产质量保持稳定，放在股份行和大行里横向比较，都算得上有竞争力。但真正的问题恰恰在于，招商银行越要守住“优等生”位置，它的增长模型就越显脆弱。 大行可以靠规模扩张、投资收益和政策属性，对冲息差下行的压力，招行不行。 招行这些年之所以能拿到更高的ROE、更高的估值和更强的护城河叙事，本质上都建立在两件事上：更高的净息差，以及更强的零售优势。一旦这两项核心能力被压缩"
+  },
+  {
+    "title": " 马斯克的薪酬神话，正在制造一群“对赌炮灰” ",
+    "link": "https://www.huxiu.com/article/4854604.html?f=rss",
+    "pubDate": "2026-04-28T23:11:31.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 汽车商业评论 ，编译：杜咏芳，编辑：黄大路，作者：推动新汽车向前进 马斯克那份曾经被判“死刑”的薪酬方案，如今正式落袋为安。 4月21日，特斯拉董事会签署了“实施协议”，正式执行2018年的薪酬奖励。同一天，公司撤销了去年为应对原协议悬而未决而临时设立的290亿美元替代薪酬方案。 三天后，特斯拉首席财务官瓦伊巴夫·塔内贾（Vaibhav Taneja）向美国证券交易委员会提交了S-8注册声明，正式为首席执行官埃隆·马斯克（Elon Musk）注册303960630股普通股。 按当日约376美元的股价计算，这批股票价值超过1140亿美元。 八年前，它的估值约为560亿美元；"
+  },
+  {
+    "title": " AI时代，文凭和高校教师的双重危机 ",
+    "link": "https://www.huxiu.com/article/4854598.html?f=rss",
+    "pubDate": "2026-04-28T16:10:36.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：朱兆一 翻译已死，插画师告急，法律助理岌岌可危——AI对职业的冲击，从来不会提前打招呼。 每一波技术浪潮之后，总有一批人猝不及防地发现，自己花了多年时间磨炼的那套本事，已经不再稀缺。 这一次轮到谁？ 教师这个职业，是很多人下意识觉得“应该还好”的那一类。孩子需要人教，课堂需要人主持，这件事好像天然就有一道防火墙。中小学或许如此，但大学呢？当一个学生可以用AI在二十分钟内梳理完一门课的核心框架，当他能随时召唤一个不知疲倦、不会不耐烦的“私人导师”追问到底，他走进大学课堂的理由，还剩多少？ 还有比这更麻烦的。 AI对大学的冲击，最终落脚点不在课堂本身，而在"
+  },
+  {
+    "title": " 五粮液，为何推迟披露财报？ ",
+    "link": "https://www.huxiu.com/article/4854596.html?f=rss",
+    "pubDate": "2026-04-28T16:05:12.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 财联社 ，作者：朱万平 原定于今晚披露财报的五粮液（000858.SZ）突然发布公告称，将延期1日披露财报，引发市场不小的关注。 今日晚间，五粮液发布公告称，原定于4月29日披露的2025年度报告及2026年第一季度报告，将延期至4月30日收市后披露。对于延期的原因，五粮液在公告中称，系进一步完善定期报告编制与复核工作，董事会对此次调整给投资者带来的不便致歉，敬请广大投资者谅解。 此次五粮液延期1日披露财报，虽不影响年报与一季报法定披露期限要求，但在白酒股东群体和分析师群体中，还是引发了不小的关注。“我们圈子里都在问这事儿。”今日晚间，一位券商食品饮料分析师对财联社记者表"
+  }
+]
