@@ -1,4 +1,5 @@
 import { Article, FetchResult, RssSource } from '../types/article';
+import { sourceTypeToDisplayName } from './source-map';
 import Parser from 'rss-parser';
 import fetch from 'node-fetch';
 
@@ -74,13 +75,7 @@ export async function fetchRssFeed(source: RssSource): Promise<FetchResult> {
           title: item.title || '无标题',
           link: item.link || '',
           pubDate,
-          source: source.type === 'techcrunch' ? 'TechCrunch' :
-                 source.type === 'verge' ? 'The Verge' :
-                 source.type === 'hackernews' ? 'Hacker News' :
-                 source.type === '36kr' ? '36Kr' :
-                 source.type === 'huxiu' ? 'Huxiu' :
-                 source.type === 'tmtpost' ? 'TMTPost' :
-                 source.type === 'jiqizhixin' ? 'JiQiZhiXin' : 'TechCrunch',
+          source: sourceTypeToDisplayName(source.type) as Article['source'],
           description: cleanedDescription
         };
 

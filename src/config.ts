@@ -30,6 +30,25 @@ export const RSS_SOURCES: RssSource[] = [
     name: '虎嗅',
     url: 'https://rss.huxiu.com/',
     type: 'huxiu'
+  },
+  {
+    name: 'OpenAI',
+    url: 'https://openai.com/news/rss.xml',
+    type: 'openai'
+  },
+];
+
+// HTML 爬取源（无 RSS，需解析 HTML）
+export const HTML_SOURCES: RssSource[] = [
+  {
+    name: 'Anthropic',
+    url: 'https://www.anthropic.com/news',
+    type: 'anthropic'
+  },
+  {
+    name: 'DeepSeek',
+    url: 'https://api-docs.deepseek.com/news/',
+    type: 'deepseek'
   }
 ];
 
