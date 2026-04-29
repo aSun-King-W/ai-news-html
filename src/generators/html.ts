@@ -630,6 +630,11 @@ function getSourceIcon(source: string): string {
     '36Kr': 'fas fa-chart-line',
     'The Verge': 'fas fa-satellite',
     'TechCrunch': 'fas fa-bolt',
+    'OpenAI': 'fas fa-microchip',
+    'Hugging Face': 'fas fa-face-smile',
+    'Anthropic': 'fas fa-shield',
+    'DeepSeek': 'fas fa-ship',
+    'JiQiZhiXin': 'fas fa-heart',
   };
 
   return iconMap[source] || 'fas fa-newspaper';

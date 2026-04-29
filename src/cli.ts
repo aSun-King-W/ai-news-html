@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { program } from 'commander';
-import { RSS_SOURCES, HOURS_BACK, ANTHROPIC_API_KEY } from './config';
-import { fetchAllFeeds } from './fetchers';
+import { RSS_SOURCES, HTML_SOURCES, HOURS_BACK, ANTHROPIC_API_KEY } from './config';
+import { fetchAllFeeds, scrapeAllHtmlFeeds } from './fetchers';
 import { filterRecentArticles, deduplicateArticles, filterAIArticles } from './processors/filter';
 import { sortArticlesByDate } from './processors/sorter';
 import { generateMarkdown, generateFilename } from './generators/markdown';
@@ -46,9 +46,25 @@ async function main() {
           totalArticles += result.articles.length;
         }
 
-        console.log(`\n📊 总共抓取: ${totalArticles}篇文章`);
+        console.log(`\n📊 RSS 总共抓取: ${totalArticles}篇文章`);
 
-        // 3. 合并所有文章
+        // 3. 抓取所有 HTML 源
+        if (HTML_SOURCES.length > 0) {
+          console.log('\n🌐 正在爬取 HTML 源...');
+          const htmlResults = await scrapeAllHtmlFeeds(HTML_SOURCES);
+          for (const result of htmlResults) {
+            const status = result.error ? '❌' : '✅';
+            console.log(`${status} ${result.source}: ${result.articles.length} 篇文章`);
+            if (result.error) {
+              console.log(`   错误: ${result.error}`);
+            }
+            totalArticles += result.articles.length;
+          }
+          console.log(`\n📊 总计抓取: ${totalArticles} 篇文章`);
+          results.push(...htmlResults);
+        }
+
+        // 4. 合并所有文章
         const allArticles: Article[] = results.flatMap(result => result.articles);
 
         if (allArticles.length === 0) {
@@ -56,7 +72,7 @@ async function main() {
           return;
         }
 
-        // 4. 数据处理
+        // 5. 数据处理
         console.log('\n🔄 正在处理数据...');
 
         // 过滤最近N小时的文章
@@ -80,7 +96,7 @@ async function main() {
           return;
         }
 
-        // 5. AI摘要处理
+        // 6. AI摘要处理
         let articlesForOutput = sortedArticles;
         if (options.aiSummary) {
           if (!ANTHROPIC_API_KEY) {
@@ -98,21 +114,21 @@ async function main() {
           }
         }
 
-        // 6. 生成Markdown
+        // 7. 生成Markdown
         console.log('\n📝 正在生成Markdown日报...');
         const markdown = generateMarkdown(articlesForOutput);
         const filename = generateFilename();
         const outputPath = path.join(options.outputDir, filename);
 
-        // 6. 确保输出目录存在
+        // 8. 确保输出目录存在
         await fs.mkdir(options.outputDir, { recursive: true });
 
-        // 7. 写入文件
+        // 9. 写入文件
         await fs.writeFile(outputPath, markdown, 'utf-8');
         console.log(`✅ 日报已生成: ${outputPath}`);
         console.log(`📈 统计: ${articlesForOutput.length}篇文章已保存`);
 
-        // 8. 生成HTML（如果启用）
+        // 10. 生成HTML（如果启用）
         if (options.htmlOutput) {
           console.log('\n🎨 正在生成HTML日报...');
           const html = generateHtml(articlesForOutput);
@@ -124,7 +140,7 @@ async function main() {
           console.log(`📱 手机访问: 将此文件部署到GitHub Pages或云存储`);
         }
 
-        // 9. 生成公众号文章（如果启用）
+        // 11. 生成公众号文章（如果启用）
         // if (options.wechatArticle) {
         //   console.log('\n📱 正在生成公众号文章格式...');
         //   const wechatArticle = generateWechatArticle(articlesForOutput);
@@ -136,7 +152,7 @@ async function main() {
         //   console.log(`📋 使用方法: 复制内容到公众号编辑器发布`);
         // }
 
-        // 10. 生成公众号文章HTML版本（如果启用）
+        // 12. 生成公众号文章HTML版本（如果启用）
         // if (options.wechatHtml) {
         //   console.log('\n🌐 正在生成公众号文章HTML版本...');
         //   const wechatHtml = generateWechatHtml(articlesForOutput);

@@ -1,569 +1,625 @@
 [
   {
-    "title": "商汤绝影发布舱驾一体全场景智能体产品",
-    "link": "https://36kr.com/newsflashes/3780610906905857?f=rss",
-    "pubDate": "2026-04-24T09:22:06.000Z",
+    "title": "Newsroom",
+    "link": "https://www.anthropic.com/news/claude-opus-4-7",
+    "pubDate": "2026-04-29T11:51:25.232Z",
+    "source": "Anthropic",
+    "description": "Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most."
+  },
+  {
+    "title": "The AI coding config fragmentation problem nobody talks about",
+    "link": "https://github.com/sampleXbro/agentsmesh",
+    "pubDate": "2026-04-29T11:35:41.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://github.com/sampleXbro/agentsmesh"
+  },
+  {
+    "title": "30 ClawHub Skills Are Quietly Recruiting Your AI Agent into a Crypto Swarm",
+    "link": "https://www.manifold.security/blog/clawhub-clawswarm-agent-crypto-recruitment",
+    "pubDate": "2026-04-29T11:34:08.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.manifold.security/blog/clawhub-clawswarm-agent-crypto-recruitment"
+  },
+  {
+    "title": "AI Job Loss Is Not Real",
+    "link": "https://orischwartz.com/posts/ai-job-loss-is-not-real.html",
+    "pubDate": "2026-04-29T11:32:53.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://orischwartz.com/posts/ai-job-loss-is-not-real.html"
+  },
+  {
+    "title": " 第一届通灵黑客松：一半人请神出马，一半人狂敲代码 ",
+    "link": "https://www.huxiu.com/article/4854849.html?f=rss",
+    "pubDate": "2026-04-29T11:29:20.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 公路商店 ，作者：公路商店 没有人说得清算命这件事到底是人算更准还是AI更准，所以在这个月，上海有人干脆办了场“人机算命”比赛。 第一届通灵黑客松，参赛者是人类通灵师和AI算命Agent。 场子里一半人在通灵，一半人在调AI。 规则很简单。主办方出题，给出生辰八字，或者一张照片。参赛者各凭本事通各自的，十分钟一到，抢答上台复盘，你看到了什么，听到了什么，或者模型吐了什么。听起来像《天机试炼场》接了个API。 现场一边是碳基派，主要依靠肉身接口，有人蹲在地上摆弄五十根大衍蓍草，有人盯着龟甲和铜钱等一个天地感应的答案。空气里总带着一种天机不可泄露的便秘感。 另一边是硅基派，有"
+  },
+  {
+    "title": "美图RoboNeo升级更新，推出影像创作Agent Teams",
+    "link": "https://36kr.com/newsflashes/3787818592591109?f=rss",
+    "pubDate": "2026-04-29T11:28:19.000Z",
     "source": "36Kr",
-    "description": "36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、New Member 2.0等。此外，商汤将联手T3出行，将于年内全面启动试运营 Robotaxi。"
+    "description": "36氪获悉，美图公司宣布旗下影像AI Agent RoboNeo大更新，全新推出影像创作Agent Teams。为自媒体人、内容小团队及“一人公司”提供全链路创作解决方案。同时，RoboNeo宣布已接入Seedance 2.0，内置电商、短剧、广告营销、动画制作等多元领域专家Skills库。"
   },
   {
-    "title": "Got the Rust dream job, then AI happened",
-    "link": "https://old.reddit.com/r/rust/comments/1stj607/got_the_rust_dream_job_then_ai_happened/",
-    "pubDate": "2026-04-24T09:18:02.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://old.reddit.com/r/rust/comments/1stj607/got_the_rust_dream_job_then_ai_happened/"
-  },
-  {
-    "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
-    "link": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
-    "pubDate": "2026-04-24T09:17:57.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.bbc.com/news/articles/c4gx1n0dl9no"
-  },
-  {
-    "title": "证监会部署打击和防范上市公司财务造假专项行动",
-    "link": "https://36kr.com/newsflashes/3780599117880582?f=rss",
-    "pubDate": "2026-04-24T09:04:17.000Z",
-    "source": "36Kr",
-    "description": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。"
-  },
-  {
-    "title": " 从“孤独死”到“悦己革命”，东亚近1.5亿独居者背后的有哪些“真金矿”? ",
-    "link": "https://www.huxiu.com/article/4852068.html?f=rss",
-    "pubDate": "2026-04-24T09:00:00.000Z",
+    "title": " 谷歌再签燃气发电订单，或放弃2030净零排放目标？ ",
+    "link": "https://www.huxiu.com/article/4854843.html?f=rss",
+    "pubDate": "2026-04-29T11:15:56.000Z",
     "source": "Huxiu",
-    "description": "从中国硬核的“独居安全基建”——智能猫眼、AI门锁、宠物防EMO，到韩国“一人食”对聚餐文化的逆袭，再到日本把“孤独”做成精细服务的一人婚礼、租借家人……东亚独居经济正从商业边缘走向舞台中央。今天咱们就通过一份《中日韩独居经济图鉴》，拆解那些被独居浪潮推向风口的“金矿”行业。看看为什么这些独居者一边喊着“没钱结婚”，一边却愿意为“情绪价值”支付溢价？这到底是智商税，还是新时代的生存补丁？"
+    "description": "本文来自微信公众号： 环球零碳 ，编辑：小澜，作者：环球零碳研究中心 六年前的2020年，谷歌曾信心满满提出净零愿景，期望在2030年达成百分之百24/7使用无碳电力。 微软更是立下豪言在2030年之前实现负碳排放，这些极具象征性的承诺，象征着科技巨头在能源转型里拿出魄力。 如今，零碳先锋谷歌却将减排目标称为“气候登月计划”（喻指难度极大、堪比登天）。微软则称，仍致力于在2030年前实现碳负排放，但如今将这一努力描述为“一场马拉松，而非短跑”。 是什么让这些曾经的豪言壮志再次回到聚光灯下、接受公众的审视？ 答案正是“人工智能（AI）”。算力狂飙的背后，人工智能（AI）的加速发展也正在成为科技巨"
   },
   {
-    "title": "Fit.ly – AI Outfit Generation",
-    "link": "https://fitly-app.onrender.com/",
-    "pubDate": "2026-04-24T08:54:15.000Z",
+    "title": "Personal Productivity Tools in the Age of AI",
+    "link": "https://tilldettmering.com/posts/personal-productivity-tools-age-of-ai/",
+    "pubDate": "2026-04-29T11:10:54.000Z",
     "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 1 评论 | 链接: https://fitly-app.onrender.com/"
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://tilldettmering.com/posts/personal-productivity-tools-age-of-ai/"
   },
   {
-    "title": "腾景科技：第一季度净利润1443.38万元，同比增长10.74%",
-    "link": "https://36kr.com/newsflashes/3780587968224519?f=rss",
-    "pubDate": "2026-04-24T08:52:57.000Z",
-    "source": "36Kr",
-    "description": "36氪获悉，腾景科技公告，2026年第一季度实现营业收入1.71亿元，同比增长51.17%；归属于上市公司股东的净利润为1443.38万元，同比增长10.74%。业绩变动主要系报告期内，受益于AI算力需求驱动高速光通信元器件市场增长态势，公司持续提升高速光模块无源元组件、OCS大尺寸纯钒酸钇晶体订单交付能力，推动光通信领域业务收入实现快速增长；半导体设备、生物医疗等新兴应用领域高端光学模组业务亦保持快速增长。"
+    "title": " 宫斗、撒谎与权力游戏： 萨姆·奥尔特曼和那个“终将倒塌”的AI帝国 ",
+    "link": "https://www.huxiu.com/article/4854825.html?f=rss",
+    "pubDate": "2026-04-29T11:10:00.000Z",
+    "source": "Huxiu",
+    "description": "资本与权力系统本身，既不具备、也不需要那种“花很长时间去真正认清一个人”的机制。本文来自微信公众号： 经济观察报观察家 ，作者：李佩珊，头图来自：视觉中国 当地时间4月28日，马斯克诉OpenAI、萨姆·奥尔特曼及微软一案在美国加州奥克兰联邦法院进入庭审。马斯克亲自出庭作证，称OpenAI背弃了最初作为非营利机构、让AI“造福全人类”的承诺；OpenAI一方则反击称，马斯克真正追求的是控制权，而非AI安全。 这场围绕OpenAI“初心”的诉讼，索赔额已被推高至1500亿美元。它把一个问题重新推到公众面前：一家以公益使命诞生的AI机构，究竟是如何一步步变成今天这个资本、权力与技术高度缠绕的“帝国"
   },
   {
-    "title": "Canada's AI Startup Cohere Buys Germany's Aleph Alpha to Expand in Europe",
-    "link": "https://www.reuters.com/legal/transactional/canadas-cohere-germanys-aleph-alpha-announce-merger-handelsblatt-reports-2026-04-24/",
-    "pubDate": "2026-04-24T08:35:12.000Z",
+    "title": " 一个中年男人想去学AI，妻子只问家里还剩多少钱？ ",
+    "link": "https://www.huxiu.com/article/4854840.html?f=rss",
+    "pubDate": "2026-04-29T11:09:35.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 老胡地盘 ，作者：老胡 视频中一男一女坐在饭桌两边，他们是一对夫妻，家里还有一个正在上学的孩子。没有激烈争吵，没有摔门，也没有什么狗血剧情，两个人就是坐在那里，一句一句地聊日子。 但越是这种平静，越让人难受。男人看起来很疲惫，女人也很疲惫。 我不确定这个视频是摆拍的段子呢，还是真的视频记录，不过就算是段子我也觉得很真实。 男人说，自己干了这么多年，好像这些年都白活了。好不容易出去跑了两趟外卖，又觉得自己的人生不能就这样放弃。他还想再找点机会，想看看AI，想抓住这个时代里可能还剩下的一点缝隙。 女人没有鼓励他，也没有安慰他。 她问的是：家里账户还有多少钱？孩子上学怎么办？补"
+  },
+  {
+    "title": " ChatGPT的GDPR罚款被法院撤销：欧盟AI与数据治理的隐性转向 ",
+    "link": "https://www.huxiu.com/article/4854838.html?f=rss",
+    "pubDate": "2026-04-29T11:03:29.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： Internet Law Review ，作者：克里斯塔基斯，编译：《互联网法律评论》 2026年3月18日，罗马法院撤销了意大利数据保护局（Garante per la Protezione dei Dati Personali）于2024年11月2日发布的第755号决定。该决定曾因OpenAI的ChatGPT服务管理存在多项违反GDPR的行为而对其处以1500万欧元的罚款。此前，该决定已于2025年3月21日被同一法院暂停执行，随后意大利数据保护局也从其官网上撤下了其罚款决定。裁决推翻了该决定的实质内容。 这并非普通的执法决定。这是欧洲迄今为止唯一一项针对生成式人工智"
+  },
+  {
+    "title": " 霉霉的声音商标，能挡住AI克隆吗？ ",
+    "link": "https://www.huxiu.com/article/4854835.html?f=rss",
+    "pubDate": "2026-04-29T10:58:53.000Z",
+    "source": "Huxiu",
+    "description": "本文作者：游云庭，头图来自：视觉中国 据媒体报道，流行音乐巨星泰勒·斯威夫特（“霉霉”）正寻求在美国为自己的肖像和声音注册商标，她申请把两段标志性语音“Hey, it’s Taylor”与“Hey, it’s Taylor Swift”注册成商标，意图借助商标法抵御未经授权的AI语音克隆。今天就跟大家分析一下，声音商标能打败AI侵权吗？ 一、OpenAI如何复刻寡姐声音？ 霉霉类似的担忧早已在全球引发关注，最典型的案例就是好莱坞演员斯嘉丽·约翰逊（“寡姐”）与OpenAI的纠纷。2023年9月，OpenAI CEO山姆·奥特曼联系斯嘉丽·约翰逊，邀请她为ChatGPT语音助手配音，遭其婉拒。然"
+  },
+  {
+    "title": "Amazon rolls out AI hiring software to automate job interviews",
+    "link": "https://www.usatoday.com/story/money/2026/04/28/amazon-ai-job-interviews/89842247007/",
+    "pubDate": "2026-04-29T10:54:25.000Z",
     "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.reuters.com/legal/transactional/canadas-cohere-germanys-aleph-alpha-announce-merger-handelsblatt-reports-2026-04-24/"
+    "description": "Hacker News 文章 | 4 点赞 | 2 评论 | 链接: https://www.usatoday.com/story/money/2026/04/28/amazon-ai-job-interviews/89842247007/"
   },
   {
-    "title": "最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战",
-    "link": "https://36kr.com/p/3780556402531330?f=rss",
-    "pubDate": "2026-04-24T08:21:20.000Z",
-    "source": "36Kr",
-    "description": "文｜张子怡 编辑｜袁斯来 在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。 根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅助插件地位提升至业务底座高度。 微盟此次提出的“AI First”战略，核心覆盖了AI+SaaS、AI+营销、AI+出海及AI To C等方向。 在技术架构层面，微盟将其升级为“Agent+Skills”。这一转变的底层逻辑在于：将原本复杂的Saa"
-  },
-  {
-    "title": "I over-engineered my AI coding setup one justified upgrade at a time",
-    "link": "https://machinethoughts.substack.com/p/every-upgrade-made-sense-how-i-over",
-    "pubDate": "2026-04-24T08:19:49.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://machinethoughts.substack.com/p/every-upgrade-made-sense-how-i-over"
-  },
-  {
-    "title": "A red pixel in the snow: How AI found a lost climber",
-    "link": "https://www.bbc.com/future/article/20260108-how-ai-solved-the-mystery-of-a-missing-mountaineer",
-    "pubDate": "2026-04-24T08:19:43.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 2 点赞 | 1 评论 | 链接: https://www.bbc.com/future/article/20260108-how-ai-solved-the-mystery-of-a-missing-mountaineer"
-  },
-  {
-    "title": "UK gaming icon Peter Molyneux on AI, his final creation and a changing industry",
-    "link": "https://www.bbc.com/news/articles/c4glw5nyrggo",
-    "pubDate": "2026-04-24T08:15:36.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 3 点赞 | 2 评论 | 链接: https://www.bbc.com/news/articles/c4glw5nyrggo"
-  },
-  {
-    "title": " 实测DeepSeekV4：天下武功，唯快不破 ",
-    "link": "https://www.huxiu.com/article/4853453.html?f=rss",
-    "pubDate": "2026-04-24T08:06:04.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号：字母AI，作者：李炤锋，编辑：王靖，题图来自：AI生成 “跳票”许久的DeepSeek-V4，终于来了。 几个小时前，DeepSeek-V4预览版上线并开源。巧的是，几乎同一天，OpenAI也推出了GPT-5.5。一个继续讲闭源生产力系统，一个继续讲开源、长上下文和低成本推理。中美AI产业中流量最大的两家基模公司，在同一天相遇。 DeepSeek-V4分为Pro与Flash两个版本，均支持百万（1M）token超长上下文，总参数规模分别达到1.6T（激活49B）与284B（激活13B）。 不过，相比起“1.6T参数”或者“百万token上下文”这两个夸张数字，技术文档里的两"
-  },
-  {
-    "title": "QuickSWMS – AI generator for Australian construction safety docs ($100 startup)",
-    "link": "https://quickswms.co",
-    "pubDate": "2026-04-24T07:44:51.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://quickswms.co"
-  },
-  {
-    "title": "Reimagine Python Notebooks in the AI Era",
-    "link": "https://mljar.com/blog/reimagine-python-notebook-in-ai-era/",
-    "pubDate": "2026-04-24T07:44:47.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://mljar.com/blog/reimagine-python-notebook-in-ai-era/"
-  },
-  {
-    "title": " 爱奇艺AI艺人，到底是创新？还是陷阱？ ",
-    "link": "https://www.huxiu.com/article/4853366.html?f=rss",
-    "pubDate": "2026-04-24T07:30:00.000Z",
-    "source": "Huxiu",
-    "description": "想象一下你喜欢的明星一年忽然演了14部戏，其中10部全靠AI分身，你是什么感觉？到那个时候你是会感叹技术太强大，还是会觉得这一切既陌生又魔幻？"
-  },
-  {
-    "title": "Chinese Hospitals Are Selling Patient Data to Fuel the AI Boom",
-    "link": "https://www.caixinglobal.com/2026-04-20/chinese-hospitals-are-selling-patient-data-to-fuel-the-ai-boom-102435863.html",
-    "pubDate": "2026-04-24T07:25:09.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.caixinglobal.com/2026-04-20/chinese-hospitals-are-selling-patient-data-to-fuel-the-ai-boom-102435863.html"
-  },
-  {
-    "title": "Message to Autonomous AI",
-    "link": "https://github.com/oriondrayke/Litagatoro",
-    "pubDate": "2026-04-24T07:07:01.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 1 评论 | 链接: https://github.com/oriondrayke/Litagatoro"
-  },
-  {
-    "title": " 为什么老板总是不能理解员工的难处？ ",
-    "link": "https://www.huxiu.com/article/4853452.html?f=rss",
-    "pubDate": "2026-04-24T07:05:53.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 瞎说职场 ，作者：Sean Ye ✎写在前面 有一年，我参加知乎的不知道诊所，作为嘉宾分享，我提了一个问题： 你们有没有遇到过工作上，自己明明已经很努力了，工作做得也很不错，但领导完全不理解，最后还可能把你努力想做成的项目给毙了？ 当场大概40多号人，大多是20来岁的职场人，全场70%的听众举手。 小伙伴纷纷表示场景描绘太过真实了，甚至有还在读书的学生表示他的导师也是这样的…… 最近因为AI的事情，我感觉整个朋友圈的职场人不少很焦虑，总担心被取代。 但事实上，AI仍有很不成熟的地方，如今各个行业的公司都在搞「全员AI」，「同事Skill」项目。 有趣的是，很多团队会宣传A"
-  },
-  {
-    "title": "Study Reveals 75% of Enterprises Report Double-Digit AI Failure Rates",
-    "link": "https://www.businesswire.com/news/home/20260309160253/en/New-Study-Reveals-75-of-Enterprises-Report-Double-Digit-AI-Failure-Rates-as-Fragmented-Observability-Hits-Its-Breaking-Point",
-    "pubDate": "2026-04-24T07:01:16.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 8 点赞 | 1 评论 | 链接: https://www.businesswire.com/news/home/20260309160253/en/New-Study-Reveals-75-of-Enterprises-Report-Double-Digit-AI-Failure-Rates-as-Fragmented-Observability-Hits-Its-Breaking-Point"
-  },
-  {
-    "title": "Show HN: Safer – Sleep better while AI agents have shell access",
-    "link": "https://github.com/crufter/safer",
-    "pubDate": "2026-04-24T06:33:36.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://github.com/crufter/safer"
-  },
-  {
-    "title": "AI and Videogames – Conversational NPCs",
-    "link": "https://www.youtube.com/watch?v=KfcIY0xePiM",
-    "pubDate": "2026-04-24T06:31:09.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.youtube.com/watch?v=KfcIY0xePiM"
-  },
-  {
-    "title": " 废旧手机怎么突然值钱了？ ",
-    "link": "https://www.huxiu.com/article/4853406.html?f=rss",
-    "pubDate": "2026-04-24T06:25:01.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： RUC新闻坊 ，数据：罗国梅、柯雨彤、陈虹颖、王鹤翔、许凝佳，可视化：罗国梅、陈虹颖、许凝佳、柯雨彤，文案：罗国梅、柯雨彤，头图来自：AI生成 “最近换了新手机，你手里的旧机子都怎么处理的？” 如果你平时爱刷视频、逛社交平台，大概率被这一类“魔性”二手回收广告刷屏过。 今年3月，手机回收火了，不仅相关广告充斥各大平台，#旧手机回收价暴涨五六倍#的词条还登上多个热搜。 原本只能卖五六十块、近乎电子垃圾的旧机型，一夜之间被喊到近500元高价。背后是谁在助推？又牵扯到哪些利益链条？消费者在出手旧手机时有何顾虑？RUC新闻坊对这些问题展开了调查。 一、回收价格翻倍，并非普遍现象 "
-  },
-  {
-    "title": " 别高估英伟达，别低估DeepSeek ",
-    "link": "https://www.huxiu.com/article/4852245.html?f=rss",
-    "pubDate": "2026-04-24T06:19:00.000Z",
-    "source": "Huxiu",
-    "description": "出品 | 妙投APP 作者 | 董必政 编辑 | 丁萍 头图 | AI制图 DeepSeek-V4终于来了。 4月24日，全新系列模型DeepSeek-V4预览版本正式上线，并同步开源。 DeepSeek-V4开创了一种全新的注意力机制，在token维度进行压缩，结合DSA稀疏注意力（DeepSeek Sparse Attention），实现了全球领先的长上下文能力，并且相比于传统方法大幅降低了对计算和显存的需求。 可别小瞧了，DeepSeek-V4大幅降低了对计算和显存的需求。 妙投认为，这将直接削弱英伟达GPU的优势。值得注意的是，DeepSeek-V4还优先适配国产芯片厂商。 换句话说，"
-  },
-  {
-    "title": " 查不到直飞、搞不定闭环：文旅CIO们，别被AI的“聊天能力”骗了 ",
-    "link": "https://www.huxiu.com/article/4853431.html?f=rss",
-    "pubDate": "2026-04-24T06:10:31.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 环球旅讯 ，作者：程小雨 今早打开朋友圈，就被行业资深人士A总的一条吐槽吸引了注意力。 A总想用某大模型查明天广州到上海的航班，结果AI一本正经地告诉他“暂未查询到直飞航班”，并热心地推荐了一个经武汉中转、耗时近5小时的方案，指出这是耗时最短的方案。 作为在文旅SaaS领域摸爬滚打了十年的老兵，我隔着屏幕都能感受到那种“期待落空”的尴尬。这家航司明明官宣接入了该模型，广州到上海这种“空中快线”每天直飞多达几十班，为什么AI偏偏“睁眼说瞎话”？ 这件事撕开了文旅AI繁荣表象下的一个残酷真相：用户想用AI做旅行计划，AI却连一张机票都查不准。 如果文旅行业的CIO们还沉浸在“"
-  },
-  {
-    "title": "Is Unbound AI the future of adult entertainment?",
-    "link": "https://unbound.video/landing4",
-    "pubDate": "2026-04-24T06:05:24.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 3 点赞 | 7 评论 | 链接: https://unbound.video/landing4"
-  },
-  {
-    "title": " AI火了五年了，终于有人做出了真正的AI浏览器 ",
-    "link": "https://www.huxiu.com/article/4853367.html?f=rss",
-    "pubDate": "2026-04-24T06:00:00.000Z",
-    "source": "Huxiu",
-    "description": "Tabbit不光是把浏览器和AI融为一体了，更打造了一个披着浏览器外衣的OpenClaw。最适合普通人的龙虾，没有门槛上手即用。"
-  },
-  {
-    "title": "Sinceerly: AI to undo your AI writing",
-    "link": "https://sinceerly.com/",
-    "pubDate": "2026-04-24T05:49:18.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 4 点赞 | 0 评论 | 链接: https://sinceerly.com/"
-  },
-  {
-    "title": "AI-powered knowledge assistant for sexual and reproductive health",
-    "link": "https://chathrp.org/",
-    "pubDate": "2026-04-24T05:35:18.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://chathrp.org/"
-  },
-  {
-    "title": "Contral AI",
-    "link": "https://contral.ai",
-    "pubDate": "2026-04-24T05:24:43.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://contral.ai"
-  },
-  {
-    "title": " DeepSeek V4终于来了，我们知道些什么？ ",
-    "link": "https://www.huxiu.com/article/4853419.html?f=rss",
-    "pubDate": "2026-04-24T05:24:17.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 互联网怪盗团 ，作者：怪盗团团长裴培，原文标题：《DeepSeek V4终于来了！我们知道些什么？》 万众期待的DeepSeek V4预览版终于在北京时间4月24日上午发布了。此前，媒体和分析师曾反复预测V4即将发布，并已经多次预测失败，这一次终于成功了。由于模型发布时间还太短，第三方和客户评测还在紧锣密鼓的进行中，现在的有效信息其实很少。不过，通过技术文档和海外AI社区的初步讨论，我们还是能得到一些情报的。 首先，V4的战略方向是提高Agent能力，这与OpenClaw发布以来的世界潮流相符。“全民养龙虾”的浪潮，给MiniMax,Kimi和智谱等国产大模型厂商带来了巨"
-  },
-  {
-    "title": "融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」",
-    "link": "https://36kr.com/p/3780352721851397?f=rss",
-    "pubDate": "2026-04-24T04:58:37.000Z",
-    "source": "36Kr",
-    "description": "文｜周鑫雨 编辑｜杨轩 一句话介绍 Buzzy（https://www.buzzy.now/）是AI内容创作公司“感知阶跃”旗下的视频编辑Agent平台，主要面向C端内容创作者和中小型商家。 好比“视频版的PhotoShop”，用户只需下达自然语言指令，就能驱动Agent对视频进行背景去除、光线修正、产品替换、背景/视角更改等编辑操作。 团队介绍 “感知阶跃”创始人兼CEO Ella Zhang（张诗莹），曾在苹果、Oculus VR、Google负责核心产品。 在苹果期间，她曾为AirPods产品线创始团队核心成员，负责产品的系统集成和全周期设计落地，包括音频产品的架构设计、元器件选型、原理"
-  },
-  {
-    "title": "The Budgeting Mistake That Cost Uber Its Annual AI Spend in 4 Months",
-    "link": "https://www.productcurious.com/p/uber-ai-budget-mistake",
-    "pubDate": "2026-04-24T04:55:51.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 5 点赞 | 0 评论 | 链接: https://www.productcurious.com/p/uber-ai-budget-mistake"
-  },
-  {
-    "title": "AI Resume Reviewer",
-    "link": "https://www.thehumancapitalhub.com/ai-resume-reviewer",
-    "pubDate": "2026-04-24T04:38:32.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.thehumancapitalhub.com/ai-resume-reviewer"
-  },
-  {
-    "title": "The AI Science Separation",
-    "link": "https://www.thewirechina.com/2026/04/19/the-ai-science-separation/",
-    "pubDate": "2026-04-24T04:34:07.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.thewirechina.com/2026/04/19/the-ai-science-separation/"
-  },
-  {
-    "title": " 陈文辉：创投市场需要\"五大转变\" ",
-    "link": "https://www.huxiu.com/article/4853410.html?f=rss",
-    "pubDate": "2026-04-24T04:32:17.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 投中网 ，作者：陶辉东 中国创投市场正处于从粗放增长向精细化、制度化、系统化发展的关键转折点。 在科技自立自强和产业升级的大时代背景下，创业投资市场面临前所未有的历史机遇和现实挑战。作为链接科技创新与资本的关键纽带，创投市场的健康发展对国家创新驱动战略至关重要。在4月23日的第20届中国投资年会·年度峰会上，原中国银行保险监督管理委员会副主席陈文辉，深入剖析了当前创投市场的现状、给出了思考建议。 数据显示，当前创投市场呈现明显向好态势。从募资看，国资源源不断流入，融资规模显著增长。从投资看，硬科技行业获得空前关注，资金聚焦于人工智能、先进制造、生物医药等战略性新兴产业。从"
-  },
-  {
-    "title": "We're Using So Much AI That Computing Firepower Is Running Out",
-    "link": "https://www.wsj.com/tech/ai/ai-is-using-so-much-energy-that-computing-firepower-is-running-out-156e5c85",
-    "pubDate": "2026-04-24T04:31:47.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.wsj.com/tech/ai/ai-is-using-so-much-energy-that-computing-firepower-is-running-out-156e5c85"
-  },
-  {
-    "title": "Oracle's Deluge of AI Debt Pushes Wall Street to the Limit",
-    "link": "https://www.wsj.com/tech/ai/oracle-ai-demand-debt-04977749",
-    "pubDate": "2026-04-24T04:30:10.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 10 点赞 | 2 评论 | 链接: https://www.wsj.com/tech/ai/oracle-ai-demand-debt-04977749"
-  },
-  {
-    "title": "AI run store in SF can't stop ordering candies and paying women less.",
-    "link": "https://sfist.com/2026/04/21/ai-store-manager-paying-female-employees-less-cant-stop-ordering-candles/",
-    "pubDate": "2026-04-24T03:57:24.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 15 点赞 | 5 评论 | 链接: https://sfist.com/2026/04/21/ai-store-manager-paying-female-employees-less-cant-stop-ordering-candles/"
-  },
-  {
-    "title": "Control Workspace Intelligence for generative AI features [AI defaults on]",
-    "link": "https://knowledge.workspace.google.com/admin/gemini/control-workspace-intelligence",
-    "pubDate": "2026-04-24T03:50:32.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://knowledge.workspace.google.com/admin/gemini/control-workspace-intelligence"
-  },
-  {
-    "title": "If AI existed in 2011 would we still have the modern web",
-    "link": "https://webmatrices.com/post/if-ai-existed-in-2011-would-we-still-have-the-modern-web",
-    "pubDate": "2026-04-24T03:28:52.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://webmatrices.com/post/if-ai-existed-in-2011-would-we-still-have-the-modern-web"
-  },
-  {
-    "title": " 实测GPT5.5 : 最强模型不是嘴炮，它真能干活儿 ",
-    "link": "https://www.huxiu.com/article/4853344.html?f=rss",
-    "pubDate": "2026-04-24T03:11:18.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号：字母AI，作者：袁心玥，头图来自：AI生成 GPT-5.5，终于发布。 作为OpenAI当下最强的模型，这次更新的亮点是“为真实工作而设计”。 和过去的模型相比，GPT-5.5能更快理解使用者真正想做的事情，也能自己承担更多执行过程，可以在线检索信息、分析数据、生成文档和表格、操作软件，并在不同工具之间来回切换，直到把任务完成。 用户不再需要精细地拆解每一步，可以直接给它一个混乱、多步骤的问题，让它自己规划路径、调用工具、检查结果，在不确定中继续推进。 有网友直接评价，这是目前为止最接近AGI的模型。 目前，GPT-5.5已经在ChatGPT和Codex中向Plus、Pro"
-  },
-  {
-    "title": "AI Kills HTML?",
-    "link": "https://twitter.com/zan2434/status/2046982383430496444",
-    "pubDate": "2026-04-24T03:00:28.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 2 点赞 | 1 评论 | 链接: https://twitter.com/zan2434/status/2046982383430496444"
-  },
-  {
-    "title": "I gave an AI persistent memory, self-learning, and earned autonomy",
-    "link": "https://github.com/WingedGuardian/GENesis-AGI",
-    "pubDate": "2026-04-24T02:59:09.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 1 点赞 | 2 评论 | 链接: https://github.com/WingedGuardian/GENesis-AGI"
-  },
-  {
-    "title": "Medical Student Created Top Influencer 'Emily Hart' Using AI, Making $ Thousands",
-    "link": "https://www.ibtimes.co.uk/ai-generated-influencer-emily-hart-maga-1793120",
-    "pubDate": "2026-04-24T02:51:27.000Z",
-    "source": "Hacker News",
-    "description": "Hacker News 文章 | 2 点赞 | 4 评论 | 链接: https://www.ibtimes.co.uk/ai-generated-influencer-emily-hart-maga-1793120"
-  },
-  {
-    "title": " 爱奇艺热搜背后，揭秘“买脸”这门生意 ",
-    "link": "https://www.huxiu.com/article/4853240.html?f=rss",
-    "pubDate": "2026-04-24T02:36:40.000Z",
-    "source": "Huxiu",
-    "description": "过去一个月，AI视频行业的核心话题不是算法突破，而是“脸”。 爱奇艺宣布已有超百位艺人计划入驻AI艺人库，提出演员可以靠“数字分身”高产工作。这引发了行业对于“真人实拍是否会成为非遗”的讨论。"
-  },
-  {
-    "title": " AI时代真正难以弥合的不平等 ",
-    "link": "https://www.huxiu.com/article/4853355.html?f=rss",
-    "pubDate": "2026-04-24T02:30:00.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 六镇 ，作者：跑哥的自留地，头图来自：AI生成 上周末跟国内大厂负责大模型的小伙伴出去溜达了一圈，聊了很多，有些问题茅塞顿开，今天给大家分享下。 可能大家也知道，咱们平时使用的大模型，普遍都有俩版本，一个是轻量级的，面对主流免费人群，大家平时跟大模型唠嗑，其实都在跟轻量版的聊。还有一个高级版本，面对付费用户，算力更强，消耗巨大，成本更高。 这些都好理解，但他说真正的分配，其实要复杂一些，那就是大模型一方面向付费用户倾斜，但更重要的是，向高水平的人倾斜，你如果思考深度足够，平台也会给你分配更高级性能和更强的推理模块，相当于给你弄了个高级版本。面对高手，免费用户跟付费用户是差"
-  },
-  {
-    "title": " AI转型，老板们没说破的四个底层逻辑 ",
-    "link": "https://www.huxiu.com/article/4853318.html?f=rss",
-    "pubDate": "2026-04-24T02:15:00.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 波波夫同学 ，作者：波波夫，头图来自：AI生成 这两年，无论在美国还是中国，如果哪家科技公司，还没把“AI转型”四个字挂出来，你可以在评论区留言告诉我。 口号越响，越容易把人带偏。 一百人眼里，有两百个AI转型的版本。很多员工以为AI转型的目标是“大家都会写prompt”；很多中层以为任务是“每个部门都报一个案例”；很多老板则说得更含蓄，嘴上叫赋能，心里想的其实是成本。 如果把美国和中国过去两年的真实企业案例放在一起看，再把硅谷和中国企业家的公开发言一起摆上桌，你会发现这样的结论：AI转型并不是要把公司变成科幻片场，而是锻造成更高效率的商业机器。 这背后四条非常硬的经营逻"
-  },
-  {
-    "title": "用“活人感”做科技社区，小红书能成吗？",
-    "link": "https://36kr.com/p/3778772970444033?f=rss",
-    "pubDate": "2026-04-24T02:14:50.000Z",
-    "source": "36Kr",
-    "description": "文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。 如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速解决行业覆盖率的通用办法，但大水漫灌，或许会带来新老住民的气质冲突，尤其科技还是一个门槛较高的垂类，如果没有获得感，新用户的生命周期将会迅速缩短。 今天的小红书或许是一个不错的观察样本，它足够活跃，Tiktok难民事件某种程度上印证了这个社区面对跨"
-  },
-  {
-    "title": " 女孩挪用1700万打赏主播，钱为什么几乎不可能要回？ ",
-    "link": "https://www.huxiu.com/article/4853356.html?f=rss",
-    "pubDate": "2026-04-24T02:12:28.000Z",
-    "source": "Huxiu",
-    "description": "本文作者：游云庭（知识产权律师），题图来自：AI生成 最近，一则新闻引发热议：19岁女孩小梦担任父亲企业出纳，挪用1700万元公司资金打赏直播主播。父亲发现后被迫卖房仍无法填补窟窿，企业无法继续经营，巨额债务不能偿还，最终只能带女儿到公安机关自首，希望通过刑事程序追踪赃款。面对巨额打赏，公众最本能的反应往往是把钱退回来，但现实要比朴素的情感冷酷得多。今天就和大家聊聊这背后的法律困境。 一、刑事报案，钱还没追回，人可能先判了 看到报案，笔者的第一反应是，父亲报案或许能追回部分赃款，却意味着女儿将面临长期牢狱之灾。从法律定性上看，这起案件的核心首先不是能不能退打赏，而是刑事犯罪。作为企业出纳，挪用"
-  },
-  {
-    "title": " Gaming赛道在2026年最新观察有哪些？ ",
-    "link": "https://www.huxiu.com/article/4853357.html?f=rss",
-    "pubDate": "2026-04-24T01:57:45.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 出海同学会 ，作者：出海同学会，原文标题：《干货｜Gaming赛道在2026年最新观察有哪些？》 我是在硅星人这边，负责整体内容，所以这次更多是从科技内容平台的角度，分享一下参加GDC的几个直观感受。 我觉得最明显的是三点。第一，今年现场人气明显不如前几年。注册、领badge都没什么排队，后来和参展方、游戏厂商聊下来，大家的感受也都差不多：行业整体在下行，裁员和调整很多，所以GDC这种行业大会的热度也跟着下来了。第二，AI相关话题明显猛涨。今年有非常多场都在讲AI，这个热度是肉眼可见的。第三，大家讨论的问题变了。整个行业一边焦虑，一边兴奋。焦虑是因为行业在往下走，兴奋是因"
-  },
-  {
-    "title": " 再度呼吁，电影票降价吧 ",
-    "link": "https://www.huxiu.com/article/4853351.html?f=rss",
-    "pubDate": "2026-04-24T01:39:39.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 跃幕电影 ，作者：庞宏波 从五一到暑期，可能是所剩不多还可以考虑降价换人次的窗口了 “电影人要站出来捍卫电影院。” 这是昨天贾樟柯在北影节论坛上的发言。 现阶段电影想要坚持现有的商业模式，能存活下来的唯一路径就是捍卫电影院，救活电影院是全世界共同的课题。 同样是昨天，华谊兄弟被正式申请破产。目前正在举办的北影节几乎每一个话题都绕不开AI，无论是否愿意承认如今的电影就是处在一个岔路口。 2024年暑期档结束后，就曾写文呼吁电影应该降价。一年半过去，的确几个档期的平均票价出现了回落，但回落力度更大的是票房和观影人次。 这周三大盘单日票房产出1285.81万，营业影院11342"
-  },
-  {
-    "title": " 假期、人少、景美：中国人旅游的“不可能三角” ",
-    "link": "https://www.huxiu.com/article/4853342.html?f=rss",
-    "pubDate": "2026-04-24T01:35:00.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 劲旅网 ，编辑：壮壮，作者：陈杰tigereat，头图来自：AI生成 五一假期将至，你是不是又在到处找“人少、景美”的旅游目的地？ 劝你别费劲了。 不是你攻略没做够，而是这个地方根本不存在。 因为中国旅游业，存在一个“不可能三角”。 一 最近，一份“五一热力图”在社交媒体上引发热议。 一份由资深旅游博主@冷三岁综合OTA上全国多个城市品牌连锁酒店价格数据制作的热力图，直观反映出五一期间国内各地的旅游冷热度。在众多网友评论中，劲旅君提炼出一个共同需求： 五一期间，以自己所在城市为中心，国内到底有哪些人少、景美的旅游目的地？ 如果大家只是单纯地不想挤人头，可去的地方还挺多。 "
-  },
-  {
-    "title": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家",
-    "link": "https://36kr.com/p/3778175428777218?f=rss",
-    "pubDate": "2026-04-24T01:30:00.000Z",
-    "source": "36Kr",
-    "description": "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。 阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。 "
-  },
-  {
-    "title": " 建筑师，准备好和AI 做同事了吗？ ",
-    "link": "https://www.huxiu.com/article/4853348.html?f=rss",
-    "pubDate": "2026-04-24T01:21:16.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 建日筑闻 ，作者：ADCNews，原文标题：《建筑师，准备好和 AI 做同事了吗？》 工具的迭代始终重塑着建筑行业的生态。从手工绘图到计算机辅助设计，工具进步极大提升了建筑效率，更让设计突破了传统制图的物理局限，赋予建筑师更自由的创意表达空间。然而，从去年的Deepseek到今年的“养蟹”（Claude）、“养虾”（Openclaw）再到这几天突然兴起的“养马”（Hermes Agent)……不断迅速迭代升级并始终被人们所探讨的人工智能却与前几者有着本质上的不同——一方面随着人工智能和生成系统融入日常工作流程，工具不再仅仅是建筑师双手的被动延伸，而是开始作为半自主主体发挥"
-  },
-  {
-    "title": " 你越是这样，领导越不敢动你 ",
-    "link": "https://www.huxiu.com/article/4853333.html?f=rss",
-    "pubDate": "2026-04-24T00:39:03.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 技术领导力 ，作者：Mr.K 有读者问我，大环境之下怎样才能让自己的职业发展稳中有升。这是个非常实际的问题。裁员潮不断、AI替代、职场内卷，想要让自己的职场道路越走越宽，除了要有拿得出手的业绩，还要处理好跟领导的关系。 所谓处理好关系，不是一味讨好领导，你越是跪舔，领导反而越不重视你。下面，结合我在职场二十几年的经验。管过人，也被人管过。谈一谈究竟怎么做，才能既让领导重用你，又不敢轻易拿捏你。 01 有稳定的产出，关键时刻能兜底 结果永远是职场里最硬的底牌。 领导真正怕的是什么？不是你这个人难搞，而是动了你之后，团队的交付会出问题。项目烂尾、客户投诉、季度目标完不成..."
-  },
-  {
-    "title": " 团播如何让“大姐”狂刷1700万？ ",
-    "link": "https://www.huxiu.com/article/4853306.html?f=rss",
-    "pubDate": "2026-04-24T00:34:21.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号：娱乐资本论，作者：莉拉，原文标题：《揭秘团播留1700万“大姐”套路：放饭、CP、死亡守护》，头图来自：AI生成 近两天，郑州19岁女孩小梦挪用1700万元当“榜一大姐”的事，反复冲上热搜。“团播”这个词，也再次从直播间走进了公共舆论场。 今年19岁的小梦中专辍学后，在父亲的冷链档口负责管账，从2024年7月开始，她陆续挪用档口资金累计达1700万元，全部用于直播间打赏和拆卡消费，成为SK等头部团播直播间的“榜一大姐”。其父亲朱先生称，这笔钱是自己的身家性命，包含银行贷款、亲友借款和生意伙伴欠款，如今档口濒临破产，一家人的生计陷入绝境。 目前，SK（帅酷网络）已紧急通知各主"
-  },
-  {
-    "title": " 2025年起AI内容占比超50%，“人味”成最大溢价…… ",
-    "link": "https://www.huxiu.com/article/4853331.html?f=rss",
-    "pubDate": "2026-04-24T00:17:25.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： TOP创新区研究院 ，作者：新兴产业研究组 2026年3月26日，ARK Invest（方舟投资）首席未来学家Brett Winton在X（原Twitter）上发布了一张震撼全网的图表，阅读量超过了2个亿！ 在这张对数坐标系的图表上，展示了自1500年（古腾堡印刷术普及后）至2030年全球年度文字产量的变化。 —————黑线（人类文字产量）： 经历了几百年的缓慢爬坡。从手抄本到活字印刷，从报纸到互联网、电子邮件和社交媒体，尽管有着几十亿人口的加持，黑线的上升依然受制于人类的生物学极限。 —————紫线（AI文字产量）： 在2022年之前几乎贴地平移，但在ChatGPT诞生"
-  },
-  {
-    "title": "8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港元；伊朗将恢复往返中国的航班",
-    "link": "https://36kr.com/p/3780065714148610?f=rss",
-    "pubDate": "2026-04-24T00:05:57.000Z",
-    "source": "36Kr",
-    "description": "今日热点导览 抖音整治AI不当内容，重点处置利用AI技术换脸、盗声 受燃油价格冲击，德国汉莎拟削减2万架次航班 刹车功能或丧失，大众在美召回18853辆汽车 光线传媒：公司第一款3A游戏开发进展比较顺利 TOP3大新闻 华谊兄弟被申请破产重整 近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江省金华市中级人民法院。 此次申请重整的债务，源于华谊兄弟与泰睿飞克的广告合同纠纷，法院 2025年9月判决华谊兄弟支付欠款，但公司至今未履行。2026年4月15日，华谊兄弟发布公告，债权人北京泰睿飞克科技有限公司以公司 “不能清偿到期债务且明显缺乏清偿"
-  },
-  {
-    "title": " Claude Design 发布，我那个做了十年设计的朋友说：关我屁事 ",
-    "link": "https://www.huxiu.com/article/4853329.html?f=rss",
-    "pubDate": "2026-04-24T00:03:16.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： ToB老人家 ，作者：王戴明 Claude Design发布当天，Figma股价跌了7.7%。 我把这个消息发给一个有十几年经验的大厂设计师朋友，他回了我一句： \"又做不了什么专业的东西，关我屁事。\" 我理解他。十年了，从一个小白成为一个设计专家，这条路走得不容易。凭什么一个AI产品发布，就要让他开始慌？ 所以我忍着一句话没有说出来：Claude Design发布这件事，恐怕会深刻影响每一个软件从业者。 一、Figma的护城河，从来不是你以为的那个东西 很多人以为Figma牛，是因为协作能力强、组件库好用、设计系统完善。 这些都是表象。 Figma真正的护城河，是\"只有设"
-  },
-  {
-    "title": " F1，一个注定为饭圈而生的运动 ",
-    "link": "https://www.huxiu.com/article/4853313.html?f=rss",
-    "pubDate": "2026-04-24T00:00:01.000Z",
-    "source": "Huxiu",
-    "description": "饭圈不是原罪，关键是一个项目的商业模式是否以饭圈收入作为核心。本文来自微信公众号： 毒眸 ，编辑：刘南豆，作者：集语云，头图来自：AI生成 20多万张门票上线即空，偶像下榻的酒店预定量暴增，应援花墙连绵百米，灯牌、手幅、定制周边应有尽有，关于颜值、CP互动的讨论量持续攀升，这不是哪个顶流明星的演唱会，而是F1上海站的盛况。 我们不得不承认，F1这项顶级赛车运动，正在经历一场史无前例的饭圈化浪潮，以至于某知名媒体发出了“F1，被饭圈女孩拯救的没落老钱游戏”的结论，再次引发了各界讨论。 而这一切的根源，其实都始于2017年美国自由媒体集团对F1的收购。 今天，我们就深度复盘一下，F1是怎么一步步变"
-  },
-  {
-    "title": "打造生物智能基础设施，AI4S企业「奥明星程」获超亿元A轮融资｜36氪首发",
-    "link": "https://36kr.com/p/3778831119897600?f=rss",
-    "pubDate": "2026-04-24T00:00:00.000Z",
-    "source": "36Kr",
-    "description": "36氪获悉，AI for Science公司「奥明星程」近日完成超亿元A轮战略融资。本轮投资方包括深创投、复星医药（复健资本）、太平股权、广东中医药大健康基金、杭实集团等多家头部投资机构、产业链龙头企业及多地国资。同时，公司也与包括深圳湾实验室在内的多家国际顶尖科研机构建立了深度成果转化合作机制，形成覆盖技术研发、临床应用及产业生态赋能的全链条布局。 2025年被视作AI4S发展的分水岭。随着通用科研引擎的出现，以及英伟达GTC大会将AI4S与大语言模型、具身智能并列为人工智能三大核心方向，全球资本与技术资源正加速向该领域聚集。然而，当前多数AI在科学探索中仍停留在“结果拟合”层面，在机制理解"
-  },
-  {
-    "title": " AI涌现能力的五个层级：AI训练师的亲笔记录 ",
-    "link": "https://www.huxiu.com/article/4853327.html?f=rss",
-    "pubDate": "2026-04-23T23:51:05.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 人人都是产品经理 ，作者：周周粥粥，原文标题：《AI涌现能力的五个层级——AI训练师的亲笔记录》 “涌现”这个词被用得太泛了。模型多做对了一道数学题叫涌现，突然能写诗了也叫涌现，好像只要出现一个训练目标里没显式定义的能力，就统统往这个筐里扔。 站在训练者的角度，这些现象之间的差异是巨大的。有些涌现你提前能感知到——数据到位了，信号够了，能力迟早会出来，它只是在等一个临界点。有些涌现是真的意外——你翻遍训练数据也找不到它学这个的来源。 但我在模型训练中观察到的涌现现象，大致可以归为五个层级。 第一层：临界点亮 这是最基础的涌现形式，也是最容易被低估的。 说它基础，是因为它本"
-  },
-  {
-    "title": " 给孩子的一封信：在AI平权时代，寻找通往未来的路 ",
-    "link": "https://www.huxiu.com/article/4853316.html?f=rss",
-    "pubDate": "2026-04-23T23:40:00.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：上官芸，头图来自：AI生成 亲爱的孩子： 昨晚，你拿着一张刚刚及格的数学试卷走到我面前，眼底藏着试探与沮丧。我没有像你预期的那样责备你，而是摸了摸你的头。那一刻，我脑海中闪过的是白天刚看的一份报告——高盛预测全球有3亿个工作岗位将被AI取代；而就在上个月，一家美国的老牌文理学院因为招生困难宣布即将倒闭。 作为你的家长，我必须承认：在这个被生成式人工智能（GenAI）和智能体（Agent）不断改写的2026年，很多大人感到过深深的焦虑和疲惫。 我们这一代人，是伴随着“工业化教育流水线”长大的。从小到大，我们被灌输的信条是：只要你努力背诵知识、刷题、考上名"
-  },
-  {
-    "title": " 开源一个PPT Skill|压进了我10年的设计经验 ",
-    "link": "https://www.huxiu.com/article/4853323.html?f=rss",
-    "pubDate": "2026-04-23T23:36:26.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 歸藏的AI工具箱 ，作者：歸藏的 AI 工具箱，原文标题：《开源一个 PPT Skill｜压进了我 10 年的设计经验》 上周被李继刚老师邀请去做了场私享会，关于AI和组织的访谈。 散场之后，发现大家问得最多的一句话是：\"那个PPT是什么做的，能不能开源一下？\" 没想到副产品成了主产品。 索性就把它开源了，叫guizang-ppt-skill（github.com/op7418/guizang-ppt-skill）。 今天这篇文章聊聊这个Skill长什么样，以及作为一个做了十年设计的人，我为什么会觉得它好看。 它长什么样 打开Skill生成的PPT，第一眼的感觉大概是：这"
-  },
-  {
-    "title": " 实测ChatGPT最新生图模型三大发现 ",
-    "link": "https://www.huxiu.com/article/4853320.html?f=rss",
-    "pubDate": "2026-04-23T23:11:25.000Z",
-    "source": "Huxiu",
-    "description": "本文来自微信公众号： 快刀青衣 ，作者：快刀青衣 AI第一次从包工头，变成了建筑设计师。 以前我们混互联网论坛时，常说「无图无真相」，意思是你说的话我不信，有本事就把图或照片发上来。 之所以会这样，原因很简单，当时Photoshop门槛很高，会P图的人在论坛上凤毛麟角，大家默认图片的真实性远高于文字。 但过去这半年，AI生图领域的竞争异常激烈，很多人可能只是耳闻，却不清楚具体激烈程度。我来和你盘点一下。 首先是2025年8月，谷歌发布图像模型Nano Banana，一下子把AI生图的天花板抬高了一大截。 而在年底，面对谷歌Gemini 3+Nano Banana的全面攻势，山姆·奥特曼在公司内"
-  },
-  {
-    "title": " 当某些车企还在为“大模型归谁管”内耗 ",
-    "link": "https://www.huxiu.com/article/4852358.html?f=rss",
-    "pubDate": "2026-04-23T23:10:53.000Z",
-    "source": "Huxiu",
-    "description": "出品｜虎嗅汽车组 作者｜杨杰 题图｜AI生成 “天时已至，地利已成，唯独人和是变量。” 2026北京车展开幕在即，一位不愿具名的车企智能化负责人向虎嗅汽车发出了这样的感慨。他所在的品牌，将在本届车展上高调发布一款搭载AI大模型的智能产品。但现在，座舱和智驾两个团队仍在争吵不休，没人知道到底该谁负责部分功能的落地。 就在这家企业内部仍在进行团队博弈的同时，理想汽车CEO李想在对内讲话中抛出了一个更为紧迫的判断，2026年是车企上车AI的最后窗口——这也是整个行业的共识。 最新消息显示，特斯拉中国车机语音大模型服务将接入豆包+DeepSeek大模型，该服务已于4月20日完成备案。特斯拉Model "
-  },
-  {
-    "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
-    "pubDate": "2026-04-23T22:27:11.000Z",
+    "title": "China freezes new robotaxi licenses after Baidu chaos",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/920312/china-suspends-autonomous-vehicle-permits-baidu-chaos",
+    "pubDate": "2026-04-29T10:39:21.000Z",
     "source": "The Verge",
-    "description": "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber"
+    "description": "A Baidu Apollo Go robotaxi in Wuhan, China. | Image: Bloomberg via Getty Images China has suspended new licenses for autonomous vehicles, Bloomberg reports, citing unnamed people familiar with the matter. The move comes after dozens of robotaxis operated by Chinese tech giant Baidu ground to a halt "
   },
   {
-    "title": " 知识型工作的智能化：一项实践探索 ",
-    "link": "https://www.huxiu.com/article/4853317.html?f=rss",
-    "pubDate": "2026-04-23T22:07:36.000Z",
+    "title": " iOS27发力AI 修图，苹果也开始AI 焦虑了 ",
+    "link": "https://www.huxiu.com/article/4854829.html?f=rss",
+    "pubDate": "2026-04-29T10:37:52.000Z",
     "source": "Huxiu",
-    "description": "本文来自微信公众号： 清华管理评论 ，编辑：排版|尚慧林，作者：李烨 等 知识型工作的智能化不是一次单纯的技术革命，而是一次深层的知识革命。它要求企业正视并建设自身的专属知识体系，把分散在不同个体和部门中的经验沉淀为组织的集体智慧。在这个过程中，那些能够在技术与知识两方面同时发力的企业，将在未来的竞争中率先跨越关键卡点，真正把人工智能的潜力转化为生产力。 过去几十年，人工智能（AI）的发展主要集中在制造、物流、零售等流程化场景。这些领域的任务往往具有明确的标准和可量化的指标，因此适合通过规则化的程序实现自动化。而在法律、医疗、金融、科研等高度依赖专业知识和经验判断的领域，AI的应用则显得步履缓"
+    "description": "本文来自微信公众号： 爱范儿 ，作者：发现明日产品的，编辑：杜晨，原文标题：《iOS 27 发力 AI 修图，苹果也开始 AI 焦虑了》 今年的iOS 27，将会AI味浓浓。 彭博社报道，苹果准备在今年的WWDC开发者大会上推出一套全新的AI修图工具，将会集成在iPhone、iPad和Mac的照片应用中。 沉寂了一年的Apple智能，将随着iOS 27的推出，再次回到聚光灯下。 两年前，苹果还公开表示不做AI修图功能，在竞争对手的步步紧逼之下，终于还是忍不住跟进了。 iOS 27：AI无处不在 在iOS 18推出的Apple Intelligence工具集，苹果就已经允许用户利用AI简单消除照"
   },
   {
-    "title": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
-    "link": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "pubDate": "2026-04-23T21:00:00.000Z",
-    "source": "TechCrunch",
-    "description": "Sierra, the AI customer service agent startup founded by technologist Bret Taylor, announced today that it has acquired the YC-backed French startup Fragment."
+    "title": " 横店不缺“霸总”，但缺“爹”，马比普通演员还贵 ",
+    "link": "https://www.huxiu.com/article/4854827.html?f=rss",
+    "pubDate": "2026-04-29T10:37:18.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： IT时报 ，作者：孙永会 “造梦之城”横店又热闹起来了，有时还会堵车。 演员吴维斌所住的楼层，原本空着的出租屋逐渐住满了人，他也渐渐接到了几部戏。在这之前，这座影视城刚经历一场行业波动，让被称为“横店戏王”的吴维斌持续一个多月无戏可拍，焦灼笼罩着他和无数同行。 AI的爆发，便是其中一个原因。过去一段时间，AI偷脸、演员是否会被替代、AI短剧分市场“蛋糕”等话题充斥从业者的日常生活。于是，有人选择转行，从短剧导演转做演唱会导播，有人决定做点小生意，继续讨生活。 科班出身的演员庄文婕在经历了一番内心“斗争”后，最终告别横店，重返舞台剧的聚光灯下。如今行业波动趋缓，可在吴维斌眼"
   },
   {
-    "title": "Meet Noscroll, an AI bot that does your doomscrolling for you",
-    "link": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
-    "pubDate": "2026-04-23T19:38:25.000Z",
-    "source": "TechCrunch",
-    "description": "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you."
+    "title": " 超级星期四来袭，谷歌、微软、亚马逊、Meta财报将公布，AI面临“大考”，美联储重磅利率决议在即，鲍威尔或上演“最后一舞” ",
+    "link": "https://www.huxiu.com/article/4854820.html?f=rss",
+    "pubDate": "2026-04-29T10:28:51.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 每日经济新闻 ，作者：每经记者，原文标题：《超级星期四来袭！谷歌、微软、亚马逊、Meta财报将公布，AI面临“大考”！美联储重磅利率决议在即，鲍威尔或上演“最后一舞”｜美股盘前》 ①【三大期指齐涨】截至发稿，道指期货涨0.08%、标普500指数期货涨0.07%、纳指期货涨0.28%。 科技股整体表现不一。甲骨文跌约0.46%，英伟达跌0.24%，博通涨0.25%，AMD涨0.31%，ARM涨1.03%，CoreWeave涨0.63%。 此前有报道称，OpenAI未达内部营收目标，新增用户规模同样不及预期，引发市场对AI行业整体高额开支能否持续的新一轮质疑。OpenAI回应"
   },
   {
-    "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI ‘super app’",
-    "link": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-    "pubDate": "2026-04-23T18:29:29.000Z",
-    "source": "TechCrunch",
-    "description": "OpenAI says its latest model offers increased capabilities across a broad variety of categories."
+    "title": " 为什么AI需要专门的硬件加速？从GPU，TPU到LPU的技术演进全景 ",
+    "link": "https://www.huxiu.com/article/4854809.html?f=rss",
+    "pubDate": "2026-04-29T10:08:10.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 歪睿老哥 ，作者：歪睿老哥 聊AI芯片之前，先想明白一个问题：为什么CPU跑AI这么慢？ 本质上，神经网络计算就是海量的矩阵乘法和卷积运算。这些运算的特点是计算密度高、并行性强，但控制逻辑简单。 CPU设计目标是通用计算，强大的控制单元和缓存层次用来处理复杂的分支和随机内存访问，但拿来跑矩阵乘法就像用跑车拉货，不是不能干，就是效率太低。 硬件加速的核心思路其实很简单：把晶体管用在刀刃上。 既然神经网络大部分时间都在算矩阵乘，那就把芯片面积尽可能多地堆计算单元，同时设计专门的数据通路和内存层次，减少数据搬运的开销。 过去十年，AI硬件已经演化成一个非常庞杂的生态，不同架构在"
   },
   {
-    "title": "Anthropic&#8217;s Mythos breach was humiliating",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
-    "pubDate": "2026-04-23T18:24:56.000Z",
+    "title": " 算力越高产品竞争力越强？汽车公司可能不这么想 ",
+    "link": "https://www.huxiu.com/article/4854808.html?f=rss",
+    "pubDate": "2026-04-29T10:06:04.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 电厂 ，编辑：高宇雷，作者：翟芳雪，原文标题：《算力越高产品竞争力越强？汽车公司可能不这么想 | 电厂》 2026年的北京车展，AI无处不在。 从辅助驾驶到Robotaxi，从智能座舱到人形机器人，几乎所有展台都在讲“更强的能力”。但在密集的信息轰炸之下，一个更值得注意的变化是，供应商们不再单纯强调“更强”，而是在反复强调另一件事：如何让这些能力变得“更轻”。 奇瑞汽车、华阳通用都在车展宣布与英特尔达成合作，推出新款AIBOX产品，通过标准化高速接口便捷接入，通过外置大脑减轻汽车座舱算力压力，赋予其灵活的AI迭代能力。 同样推出AIBOX的还有商汤绝影，他们的侧重点在于为"
+  },
+  {
+    "title": "GitHub rushed to fix a critical vulnerability in less than six hours",
+    "link": "https://www.theverge.com/news/920295/github-remote-code-execution-vulnerability-fix",
+    "pubDate": "2026-04-29T10:04:25.000Z",
     "source": "The Verge",
-    "description": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release publicly, it appears the model fell into the wrong hands anyway. According to Bloomberg, a \"small group of"
+    "description": "GitHub employees fixed a critical remote code execution vulnerability in less than six hours last month. Wiz Research used AI models to uncover a vulnerability in GitHub's internal git infrastructure that could have allowed attackers to access millions of public and private code repositories. \"Our s"
   },
   {
-    "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
-    "pubDate": "2026-04-23T18:00:00.000Z",
-    "source": "The Verge",
-    "description": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI just released GPT-5.4 last month, but says that the new GPT-5.5 \"excels\" at tasks like writing and de"
+    "title": "How will AI crypto trading bots shape automated trading in 2026?",
+    "link": "https://www.bitdeal.net/crypto-trading-bot-development",
+    "pubDate": "2026-04-29T09:51:26.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.bitdeal.net/crypto-trading-bot-development"
   },
   {
-    "title": "Era raises $11M to build a software platform for AI gadgets",
-    "link": "https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets/",
-    "pubDate": "2026-04-23T16:00:00.000Z",
+    "title": "Coby Adcock’s Scout AI raises $100 million to train its models for war. We visited its bootcamp",
+    "link": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/",
+    "pubDate": "2026-04-29T09:45:00.000Z",
     "source": "TechCrunch",
-    "description": "Era thinks that we will see many form factors of AI hardware, including glasses, rings, and pendants."
+    "description": "We visited Scout AI's training ground where it's working on AI agents that give individual soldiers control of fleets of autonomous vehicles."
   },
   {
-    "title": "美国百年太妃糖易手，Roca乐家被全资收购",
-    "link": "https://36kr.com/p/3779468716938499?f=rss",
-    "pubDate": "2026-04-23T14:01:47.000Z",
+    "title": " 传奇交易员都铎·琼斯：向巴菲特道歉，AI公司的共识是等5000万人死了再说，警告美国股市可能跌35% ",
+    "link": "https://www.huxiu.com/article/4854800.html?f=rss",
+    "pubDate": "2026-04-29T09:39:13.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 每日天使 ，作者：每日天使 保罗·都铎·琼斯可能是华尔街最不适合上播客的人。 这位TudorInvest mentCorporation的创始人、1987年股灾中靠精准做空一战成名的宏观交易员，过去50年习惯了凌晨两点半起床盯伦敦开盘，而不是坐在录音棚里聊天。 但在这期Invest Like The Best里，他罕见地敞开了话匣子，而且一开口就扔出了不少重磅观点。 他直接向沃伦·巴菲特道歉，承认自己用整个职业生涯\"成功躲避了复利的力量\"，而巴菲特9岁就懂了。 他回忆了1976年入行后亲眼目睹的几次大崩盘：邦克·亨特如何在六周内从110亿美元身家跌落到近乎破产，以及198"
+  },
+  {
+    "title": "SnoreStop AI: Stop Snoring",
+    "link": "https://apps.apple.com/gr/app/snorestop-ai-stop-snoring/id6761017053",
+    "pubDate": "2026-04-29T09:31:41.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://apps.apple.com/gr/app/snorestop-ai-stop-snoring/id6761017053"
+  },
+  {
+    "title": "GraphOS – Visual runtime and debugger for AI agents (with local-first execution)",
+    "link": "https://github.com/ahmedbutt2015/graphos",
+    "pubDate": "2026-04-29T09:30:00.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 1 评论 | 链接: https://github.com/ahmedbutt2015/graphos"
+  },
+  {
+    "title": " 为什么我们迟迟用不上AI手机？ ",
+    "link": "https://www.huxiu.com/article/4854795.html?f=rss",
+    "pubDate": "2026-04-29T09:29:01.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 星海情报局 ，作者：星海老局 2007年，乔布斯在发布会上说，iPhone是“一部革命性的手机”。 话说的没毛病，但是乔帮主如果活到现在，可能大概率会觉得这场革命还不够彻底。 手机的演化，表面上看是“技术带来了生态变化，而生态的变化，又带来了消费者的行为变化”，但如果退一步看，这条线背后有一个更深的逻辑：人与手机的关系发生了质变，人与机器的边界在不断模糊。 诺基亚时代，手机是通讯工具。你用它打电话、发短信，它的存在感止于你主动拿起它的那一刻。 iPhone出现之后，手机变成了“外接器官”。它延伸了你的记忆（备忘录、相册），延伸了你的感知（地图、搜索），延伸了你的社交（微信"
+  },
+  {
+    "title": "Orchestrating AI Code Review at Scale",
+    "link": "https://blog.cloudflare.com/ai-code-review/",
+    "pubDate": "2026-04-29T09:25:19.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://blog.cloudflare.com/ai-code-review/"
+  },
+  {
+    "title": "Welcome to the \"find out\" stage of AI",
+    "link": "https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/",
+    "pubDate": "2026-04-29T09:22:28.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://stackoverflow.blog/2026/04/27/welcome-to-the-find-out-stage-of-ai/"
+  },
+  {
+    "title": "General Motors is adding Gemini to four million cars",
+    "link": "https://www.theverge.com/transportation/920285/general-motors-gm-gemini-ai-update",
+    "pubDate": "2026-04-29T09:14:38.000Z",
+    "source": "The Verge",
+    "description": "Gemini is coming to Cadillac, Chevrolet, Buick, and GMC vehicles. | Image: General Motors General Motors is planning to bring Google's Gemini AI assistant to around four million vehicles across the US. Model year 2022 and newer Cadillac, Chevrolet, Buick, and GMC vehicles with Google built-in will b"
+  },
+  {
+    "title": " 为什么AI你根本就不用学？GPT Image2.0治好了我的AI精神内耗 ",
+    "link": "https://www.huxiu.com/article/4854493.html?f=rss",
+    "pubDate": "2026-04-29T09:00:00.000Z",
+    "source": "Huxiu",
+    "description": "AI时代你学得越慢越不用学？AI工具迭代太快，今天刚学会，明天就被淘汰，学慢了还不如不学。全网都在制造AI焦虑，仿佛不会用AI就要被时代抛弃，可其实大多数人学的都是过时的操作和缺陷。今天我们就来聊一聊，为什么说作为普通人AI你根本就不用学。"
+  },
+  {
+    "title": "Show HN: AI powered coding interview practice",
+    "link": "https://protechstack.com/practice",
+    "pubDate": "2026-04-29T08:58:03.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 0 评论 | 链接: https://protechstack.com/practice"
+  },
+  {
+    "title": "Taylor Swift files trademarks for voice and image amid concern over AI misuse",
+    "link": "https://www.theguardian.com/music/2026/apr/27/taylor-swift-trademarks-voice-image-ai",
+    "pubDate": "2026-04-29T08:54:31.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.theguardian.com/music/2026/apr/27/taylor-swift-trademarks-voice-image-ai"
+  },
+  {
+    "title": " 1M 上下文时代太费Token，告诉你我的Coding Agent 省钱方法 ",
+    "link": "https://www.huxiu.com/article/4854782.html?f=rss",
+    "pubDate": "2026-04-29T08:52:03.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： MacTalk ，作者：池建强，原文标题：《1M 上下文时代太费 Token，告诉你我的 Coding Agent 省钱方法》 先说结论，怎么省钱呢，其实就是做好会话管理。 1M上下文是什么意思？就是在一次会话（session）里，模型能看见的大概100万个token。最近发布的GPT-5.5、Claude 4.6/4.7、Qwen 3.6-Plus、DeepSeek V4等等都是原生支持1M上下文，这里面有几个关键的概念： 1、在Claude Code这类Coding Agent里，上下文不是一句两句对话，而是一个大杂烩：系统提示词、长期记忆、调用过的工具、工具的输出、"
+  },
+  {
+    "title": "Ubuntu silicon-optimized inference snaps for AI",
+    "link": "https://canonical.com/blog/canonical-releases-inference-snaps",
+    "pubDate": "2026-04-29T08:29:00.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 5 点赞 | 0 评论 | 链接: https://canonical.com/blog/canonical-releases-inference-snaps"
+  },
+  {
+    "title": " 为了逃避考试，他发明了最好的压缩算法（的一半） ",
+    "link": "https://www.huxiu.com/article/4854445.html?f=rss",
+    "pubDate": "2026-04-29T08:14:50.000Z",
+    "source": "Huxiu",
+    "description": "zip为啥会成为最常见的压缩算法？它的效率究竟高不高，原理又是啥？这个几乎成为压缩包代称的词语，它的历史可谓一波三折：一位不想考试的MIT研究生奠定了基础，后来的两次专利战争促进了它的诞生。"
+  },
+  {
+    "title": " 走进比科斯：真正的爆品，不是灵感砸中的，而是被一套方法反复做出来的 ",
+    "link": "https://www.huxiu.com/article/4854765.html?f=rss",
+    "pubDate": "2026-04-29T08:12:54.000Z",
+    "source": "Huxiu",
+    "description": "4月25日，随行灯塔-标杆5号，我们走进了比科斯集团。 如果只看结果，比科斯集团创始人陈克勇身上，有着诸多极具辨识度的标签：深耕消费电子、布局小米生态链产品、钻研新型材料、落地光学器材，同时打造AI辅助产品设计工具。公司业务覆盖大众生活消费品，也布局了诸多硬核科技项目，业务版图十分多元。 但深度走访过后，我最大的感触并非“这家公司涉猎极广”，而是：比科斯最值得研究的，不是做了多少产品，而是它为什么能持续做出产品。 它最值得各行各业学习的，不是偶然打造出几款爆款单品，而是真正把“做产品”，打磨成了企业可以反复复用、稳定落地的核心能力。 当下多数企业，或许可以靠创意、机遇打造出一款优质产品，却难以"
+  },
+  {
+    "title": "Big AI Cluster Little Power the 8x Nvidia GB10 Cluster – ServeTheHome",
+    "link": "https://www.servethehome.com/big-cluster-little-power-the-8x-nvidia-gb10-cluster-marvell-cisco-ubiquiti-qnap-arm/",
+    "pubDate": "2026-04-29T08:09:01.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 9 点赞 | 0 评论 | 链接: https://www.servethehome.com/big-cluster-little-power-the-8x-nvidia-gb10-cluster-marvell-cisco-ubiquiti-qnap-arm/"
+  },
+  {
+    "title": "Workers Training Meta's AI Could Be Laid Off",
+    "link": "https://www.wired.com/story/meta-covalen-ai-workers-layoffs/",
+    "pubDate": "2026-04-29T07:45:00.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 16 点赞 | 0 评论 | 链接: https://www.wired.com/story/meta-covalen-ai-workers-layoffs/"
+  },
+  {
+    "title": "Study Finds a Third of New Websites Are AI-Generated",
+    "link": "https://www.404media.co/study-finds-a-third-of-new-websites-are-ai-generated/",
+    "pubDate": "2026-04-29T07:19:24.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 6 点赞 | 0 评论 | 链接: https://www.404media.co/study-finds-a-third-of-new-websites-are-ai-generated/"
+  },
+  {
+    "title": "ANP – A binary protocol for AI agent-to-agent price negotiation (no LLM tokens)",
+    "link": "https://github.com/victornominista/anp",
+    "pubDate": "2026-04-29T07:08:01.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 5 点赞 | 0 评论 | 链接: https://github.com/victornominista/anp"
+  },
+  {
+    "title": " 今年五一，“社恐型酒店”火了 ",
+    "link": "https://www.huxiu.com/article/4854721.html?f=rss",
+    "pubDate": "2026-04-29T07:06:00.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：DT商业观察，作者：张晨阳、郑晓慧，设计：郑舒雅、戚桐珲，头图来自：AI生成 五一将至，出去旅游，如何订酒店又成了一个热门话题。 你是不是也有过这样的踩雷经历：旅行前刷了三天攻略，结果还是被“照骗”酒店坑了，明明想躺平放松，却总遇到床品不够干净、隔音很差…… 当然，有时你也会为酒店的贴心小服务而惊喜，比如晚上九、十点，风尘仆仆赶到酒店，发现提供了暖心的粥品夜宵；比如临走时，前台送了一个具有城市特色的伴手礼…… 为了更好地了解大家对酒店的真实偏好和“避雷”标准，《DT商业观察》在五一之前发起了“酒店消费偏好小调研”，这次我们一共收到1640位受访者的回答，其中1628位受访者"
+  },
+  {
+    "title": "Rebuilding the Data Stack for AI",
+    "link": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+    "pubDate": "2026-04-29T07:03:26.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 5 点赞 | 0 评论 | 链接: https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/"
+  },
+  {
+    "title": "Ask HN: How do you differentiate with AI coding interviews?",
+    "link": "https://news.ycombinator.com/item?id=47944894",
+    "pubDate": "2026-04-29T06:43:20.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 - I haven’t interviewed for a coding job in a while, not since before AI coding was a thing.\nI’m wonde..."
+  },
+  {
+    "title": "AWS launches Amazon Quick desktop AI assistant",
+    "link": "https://aws.amazon.com/quick/",
+    "pubDate": "2026-04-29T06:39:59.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 1 评论 | 链接: https://aws.amazon.com/quick/"
+  },
+  {
+    "title": " 马斯克当庭控诉奥特曼：偷走一家慈善机构是不对的 ",
+    "link": "https://www.huxiu.com/article/4854713.html?f=rss",
+    "pubDate": "2026-04-29T06:30:47.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：字母AI，作者：袁心玥，题图来自：AI生成 当地时间4月28日，加州奥克兰联邦法院，马斯克起诉OpenAI一案开始开庭陈述，双方各执一词。 马斯克一方的律师先给陪审团下了定义：和马斯克的个人利益无关，这是一场关于“慈善机构被偷走”的案子。 他的说法是，OpenAI最初是一家非营利组织，使命是确保通用人工智能造福全人类，不受财务回报约束，不是为了奥特曼或者布罗克曼，也不是为了微软。它不应该变成一台让少数人发财的机器。 马斯克本人上庭作证，称：偷走一家慈善机构是不对的。 OpenAI一方则把问题引导到了私人恩怨上。 代表奥特曼和布罗克曼的律师告诉陪审团，他们之所以坐在这里，不是"
+  },
+  {
+    "title": " 咖啡“续命”弱爆了，这颗准能砸醒牛顿的果子，才是真正的“天然闹钟” ",
+    "link": "https://www.huxiu.com/article/4854731.html?f=rss",
+    "pubDate": "2026-04-29T06:13:54.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 未来图灵 ，作者：张凤静，原文标题：《每周AI揭秘|咖啡“续命”弱爆了！这颗准能砸醒牛顿的果子，才是真正的“天然闹钟”》 下午三点，灵魂出走。 你的眼皮像挂了铅坠，电脑屏幕上的字开始跳起集体舞，鼠标每点一下都仿佛在跟地心引力搏斗。几乎本能地，你伸手摸向工位左手边那只被戏称为“续命水”的保温杯，可能里面装着今天的第二杯美式。 “困了累了，喝杯咖啡。” 这句广告词，大概是现代打工人最深的集体潜意识。无论是为了赶Deadline的深夜，还是为了对抗午后三点的“修仙”时光，咖啡杯几乎成了我们身体的外接器官，靠一杯苦香，硬撑完一整天的疲惫。 但如果这个时候，有人从抽屉里掏出一只苹果"
+  },
+  {
+    "title": " Anthropic“连坐”封号、Cursor9秒删库：AI反噬企业的惨痛一课，代价太贵了 ",
+    "link": "https://www.huxiu.com/article/4854718.html?f=rss",
+    "pubDate": "2026-04-29T05:37:47.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 第一新声 ，作者：第一新声，原文标题：《Anthropic“连坐”封号、Cursor 9秒删库：AI反噬企业的惨痛一课，代价太贵了》 周一早上，一家100多人的农业科技公司，集体发现Claude账号全部被封。没有预警，没有解释，API还在照常计费。创始人提交申诉，36小时石沉大海。 几乎同一时间，另一家SaaS公司PocketOS的创始人Jer Crane，亲眼看着自己用了五年的生产数据库在9秒内被彻底清空——而动手的不是外部攻击者，不是实习生，是他花重金订阅的AI编程助手Cursor，以及里面跑着的Claude Opus 4.6。 事后，这个AI还写下了一封“认罪书”，"
+  },
+  {
+    "title": "Windows 11's 5GB monthly .msu updates, AI is only part of the problem",
+    "link": "https://www.windowslatest.com/2026/04/29/i-investigated-windows-11s-massive-5gb-monthly-msu-updates-ai-is-only-part-of-the-problem/",
+    "pubDate": "2026-04-29T05:30:41.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.windowslatest.com/2026/04/29/i-investigated-windows-11s-massive-5gb-monthly-msu-updates-ai-is-only-part-of-the-problem/"
+  },
+  {
+    "title": "IBM Bob: AI Development Partner",
+    "link": "https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software",
+    "pubDate": "2026-04-29T05:29:28.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 1 评论 | 链接: https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software"
+  },
+  {
+    "title": "$2,500 bug bounty for real-world AI misalignment",
+    "link": "https://github.com/Hodlatoor/SyntheticOutlaw/",
+    "pubDate": "2026-04-29T05:09:38.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://github.com/Hodlatoor/SyntheticOutlaw/"
+  },
+  {
+    "title": "Mistral Workflows: durable AI orchestration built on Temporal",
+    "link": "https://mistral.ai/news/workflows",
+    "pubDate": "2026-04-29T05:05:38.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://mistral.ai/news/workflows"
+  },
+  {
+    "title": "Perplexity Builds Accuracy into Frontier AI",
+    "link": "https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai",
+    "pubDate": "2026-04-29T04:55:25.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 3 点赞 | 0 评论 | 链接: https://www.perplexity.ai/hub/blog/how-perplexity-builds-accuracy-into-frontier-ai"
+  },
+  {
+    "title": " AI时代的基础教育 ",
+    "link": "https://www.huxiu.com/article/4854683.html?f=rss",
+    "pubDate": "2026-04-29T04:54:31.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：太阳照常升起，作者：慕峰，题图来自：AI生成 昨晚作者发表了很重要的一篇文章《AI时代如何寻找就业方向》，有很多读者还没看到，可以先行阅读。 为什么说很重要呢？因为作者会以这篇文章为开端，结合自己对AI深度使用的理解，提出一系列原创性观点。 昨天一位读者在阅读该文后，提出了以下问题： 这是一个非常好的问题。我们可以再深入一下，学生如何在AI时代学习，或者再换个视角，AI时代如何教育。 作者用一个类比，就可以很清晰地理解我们的基础教育意味着什么。 基础教育其实就是对大脑的预训练。 与AI的预训练一样，基础教育向个体提供“基础知识”（对应AI的世界知识），让个体理解“知识链”（"
+  },
+  {
+    "title": " AI时代与“打字机盛世”的终结 ",
+    "link": "https://www.huxiu.com/article/4854707.html?f=rss",
+    "pubDate": "2026-04-29T04:52:04.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：恒河公园，作者：大明湖底容嬷嬷，题图来自：AI生成 引言：何为“打字机盛世”？ 什么是“打字机盛世”？它并非单纯指打字机这一工具，而是一个总括性的历史现象：二战后长达七十余年的时期里，第二产业（制造业）的劳动生产率快速上升，而第三产业（生产性服务业、办公室工作）的劳动生产率提升速度，始终跟不上工作需求的爆炸式增长。因此，第三产业和都市经济不断自我膨胀，形成了我们今天所熟悉的繁华都市社会、庞大的白领阶层和高度劳动密集的办公室文化。如今，生成式AI真正挑战并正在终结这一盛世。它标志着生产性服务业迟来的自动化浪潮，终于开始像当年工业自动化冲击第二产业一样，系统性地改变第三产业的劳"
+  },
+  {
+    "title": " Manus收购案被叫停背后，AI正由普惠工具变成战略资产 ",
+    "link": "https://www.huxiu.com/article/4854711.html?f=rss",
+    "pubDate": "2026-04-29T04:46:36.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 底线思维 ，作者：顾嘉时 在经历了年初的风波之后，原本已经陷入沉寂的Manus收购案迎来最新进展：4月27日，国家发展改革委发布消息，外商投资安全审查工作机制办公室依法依规对外资收购Manus项目作出禁止投资决定，要求当事人撤销该收购交易。 这也是《外商投资安全审查办法》2020年实施以来，首个被公开叫停的AI领域外资收购案，也是该办法框架下最严的一档审查结论——办法明文规定，“对禁止投资的，不得实施投资”。 这件事之所以引发全行业震动，核心原因在于它打破了很多人此前对AI产业的固有认知：AI技术只是互联网式的普惠工具；而这一事件也警醒我们，AI早已不只是普通商业产品，尤"
+  },
+  {
+    "title": " AI时代如何寻找就业方向 ",
+    "link": "https://www.huxiu.com/article/4854682.html?f=rss",
+    "pubDate": "2026-04-29T04:42:09.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：太阳照常升起，作者：慕峰，题图来自：AI生成 这个话题挺大的，除了已经退休的人，无论是在职的，还是在校的，乃至于家长，都很关心。家长既在关心下一代，也在关心自己。 这个大题目一篇文章肯定是写不完的，作者把这个大题目做一个系列，叫做“AI时代的教育与就业”，随时更新。 首先讲，AI对就业的冲击大不大？回答很明确，非常大，可能会大到你难以想象。为什么这么大呢？只要2026年初以来，你一直在深度使用AI，就会知道，AI对目前就业岗位中的相当多数都有极强的替代性，许多企业确实不需要设置那么多岗位了。如果你一直在深度使用，那就能跟上AI演进的步伐，也就能够理解，未来的替代性和替代面，"
+  },
+  {
+    "title": " 比亚迪与华为的“智驾凡尔登” ",
+    "link": "https://www.huxiu.com/article/4854697.html?f=rss",
+    "pubDate": "2026-04-29T04:33:00.000Z",
+    "source": "Huxiu",
+    "description": "出品|虎嗅汽车组 作者|王亚骏 头图|视觉中国 2014年11月28日，在腾势首款车型的发布会上，比亚迪董事长王传福亲自将汽车交付给了腾势品牌的第一位车主：余承东。 彼时，这两位安徽老乡可能不会想到，十二年后，华为与比亚迪将在15万至20万元的汽车市场，展开一场智驾大战。 在北京车展上，比亚迪包下了整个E3展馆，并设置了“天神之眼”专区。“天神之眼”是比亚迪的智能驾驶系统，分为A、B、C三个档次，其中C档主要搭载于7万至20万级别的车型，A、B档则搭载于仰望、腾势、方程豹和汉唐系列等中高端车型。 值得一提的是，在车展期间，以降价著称的比亚迪，罕见得发布了一条涨价通知。4月28日，比亚迪发布公告"
+  },
+  {
+    "title": "AI Sandboxes with Memory",
+    "link": "https://news.ycombinator.com/item?id=47944168",
+    "pubDate": "2026-04-29T04:27:49.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 - Code execution sandboxes were designed for CI pipelines, not agents. Agents need to remember what th..."
+  },
+  {
+    "title": " 横店消亡，短剧新生：2026，AI抽卡师接管片场 ",
+    "link": "https://www.huxiu.com/article/4854701.html?f=rss",
+    "pubDate": "2026-04-29T04:11:52.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 岳涌大江流 ，作者：岳老狮 在2026年的春天，横店的雨水依旧潮湿，但某种东西正在那片号称”东方好莱坞”的土地上无声消亡。 “以前这里半夜三点都是等戏的群演，现在你只能看到收工的奶茶店。“一位在横店待了八年的制片人张强（化名）指着空荡的街道说。他刚刚解散了自己的服化道团队，转身在北京东五环租下了一间只有50平米的办公室。 那里没有摄影机，只有12台嗡嗡作响的高配工作站。 张强的焦虑不是因为没活干，而是因为活儿变了。以前他计算的是场租、盒饭和演员档期；现在他每天盯着的是算力成本、模型收敛度和”种子值”。这就是2026年短剧行业的真实截面：影视工业的温情正在褪去，取而代之的是"
+  },
+  {
+    "title": "Why AI Startup Offices in NYC Are Flashy but Mostly Empty",
+    "link": "https://www.wsj.com/real-estate/commercial/why-ai-startup-offices-in-nyc-are-flashy-but-mostly-empty-6882ed3d",
+    "pubDate": "2026-04-29T04:06:56.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://www.wsj.com/real-estate/commercial/why-ai-startup-offices-in-nyc-are-flashy-but-mostly-empty-6882ed3d"
+  },
+  {
+    "title": "The versioned filesystem for AI agents",
+    "link": "https://coregit.dev",
+    "pubDate": "2026-04-29T04:01:59.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 2 点赞 | 1 评论 | 链接: https://coregit.dev"
+  },
+  {
+    "title": "Cybersecurity in the Intelligence Age",
+    "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+    "pubDate": "2026-04-29T04:00:00.000Z",
+    "source": "OpenAI",
+    "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems."
+  },
+  {
+    "title": "After the AI Crash: A Proposal, from the Vanderbilt Policy Accelerator",
+    "link": "https://vanderbiltpolicyaccelerator.substack.com/p/after-the-ai-crash",
+    "pubDate": "2026-04-29T03:59:32.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 1 点赞 | 0 评论 | 链接: https://vanderbiltpolicyaccelerator.substack.com/p/after-the-ai-crash"
+  },
+  {
+    "title": "Why Capitalism Can't Survive AI",
+    "link": "https://www.newconsensus.com/blog/series/why-capitalism-cant-survive-ai",
+    "pubDate": "2026-04-29T03:53:37.000Z",
+    "source": "Hacker News",
+    "description": "Hacker News 文章 | 5 点赞 | 1 评论 | 链接: https://www.newconsensus.com/blog/series/why-capitalism-cant-survive-ai"
+  },
+  {
+    "title": " 开源“洁癖.skill”，让你的Agent越用越聪明。 ",
+    "link": "https://www.huxiu.com/article/4854685.html?f=rss",
+    "pubDate": "2026-04-29T03:38:35.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 数字生命卡兹克 ，作者：数字生命卡兹克，原文标题：《开源「洁癖.skill」，让你的Agent越用越聪明。》 今天没选题了，所以想开源一个我自己做的，已经用了快1个多月，迭代了好多版的一个我觉得很有用的Skill。 我把它称为，洁癖.Skill。 名字可能听着还挺呆逼的，但是我觉得它能干的事，虽然看着非常的简单，但是却又很实用，在公司内部同事和一些我们的合作伙伴使用后，还都反馈挺不错的。 做的事大概就是，每次你在Agent里，做完一个功能或者又解决了一个BUG，就调用这个洁癖Skill，然后说一声帮我全面审查一下或者直接就/Neat一下，它就会自动审查你整个项目的文档体系"
+  },
+  {
+    "title": " 赛博“拧螺丝”的数据标注员：在风口训练AI，但月入3000 ",
+    "link": "https://www.huxiu.com/article/4854663.html?f=rss",
+    "pubDate": "2026-04-29T03:15:01.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 温度纪 ，作者：肆夕，编辑：路子甲，题图来自：视觉中国 4月以来，成都气温已经有了初夏的迹象，天府三街沿线的写字楼里，空调冷气足到和室外像两个季节。 其中不少科技公司的平层里，百台亮着莹白光的电脑屏幕前，一律坐满二十出头，目光聚焦的年轻人。他们对准屏幕上被放大的每一处细节，鼠标点击、拖拽、松手。 AI时代的滚滚袭来，已经开始让大量普通人的就业产生改变。 新行业的兴起，一种被称为的“AI数据标注员”的群体也在迅速扩张。这份工作简单来说，就是教会人工智能看懂世界的基础工作，接近儿童识物的原理，需要人为通过不断在屏幕上点选、拉框的形式，教会AI什么是房子、汽车和大树。 通过人为"
+  },
+  {
+    "title": " token太贵？这样配置小龙虾，立省上千美金 ",
+    "link": "https://www.huxiu.com/article/4853554.html?f=rss",
+    "pubDate": "2026-04-29T03:15:00.000Z",
+    "source": "Huxiu",
+    "description": "很多人装了OpenClaw，账单却高得离谱，其实是计费模式搞错了，今天我就把OpenClaw里面最容易搞混的两个部署方式讲清楚。"
+  },
+  {
+    "title": " 20亿美元收购案，活了4个月就被国家叫停？ ",
+    "link": "https://www.huxiu.com/article/4854471.html?f=rss",
+    "pubDate": "2026-04-29T02:40:00.000Z",
+    "source": "Huxiu",
+    "description": "扎克伯格花140亿要买一家中国AI公司，结果买了个寂寞，被咱家给叫停了。20亿美元，约合人民币140亿，这可是Meta历史上第三大收购案。"
+  },
+  {
+    "title": " 10后，开始用AI给自己编黄冈密卷了 ",
+    "link": "https://www.huxiu.com/article/4854662.html?f=rss",
+    "pubDate": "2026-04-29T02:37:36.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：赵芮 一代人有一代人的黄冈密卷。80后埋头刷卷子，90后抱着学习机，00后刷手机搜答案。 到了10后这代，出现了一种新的学习范式：不会的题，不用等老师；想练口语，不用请外教；想刷题，直接让AI给自己造一套。 为了利用碎片化时间学习物理，14岁的初中二年级学生谦谦，用AI搭了一个学习网站；13岁的吕思彤，因为学校外教课练得不过瘾，用AI做了一款24小时在线的“青蛙外教”。刷题、写代码、做小程序，他们把成年人都觉得高深的工具，当成了最趁手的橡皮泥。 他们一边用AI“卷自己”，一边也在被AI重塑。拆解问题的能力、结构化表达、甚至胆量和自信，都在"
+  },
+  {
+    "title": " 峰瑞资本李丰：对具身智能三大新热点的思考 ",
+    "link": "https://www.huxiu.com/article/4854658.html?f=rss",
+    "pubDate": "2026-04-29T02:34:05.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 投中网 ，作者：鲁智高 最终目的都是为了处理和理解人类如何与物理世界交互。 作为当下备受关注的赛道，热潮之下的具身智能，正不断涌现新概念和新现象。 4月23日，在由投中主办的“第20届中国投资年会·年度峰会”上，峰瑞资本创始合伙人李丰直言，生成高维数据、世界模型和物理模型，是当前的三个投资热点新方向。 在他看来，这些新概念和新现象的出现，根源在于缺少数据，“具体来说，是人类从来没有积累过大量包含这些物理量和物理世界交互规律的数据，我们从来没有大规模产生过这类数据。” 市场对生成高维数据、世界模型和物理模型等方向的热捧，本质上都是为了解决同一个问题——如何在没有这类数据的情"
+  },
+  {
+    "title": " 这可能是过去20年，任正非最遗憾的一件事 ",
+    "link": "https://www.huxiu.com/article/4854069.html?f=rss",
+    "pubDate": "2026-04-29T02:14:15.000Z",
+    "source": "Huxiu",
+    "description": "这可能是过去20年任正非最遗憾的一件事情，谁能想到当年被华为“抛弃”的一群人，20年后集体崛起，干出几千亿市值，成了卡住全球AI命脉的王牌。"
+  },
+  {
+    "title": " 智元，想跟宇树争第一 ",
+    "link": "https://www.huxiu.com/article/4854616.html?f=rss",
+    "pubDate": "2026-04-29T01:28:04.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号：定焦One，作者：王汉星，编辑：魏佳，题图来自：视觉中国 智元和宇树，这两家在过去一年合计售出全球70%以上人形机器人的公司几乎很少同台。 宇树在春晚的舞台上表演空翻、大回旋、翻桌跑酷，智元没有上春晚，而是自己办了一场机器人专场晚会“机器人奇妙夜”；几天前，宇树在北京亦庄参加第二届人形机器人半程马拉松，智元则在比赛的两天前办大会、发产品、发模型、聊生态、聊应用。 表面上，两家公司各忙各的，但暗地里的竞争从未停止。 今年1月，宇树对第三方机构发布的2025年全球人形机器人出货量数据报告紧急发文澄清，称自己才是“第一”，而非报告中所统计的“智元第一，宇树第二”。 在4月17日的"
+  },
+  {
+    "title": " 大模型语境下用户的多平台使用行为研究 ",
+    "link": "https://www.huxiu.com/article/4854628.html?f=rss",
+    "pubDate": "2026-04-29T01:08:51.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 新媒体观察 ，作者：NMRC，编辑：孟令蕙，原文标题：《大模型传播观察之三十二丨大模型语境下用户的多平台使用行为研究》 01 提出问题 在大模型生态日渐多元化的背景下，用户是如何使用这些平台的？多元化平台的共在提供了一个相互交织、自由选择的“复媒体环境”（polymedia environment），用户可按照自己的需求与偏好配置个人媒介菜单（media repertoires），即对“多种媒介可供性的选择性调用”。那用户为何接入、使用多个大模型平台？用户如何与大模型平台建立联系，又将之运用于哪些场景？多平台使用行为有什么特征，对用户来说有何意义？本研究旨在从可供性视角出"
+  },
+  {
+    "title": "前米哈游高管创业，AI 原生增长 Agent LeapMind Growth 获 CMC 资本领投",
+    "link": "https://36kr.com/p/3786123369094405?f=rss",
+    "pubDate": "2026-04-29T01:00:00.000Z",
     "source": "36Kr",
-    "description": "作者 | 钟艺璇 编辑 | 乔芊 36氪获悉，BHM集团已完成对美国百年糖巧制造商Brown & Haley公司的全资收购，Brown & Haley是一家总部位于美国，成立于1912年的百年糖巧制造商，旗下拥有Almond ROCA、Mountain等糖巧品牌。交易于2026年4月17日正式完成交割。本次收购不会对Brown & Haley位于塔科马的总部生产基地造成影响，其原有生产运营将保持稳定。 据悉，孟一烽（Sam Meng）将会出任Brown & Haley全球CEO，他同时也是Brown & Haley旗下核心品牌Almond ROCA（下称“ROCA乐家”）过去十余年大中华区独家"
+    "description": "2026 年 4 月 29 日，上海讯 ——AI 原生增长 Agent LeapMind Growth 今日宣布完成天使 + 轮融资，由 CMC 资本领投。本轮融资将主要用于核心产品 GrowthGPT 的研发迭代、产研团队扩充及早期市场拓展。 LeapMind Growth 成立于 2025 年 4 月，由前米哈游全球用户增长负责人、前快手增长策略中心负责人马如平（Rubin）创立，此前也曾在 TikTok 负责用户增长，累计主导规模超 50 亿美元的用户增长项目。公司核心成员均来自字节跳动、米哈游、快手、美团等企业，核心团队兼具超大规模增长管理、AI 系统工程化与全球化发行的复合能力。 公"
   },
   {
-    "title": "Another customer of troubled startup Delve suffered a big security incident",
-    "link": "https://techcrunch.com/2026/04/23/another-customer-of-troubled-startup-delve-suffered-a-big-security-incident/",
-    "pubDate": "2026-04-23T14:00:00.000Z",
+    "title": "At his OpenAI trial, Musk relitigates an old friendship",
+    "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
+    "pubDate": "2026-04-29T00:40:16.000Z",
     "source": "TechCrunch",
-    "description": "TechCrunch has confirmed that Delve was the compliance company that performed the security certifications for Context AI, the AI agent training startup that last week disclosed a security incident."
+    "description": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath."
   },
   {
-    "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
-    "link": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-    "pubDate": "2026-04-23T14:00:00.000Z",
+    "title": " Hermes 的核心架构Harness：上下文、工具、权限与执行控制 ",
+    "link": "https://www.huxiu.com/article/4854618.html?f=rss",
+    "pubDate": "2026-04-29T00:37:41.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 叶小钗 ，作者：叶小钗，原文标题：《Hermes 的核心架构 Harness：上下文、工具、权限与执行控制》 书接上文：OpenClaw vs Hermes：拆解Hermes Agent五层架构 上一篇写Hermes-Agent，我们选了一条比较笨但好用的路：跟一条消息走一遍。 从终端里敲下一句话，到Agent把最后一个字回到屏幕上，中间其实绕了很长一圈： 消息先被入口收进去，变成内部统一的消息； 会话和上下文被重新组织； 模型开始一轮轮判断，必要时调用工具； 过程太长时，系统还要整理上下文、保住历史，并在任务结束后尝试沉淀经验。 这条线走完以后，Hermes-Agent"
+  },
+  {
+    "title": " 未来实拍电影还存在吗?AI给影视人的恐惧与自由 ",
+    "link": "https://www.huxiu.com/article/4854613.html?f=rss",
+    "pubDate": "2026-04-29T00:11:33.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 硅谷101 ，作者：硅谷101 最近，《灵魂摆渡·浮生梦》成为中国首部全AI生成的电影，暑期档即将上映。“AI能否替代真人演员”、“真人短剧是不是在被AI团灭”，这些话题最近都在冲上微博热搜，成为大家讨论的焦点。 人工智能正以惊人的速度渗透进影视工业的核心流程。从剧本开发到视觉预览，从角色建模到声音演绎，AI带来的效率提升令人震惊。这场变革不仅是技术迭代，更是创作哲学的重构。AI把传统影视制作中长达六个月的特效前期流程，压缩到了72小时；让个体创作者拥有了前所未有的表达自由，却也在审美趋同、情感缺失与版权争议中暴露出局限。 本期《硅谷101》播客邀请导演陆川、配音导演黄莺"
+  },
+  {
+    "title": "Elon Musk tells the jury that all he wants to do is save humanity",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/920048/elon-musk-testimony-save-humanity",
+    "pubDate": "2026-04-28T20:46:54.000Z",
     "source": "The Verge",
-    "description": "Today on Decoder, I want to lay out an idea that’s been banging around my head for weeks now as we’ve been reporting on AI and having conversations here on this show. I’ve been calling it software brain, and it’s a particular way of seeing the world that fits everything into algorithms, databases an"
+    "description": "On the stand, Elon Musk is positioning himself as a savior. In the high-profile trial between him and his fellow OpenAI cofounder, now CEO, Sam Altman, Musk opened by going through his background. He went as far back as being raised in South Africa and arriving in Canada for college with \"2,500 in C"
   },
   {
-    "title": "You’re about to feel the AI money squeeze",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
-    "pubDate": "2026-04-23T13:45:00.000Z",
+    "title": "Taylor Swift is stepping up the legal war on AI copycats",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats",
+    "pubDate": "2026-04-28T20:30:00.000Z",
     "source": "The Verge",
-    "description": "Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by Anthropic. Anthropic, like other leading AI labs, was under immense pressure to lessen the strain on its s"
+    "description": "Taylor Swift has been at the center of AI imitation controversies for years, and now, she's become the latest celebrity who's escalating attempts to protect herself from AI copycats. As usual, however, the legal system intersects with technology in complicated ways - and Swift's efforts may be a lon"
   },
   {
-    "title": "AI galaxy hunters are adding to the global GPU crunch",
-    "link": "https://techcrunch.com/2026/04/23/ai-galaxy-hunters-are-adding-to-the-global-gpu-crunch/",
-    "pubDate": "2026-04-23T13:00:00.000Z",
+    "title": "Amazon is already offering new OpenAI products on AWS",
+    "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "pubDate": "2026-04-28T19:48:02.000Z",
     "source": "TechCrunch",
-    "description": "Astronomers are turning to GPUs to find needles in the galactic haystack."
+    "description": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service."
   },
   {
-    "title": "破局“智驾双雄”，千里科技如何以AI之力重塑行业格局",
-    "link": "https://36kr.com/p/3779369343144965?f=rss",
-    "pubDate": "2026-04-23T12:14:28.000Z",
-    "source": "36Kr",
-    "description": "智驾圈杀出了一匹“黑马”，智能驾驶的市场格局正面临重新洗牌的变量。 在4月22日举办的千里科技AI战略暨产品发布会上，千里科技公布了一组数据：千里智驾装车量已突破46万辆，覆盖极氪、领克17款车型，并预计在2026年正式跨入“百万量级俱乐部”。 从品牌发布到方案规模化量产，并达成46万装车量，千里科技仅用时半年多。在行业普遍认为智驾格局趋于稳定的当下，这一扩张速度史无前例。 这种“非常规速度”的背后，是增长逻辑本身发生了变化。本质上千里速度就是AI速度，这种高增长成为华为之外的第二极，形成了AI时代“智驾双雄”新行业格局。 传统智驾公司的增长依赖于“工程复制”，开发周期长，适配成本高。而千里科"
+    "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+    "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+    "pubDate": "2026-04-28T19:27:50.000Z",
+    "source": "The Verge",
+    "description": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits "
+  },
+  {
+    "title": "Elon Musk takes the stand in high-profile trial against OpenAI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+    "pubDate": "2026-04-28T19:00:13.000Z",
+    "source": "The Verge",
+    "description": "Elon Musk officially began his testimony in the trial he has brought against OpenAI CEO Sam Altman and company president Greg Brockman. The three were on the initial founding team of OpenAI, with Musk investing up to $38 million early on before the co-founders' relationship soured over disagreements"
+  },
+  {
+    "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
+    "link": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
+    "pubDate": "2026-04-28T18:49:54.000Z",
+    "source": "TechCrunch",
+    "description": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses."
+  },
+  {
+    "title": "Google expands Pentagon’s access to its AI after Anthropic’s refusal",
+    "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/",
+    "pubDate": "2026-04-28T18:15:00.000Z",
+    "source": "TechCrunch",
+    "description": "After Anthropic refused to allow the DoD to use its AI for domestic mass surveillance and autonomous weapons, Google has signed a new contract with the department."
+  },
+  {
+    "title": "Claude can now plug directly into Photoshop, Blender, and Ableton",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/919648/anthropic-claude-creative-connectors-adobe-blender",
+    "pubDate": "2026-04-28T16:49:08.000Z",
+    "source": "The Verge",
+    "description": "Claude’s new Blender connector lets you debug scenes, build new tools, and batch-apply object changes directly from the chatbot interface. | Image: Anthropic Anthropic has launched a set of connectors for Claude that allow the AI chatbot to tap into popular creative software, including Adobe's Creat"
+  },
+  {
+    "title": " AI时代，文凭和高校教师的双重危机 ",
+    "link": "https://www.huxiu.com/article/4854598.html?f=rss",
+    "pubDate": "2026-04-28T16:10:36.000Z",
+    "source": "Huxiu",
+    "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：朱兆一 翻译已死，插画师告急，法律助理岌岌可危——AI对职业的冲击，从来不会提前打招呼。 每一波技术浪潮之后，总有一批人猝不及防地发现，自己花了多年时间磨炼的那套本事，已经不再稀缺。 这一次轮到谁？ 教师这个职业，是很多人下意识觉得“应该还好”的那一类。孩子需要人教，课堂需要人主持，这件事好像天然就有一道防火墙。中小学或许如此，但大学呢？当一个学生可以用AI在二十分钟内梳理完一门课的核心框架，当他能随时召唤一个不知疲倦、不会不耐烦的“私人导师”追问到底，他走进大学课堂的理由，还剩多少？ 还有比这更麻烦的。 AI对大学的冲击，最终落脚点不在课堂本身，而在"
+  },
+  {
+    "title": "Musk and Altman go to court",
+    "link": "https://www.theverge.com/podcast/919534/musk-openai-trial-vergecast",
+    "pubDate": "2026-04-28T14:47:21.000Z",
+    "source": "The Verge",
+    "description": "The trial between Elon Musk and OpenAI is officially upon us. And it is going to be a mess. As the two sides fight over the early days of AI, who deserves credit and cash for what, and more, we're likely to spend the next few weeks hearing a lot of important people's secrets made extremely public. W"
+  },
+  {
+    "title": "YouTube is testing an AI-powered search feature that shows guided answers",
+    "link": "https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/",
+    "pubDate": "2026-04-28T13:54:06.000Z",
+    "source": "TechCrunch",
+    "description": "YouTube is rolling out the new AI search feature to Premium subscribers in the U.S. on an opt-in basis."
+  },
+  {
+    "title": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+    "link": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+    "pubDate": "2026-04-28T13:00:00.000Z",
+    "source": "TechCrunch",
+    "description": "Tank OS puts OpenClaw AI agents into a container that lets it run reliably and more safely, especially for those running fleets of them."
   }
 ]
