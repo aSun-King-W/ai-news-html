@@ -45,9 +45,18 @@ function textMatchesKeyword(text: string, keyword: string): boolean {
 }
 
 /**
+ * AI 原生源集合 — 这些源的每篇文章都天然 AI 相关，无需关键词匹配
+ */
+const INHERENTLY_AI_SOURCES = new Set(['OpenAI', 'Hugging Face', 'Anthropic', 'DeepSeek']);
+
+/**
  * 过滤AI相关文章 - 基于标题和描述中的关键词
  */
 export function filterAIArticles(articles: Article[]): Article[] {
+  // AI 原生源文章直接放行
+  const aiSpecific = articles.filter(a => INHERENTLY_AI_SOURCES.has(a.source));
+  const needsFiltering = articles.filter(a => !INHERENTLY_AI_SOURCES.has(a.source));
+
   // AI相关关键词（中文和英文）
   const aiKeywords = [
     // 中文关键词
@@ -74,7 +83,7 @@ export function filterAIArticles(articles: Article[]): Article[] {
     { field: 'description', pattern: /正大机器人/, reason: '投资方公司名' },
   ];
 
-  return articles.filter(article => {
+  const filtered = needsFiltering.filter(article => {
     const title = article.title;
     const description = (article.description || '');
 
@@ -93,4 +102,6 @@ export function filterAIArticles(articles: Article[]): Article[] {
 
     return true;
   });
+
+  return [...aiSpecific, ...filtered];
 }

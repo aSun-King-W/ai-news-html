@@ -36,6 +36,11 @@ export const RSS_SOURCES: RssSource[] = [
     url: 'https://openai.com/news/rss.xml',
     type: 'openai'
   },
+  {
+    name: 'Hugging Face',
+    url: 'https://huggingface.co/blog/feed.xml',
+    type: 'huggingface'
+  },
 ];
 
 // HTML 爬取源（无 RSS，需解析 HTML）

@@ -105,3 +105,5 @@ export async function fetchAllFeeds(sources: RssSource[]): Promise<FetchResult[]
   const promises = sources.map(source => fetchRssFeed(source));
   return Promise.all(promises);
 }
+
+export { scrapeHtmlFeed, scrapeAllHtmlFeeds } from './html-scraper';

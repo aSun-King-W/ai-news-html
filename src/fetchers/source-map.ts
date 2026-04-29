@@ -11,6 +11,7 @@ const SOURCE_TYPE_TO_DISPLAY: Record<string, string> = {
   'tmtpost': 'TMTPost',
   'jiqizhixin': 'JiQiZhiXin',
   'openai': 'OpenAI',
+  'huggingface': 'Hugging Face',
   'anthropic': 'Anthropic',
   'deepseek': 'DeepSeek',
 };

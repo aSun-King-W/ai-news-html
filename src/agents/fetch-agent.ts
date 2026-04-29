@@ -1,7 +1,7 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { RSS_SOURCES, HOURS_BACK } from '../config';
-import { fetchAllFeeds } from '../fetchers';
+import { RSS_SOURCES, HTML_SOURCES, HOURS_BACK } from '../config';
+import { fetchAllFeeds, scrapeAllHtmlFeeds } from '../fetchers';
 import { filterRecentArticles, deduplicateArticles, filterAIArticles } from '../processors/filter';
 import { sortArticlesByDate } from '../processors/sorter';
 import { Article } from '../types/article';
@@ -86,9 +86,9 @@ function think(state: PipelineState): {
     return { shouldRun: false, skipReason: 'fetch already completed, skipping' };
   }
 
-  // 无 RSS 源
-  if (RSS_SOURCES.length === 0) {
-    return { shouldRun: false, skipReason: 'no RSS sources configured' };
+  // 无 RSS 源且无 HTML 源
+  if (RSS_SOURCES.length === 0 && HTML_SOURCES.length === 0) {
+    return { shouldRun: false, skipReason: 'no sources configured' };
   }
 
   return { shouldRun: true, skipReason: null };
@@ -131,7 +131,7 @@ async function act(state: PipelineState, hoursBack: number): Promise<{
     }
   }
 
-  // 3. 统计
+  // 3. 统计 RSS 结果
   let totalArticles = 0;
   for (const result of results) {
     const status = result.error ? '❌' : '✅';
@@ -141,9 +141,49 @@ async function act(state: PipelineState, hoursBack: number): Promise<{
     }
     totalArticles += result.articles.length;
   }
-  console.log(`\n📊 总共抓取: ${totalArticles} 篇文章`);
+  console.log(`\n📊 RSS 总共抓取: ${totalArticles} 篇文章`);
 
-  // 4. 合并
+  // 4. 抓取所有 HTML 源（含重试逻辑）
+  if (HTML_SOURCES.length > 0) {
+    console.log('\n🌐 开始爬取 HTML 源...');
+    let htmlResults = await scrapeAllHtmlFeeds(HTML_SOURCES);
+
+    // 对失败的 HTML 源重试一次
+    const failedHtmlSources = htmlResults.filter(r => r.error);
+    if (failedHtmlSources.length > 0) {
+      console.log(`\n🔄 重试 ${failedHtmlSources.length} 个失败 HTML 源...`);
+      for (const failed of failedHtmlSources) {
+        const source = HTML_SOURCES.find(s => s.name === failed.source);
+        if (source) {
+          const { scrapeHtmlFeed } = await import('../fetchers/html-scraper');
+          const retry = await scrapeHtmlFeed(source);
+          if (!retry.error) {
+            const idx = htmlResults.indexOf(failed);
+            htmlResults[idx] = retry;
+            console.log(`   ✅ ${failed.source} 重试成功`);
+          } else {
+            console.log(`   ❌ ${failed.source} 重试仍然失败: ${retry.error}`);
+          }
+        }
+      }
+    }
+
+    // 统计 HTML 结果
+    for (const result of htmlResults) {
+      const status = result.error ? '❌' : '✅';
+      console.log(`${status} ${result.source}: ${result.articles.length} 篇文章`);
+      if (result.error) {
+        console.log(`   错误: ${result.error}`);
+      }
+      totalArticles += result.articles.length;
+    }
+    console.log(`\n📊 总共抓取: ${totalArticles} 篇文章`);
+
+    // 合并 RSS 和 HTML 结果
+    results = [...results, ...htmlResults];
+  }
+
+  // 5. 合并
   const allArticles: Article[] = results.flatMap(r => r.articles);
 
   if (allArticles.length === 0) {
@@ -156,7 +196,7 @@ async function act(state: PipelineState, hoursBack: number): Promise<{
     return { articles: [], failed: true };
   }
 
-  // 5. 数据处理
+  // 6. 数据处理
   console.log('\n🔄 正在处理数据...');
 
   const recentArticles = filterRecentArticles(allArticles, hoursBack);
@@ -181,10 +221,10 @@ async function act(state: PipelineState, hoursBack: number): Promise<{
     return { articles: [], failed: true };
   }
 
-  // 6. 写入 articles-raw.json
+  // 7. 写入 articles-raw.json
   await writeJson(path.join(PIPELINE_DIR, 'articles-raw.json'), sortedArticles);
 
-  // 7. 更新 state
+  // 8. 更新 state
   state.agents.fetch.status = 'success';
   state.agents.fetch.error = null;
   state.agents.fetch.retries = failedSources.length;
@@ -205,7 +245,7 @@ export async function runFetchAgent(): Promise<void> {
   // Perceive
   console.log('🔍 [Perceive] 读取管线状态和 RSS 配置...');
   const { state, hoursBack } = await perceive();
-  console.log(`   状态: ${state.status}, 抓取窗口: ${hoursBack} 小时, RSS 源: ${RSS_SOURCES.length} 个`);
+  console.log(`   状态: ${state.status}, 抓取窗口: ${hoursBack} 小时, RSS 源: ${RSS_SOURCES.length} 个, HTML 源: ${HTML_SOURCES.length} 个`);
 
   // Think
   console.log('💡 [Think] 分析决策...');
