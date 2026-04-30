@@ -1,7 +1,6 @@
 import { Article, FetchResult, RssSource } from '../types/article';
 import { sourceTypeToDisplayName } from './source-map';
 import Parser from 'rss-parser';
-import fetch from 'node-fetch';
 
 /**
  * 清理文章描述

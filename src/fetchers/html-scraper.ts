@@ -1,5 +1,4 @@
 import * as cheerio from 'cheerio';
-import fetch from 'node-fetch';
 import { parse } from 'date-fns';
 import { Article, FetchResult, RssSource } from '../types/article';
 
