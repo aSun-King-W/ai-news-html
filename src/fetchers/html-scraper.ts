@@ -1,4 +1,4 @@
-import * as cheerio from 'cheerio';
+import * as cheerio from 'cheerio/slim';
 import { parse } from 'date-fns';
 import { Article, FetchResult, RssSource } from '../types/article';
 

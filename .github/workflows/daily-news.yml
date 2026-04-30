@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       # 3. 安装依赖
@@ -55,6 +55,7 @@ jobs:
       # 5. 通过 Orchestrator Agent 运行完整管线（fetch → summarize → render）
       - name: Run pipeline via Orchestrator Agent
         run: |
+          echo "🗂️  Node.js version: $(node -v)"
           echo "🗂️  管线输出目录: ./output"
           npx tsx src/cli.ts agent orchestrator --force
 
