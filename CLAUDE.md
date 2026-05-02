@@ -5,7 +5,7 @@
 | Agent | Spec | Command | Responsibility |
 |---|---|---|---|
 | Orchestrator | [orchestrator.spec.md](.specs/orchestrator.spec.md) | `claude --agent orchestrator` | Pipeline scheduling, state management, error handling |
-| Fetch | [fetch-agent.spec.md](.specs/fetch-agent.spec.md) | `claude --agent fetch-agent` | RSS fetching, parsing, dedup, keyword filtering |
+| Fetch | [fetch-agent.spec.md](.specs/fetch-agent.spec.md) | `claude --agent fetch-agent` | RSS fetching + HTML scraping, parsing, dedup, keyword filtering |
 | Summarize | [summarize-agent.spec.md](.specs/summarize-agent.spec.md) | `claude --agent summarize-agent` | AI summary generation, prompt management |
 | Render | [render-agent.spec.md](.specs/render-agent.spec.md) | `claude --agent render-agent` | Markdown/HTML generation, template selection |
 

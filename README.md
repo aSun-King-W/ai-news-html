@@ -7,13 +7,14 @@
 ## 功能特性
 
 - 🤖 **Agent 协作生态** — Orchestrator 编排 Fetch → Summarize → Render 三步管线
-- 📡 **RSS 新闻抓取** — 从 TechCrunch AI、The Verge AI、Hacker News、36氪、虎嗅等源抓取
+- 📡 **RSS 新闻抓取** — 从 TechCrunch AI、The Verge AI、Hacker News、36氪、虎嗅、OpenAI、Hugging Face 等源抓取
+- 🌐 **HTML 页面爬取** — 对无 RSS 的源（Anthropic、DeepSeek）通过 cheerio 解析 HTML 提取文章
 - ⏰ **自动过滤** — 仅保留最近 N 小时的文章（默认 24 小时）
-- 🔍 **去重 + AI 关键词过滤** — 基于链接去重，关键词匹配筛选 AI 相关
+- 🔍 **去重 + AI 关键词过滤** — 基于链接去重，AI 源（OpenAI/Anthropic 等）直接放行，其他源关键词匹配
 - 🧠 **AI 智能摘要** — 调用 LLM 为每篇文章生成一句话中文摘要
 - 📊 **按时间排序** — 按发布时间倒序排列
 - 📝 **Markdown 日报** — 带目录的中文 Markdown
-- 🌐 **HTML 日报** — 美观手机端适配页面，支持 GitHub Pages 部署
+- 🌐 **HTML 日报** — 美观手机端适配页面，支持 GitHub Pages 部署，含来源筛选交互
 - ⚙️ **GitHub Actions 自动化** — 每日 8:30 自动运行全流程并部署
 
 ## 架构概览
@@ -132,9 +133,12 @@ ai-news-html/
 │   │   ├── fetch-agent.ts
 │   │   ├── summarize-agent.ts
 │   │   └── render-agent.ts
-│   ├── config.ts            # RSS源配置
-│   ├── cli.ts              # 命令行入口
-│   ├── fetchers/           # RSS抓取模块
+│   ├── config.ts            # RSS 源 + HTML 源配置
+│   ├── cli.ts              # 命令行入口（支持 RSS + HTML 抓取）
+│   ├── fetchers/           # RSS 抓取 + HTML 爬取模块
+│   │   ├── index.ts        # RSS 抓取引擎
+│   │   ├── html-scraper.ts # HTML 页面爬取引擎（cheerio）
+│   │   └── source-map.ts   # 源类型→显示名映射
 │   ├── processors/         # 数据处理模块（过滤/去重/排序）
 │   ├── generators/         # Markdown/HTML 生成模块
 │   ├── services/           # AI 摘要服务
@@ -179,6 +183,7 @@ ai-news-html/
 - **tsx** — 直接运行 TypeScript
 - **commander** — CLI 框架
 - **rss-parser** — RSS/Atom 解析
+- **cheerio** — HTML 爬取与 DOM 解析
 - **node-fetch** — HTTP 请求
 - **date-fns** — 日期处理
 - **openai** — OpenAI SDK（兼容 DeepSeek API）
@@ -229,8 +234,15 @@ ai-news-html/
 2. **决策在 Agent**：Agent 只做决策层（判断做什么），执行层调用现有函数库
 3. **状态通信**：Agent 之间通过 `.pipeline/` 状态文件交换数据，不直接调用
 
-### 添加新的 RSS 源
-在 `src/config.ts` 的 `RSS_SOURCES` 数组中添加新源配置。
+### 添加新的新闻源
+
+**RSS 源**：在 `src/config.ts` 的 `RSS_SOURCES` 数组中添加新源配置，参考已有条目。
+
+**HTML 爬取源**（无 RSS 的网站）：
+1. 在 `src/config.ts` 的 `HTML_SOURCES` 数组中添加源配置
+2. 在 `src/fetchers/html-scraper.ts` 中新增对应的爬取函数
+3. 在 `src/fetchers/source-map.ts` 中添加类型→显示名映射
+4. 在 `src/generators/html.ts` 的 `getSourceIcon()` 中添加图标
 
 ### 修改输出格式
 编辑 `src/generators/markdown.ts` 或 `src/generators/html.ts`。
