@@ -161,7 +161,7 @@ async function fetchRawArticles(): Promise<Article[]> {
 
 async function loadRawArticles(): Promise<Article[]> {
   const raw = await fs.readFile(RAW_ARTICLES_PATH, 'utf-8');
-  const data = JSON.parse(raw) as Article[];
+  const data: Array<Article & { pubDate: string }> = JSON.parse(raw);
   return data.map((a: Article & { pubDate: string }) => ({
     ...a,
     pubDate: new Date(a.pubDate),
