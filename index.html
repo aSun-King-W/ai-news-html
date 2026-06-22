@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>鹤野无岸 · AI技术日报 (2026年06月21日)</title>
+  <title>鹤野无岸 · AI技术日报 (2026年06月22日)</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * {
@@ -408,9 +408,9 @@
       </div>
       <h1 class="page-title">AI技术日报</h1>
       <div class="date-info">
-        <span><i class="far fa-calendar"></i> 2026年06月21日</span>
-        <span><i class="far fa-clock"></i> 05:24 更新</span>
-        <span><i class="fas fa-wifi"></i> 49篇文章</span>
+        <span><i class="far fa-calendar"></i> 2026年06月22日</span>
+        <span><i class="far fa-clock"></i> 05:40 更新</span>
+        <span><i class="fas fa-wifi"></i> 71篇文章</span>
       </div>
     </header>
 
@@ -423,7 +423,7 @@
       <div class="stats-grid">
         <div class="stat-item">
           <div class="stat-label">文章总数</div>
-          <div class="stat-value">49</div>
+          <div class="stat-value">71</div>
         </div>
         <div class="stat-item">
           <div class="stat-label">来源数量</div>
@@ -440,6 +440,22 @@
     <div class="source-tabs" id="sourceTabs">
       
         <div class="source-tab active"
+             onclick="filterArticles('Huxiu')"
+             data-source="Huxiu">
+          <i class="fas fa-newspaper"></i>
+          <span>Huxiu</span>
+          <span class="source-count">28</span>
+        </div>
+      
+        <div class="source-tab "
+             onclick="filterArticles('36Kr')"
+             data-source="36Kr">
+          <i class="fas fa-newspaper"></i>
+          <span>36Kr</span>
+          <span class="source-count">10</span>
+        </div>
+      
+        <div class="source-tab "
              onclick="filterArticles('Hacker News')"
              data-source="Hacker News">
           <i class="fas fa-newspaper"></i>
@@ -448,19 +464,11 @@
         </div>
       
         <div class="source-tab "
-             onclick="filterArticles('36Kr')"
-             data-source="36Kr">
+             onclick="filterArticles('OpenAI')"
+             data-source="OpenAI">
           <i class="fas fa-newspaper"></i>
-          <span>36Kr</span>
-          <span class="source-count">6</span>
-        </div>
-      
-        <div class="source-tab "
-             onclick="filterArticles('Huxiu')"
-             data-source="Huxiu">
-          <i class="fas fa-newspaper"></i>
-          <span>Huxiu</span>
-          <span class="source-count">10</span>
+          <span>OpenAI</span>
+          <span class="source-count">1</span>
         </div>
       
         <div class="source-tab "
@@ -471,38 +479,30 @@
           <span class="source-count">2</span>
         </div>
       
-        <div class="source-tab "
-             onclick="filterArticles('The Verge')"
-             data-source="The Verge">
-          <i class="fas fa-newspaper"></i>
-          <span>The Verge</span>
-          <span class="source-count">1</span>
-        </div>
-      
     </div>
 
     <!-- 文章列表 -->
     <div class="article-list" id="articleList">
       
-    <div class="article-card" data-source="Hacker News">
+    <div class="article-card" data-source="Huxiu">
       <div class="article-header">
-        <a href="https://news.ycombinator.com/item?id=48615910" target="_blank" class="article-title">
-          Ask HN: Would you let your AI coding agent profile and optimize autonomously?
+        <a href="https://www.huxiu.com/article/4869097.html?f=rss" target="_blank" class="article-title">
+           比肩存储，韩国盯上功率半导体 
         </a>
         <div class="source-badge">
-          <i class="fab fa-hacker-news"></i>
-          <span>Hacker News</span>
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
         </div>
       </div>
 
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 05:20</span>
+          <span>2026-06-22 05:33</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://news.ycombinator.com/item?id=48615910" target="_blank">阅读原文</a>
+          <a href="https://www.huxiu.com/article/4869097.html?f=rss" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -512,15 +512,1236 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">HN用户讨论：是否应让AI编程代理自主进行性能分析和优化，引发对AI能力超越人类的思考。</div>
+        <div class="summary-text">韩国政府投入5000亿韩元专项攻关下一代功率半导体技术，将其定位为堪比存储芯片的核心战略产业。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869146.html?f=rss" target="_blank" class="article-title">
+           MOSS 全模态技术体系全解析：统一离散化建模、推理优化与情境数据构建路径 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 05:08</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869146.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">邱锡鹏提出“情境智能”概念，认为大模型发展需扩展输入维度，与行业趋势契合。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869145.html?f=rss" target="_blank" class="article-title">
+           AI短剧的下一个风口，是孵化原生AI演员？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:54</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869145.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">2026年AI短剧播放量屡破纪录，技术门槛降低推动内容爆发，原生AI演员或成新方向。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869140.html?f=rss" target="_blank" class="article-title">
+           Nature重磅：AI智能体医生：MIRA，首次在完整诊疗流程中超越人类医生 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:38</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869140.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">海德堡大学医院研发的AI医生MIRA，首次在完整诊疗流程中超越人类医生，展现EHR环境下临床决策潜力。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869139.html?f=rss" target="_blank" class="article-title">
+           美国版“幻方量化”，没做DeepSeek，但押注Anthropic 爆赚50倍 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:37</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869139.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">美国量化公司Jane Street因早期重仓AI公司Anthropic，投资收益高达50倍。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869137.html?f=rss" target="_blank" class="article-title">
+           奥特曼综艺首秀封神，13名硅谷大佬玩狼人杀，太有看头了 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:31</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869137.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">硅谷多位AI与科技大佬参与狼人杀综艺，展现技术圈层社交新形式。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869133.html?f=rss" target="_blank" class="article-title">
+           从机器狗到AI Agent：在产业一线，看见AI时代管理者真正需要的能力 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:19</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869133.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI时代管理者需关注技术与业务场景的结合，而非仅聚焦技术本身。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869131.html?f=rss" target="_blank" class="article-title">
+           互联网招聘进入“AI时间” 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:07</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869131.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI正在重塑互联网招聘逻辑，企业岗位需求随技术变革调整。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869128.html?f=rss" target="_blank" class="article-title">
+           卖马桶的TOTO 杀疯了，成了AI 芯片的幕后赢家 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:00</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869128.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">TOTO因生产AI芯片所需的静电吸盘材料，股价大幅上涨，成为AI热潮的意外受益者。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869073.html?f=rss" target="_blank" class="article-title">
+           “外卖平台补贴行为规范十条”：事关数百万稳定骑手的里程碑式行动 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 03:29</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869073.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">国家市场监管总局发布“外卖平台补贴行为规范十条”，禁止平台强制骑手承担补贴成本，保障数百万骑手权益。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869102.html?f=rss" target="_blank" class="article-title">
+           从磷化铟的故事看中国关键矿产出口管制 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 03:11</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869102.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">中国对磷化铟等关键矿产实施出口管制，因AI算力需求激增推动其成为光模块核心材料，引发市场关注。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869066.html?f=rss" target="_blank" class="article-title">
+           不够聪明的Gemini和豆包，为什么反而更值钱？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 02:40</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869066.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">大众AI助手虽在复杂推理上不及顶尖模型，但因更广泛的实用性和用户基础反而更具商业价值。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869076.html?f=rss" target="_blank" class="article-title">
+           AI用得好不好，跟你会不会管人，我觉得越来越是同一件事。 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 02:20</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869076.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">作者用AI Agent创作消耗超2000万token，指出token用量不等于质量，强调高效管理AI比单纯消耗更重要。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869044.html?f=rss" target="_blank" class="article-title">
+           我作为一个父亲，13条思考 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 01:48</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869044.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">父亲分享与青春期儿子相处的温情时刻，反思AI时代下亲子关系与成长陪伴。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869062.html?f=rss" target="_blank" class="article-title">
+           未来的公司，会变成“人+ Agent Team”吗？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 01:48</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869062.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI正推动企业组织形态从“人+流程”向“人+Agent团队”协作模式转变。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869061.html?f=rss" target="_blank" class="article-title">
+           芯流独家：大疆自研3D堆叠AI芯片，端侧智能的硬件底层革命 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 01:47</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869061.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">大疆研发3D堆叠AI芯片，推动端侧智能硬件底层革新，提升AI推理效率。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869052.html?f=rss" target="_blank" class="article-title">
+           AI 团队协作案例：全链路研发提效实践分享 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 01:16</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869052.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">《Loop Engineering》作为AI原生研发团队实践案例，探索了Agent与人协作的新模式。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869040.html?f=rss" target="_blank" class="article-title">
+           “同事.skill” 围攻职场 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 01:03</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869040.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI数字员工开始替代离职同事，引发职场“炼化”担忧。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4868996.html?f=rss" target="_blank" class="article-title">
+           成就伟大之前，先学会卖东西 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:58</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4868996.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI生成内容强调：产品营销需从应用商店转向社交媒体内容触达用户。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869037.html?f=rss" target="_blank" class="article-title">
+           谷歌敲响“量子末日”警钟，人类终极防线藏在7张纸牌里 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:49</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869037.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">谷歌白皮书显示，量子计算机破解加密货币密码所需资源比预期低一个数量级，现有公钥密码体系面临毁灭性威胁。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869031.html?f=rss" target="_blank" class="article-title">
+           印度700多元人民币以下手机，可能真的要越来越少了 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:35</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869031.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI芯片短缺推高成本，印度低价手机市场或萎缩，影响超8成家庭数字生活依赖。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869030.html?f=rss" target="_blank" class="article-title">
+           施道红：被误读了半个世纪的“公地”，藏着创新的真相…… 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:32</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869030.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">文章提出在知识、数字与AI时代，创新主体已从企业扩展到普通百姓，颠覆了传统“公地”认知。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869025.html?f=rss" target="_blank" class="article-title">
+           AI时代，你的公司是"超级小团队"组成的吗 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:10</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869025.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI时代企业竞争力关键在于组建高密度人才、低组织摩擦的“超级小团队”。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869022.html?f=rss" target="_blank" class="article-title">
+           AI时代的新四大一线城市，名单定了？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 00:01</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869022.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">福布斯中国AI企业50强榜单显示，北京稳居人工智能第一城，其他城市竞争格局渐明。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869021.html?f=rss" target="_blank" class="article-title">
+           自动驾驶安全强标明年实施，要求配置激光雷达？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-21 23:57</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869021.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">工信部发布自动驾驶系统安全强制国标征求意见，2027年实施，未强制要求激光雷达配置。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869017.html?f=rss" target="_blank" class="article-title">
+           柏林法院对决慕尼黑：AI搜索是中立平台还是内容发布者？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-21 23:35</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869017.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">德国两法院对AI搜索概览责任认定截然相反，折射出AI搜索是平台还是内容发布者的核心分歧。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869015.html?f=rss" target="_blank" class="article-title">
+           中国企业研发的范式转移 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-21 22:14</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869015.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">中国科技巨头借鉴贝尔实验室模式，设立AI研究院以推动基础科研与技术创新。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4869011.html?f=rss" target="_blank" class="article-title">
+           AI，兵器与离骚 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-21 16:17</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4869011.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">端午节的起源与屈原的“观天”传统，启示AI时代需重新审视科技与人类命运的关系。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/newsflashes/3863910647714821?f=rss" target="_blank" class="article-title">
+          Sand.ai完成两轮合计超亿美元融资
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 05:33</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/newsflashes/3863910647714821?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">Sand.ai获超亿美元融资，由多家一线机构联合投资，助力AI技术发展。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/p/3863885024973832?f=rss" target="_blank" class="article-title">
+          36氪首发 | 联想之星险峰联合领投，AI算力中心感知与效能管理方案商完成天使轮融资
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 05:07</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/p/3863885024973832?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">芯感通获联想之星等数千万元天使轮融资，专注AI算力中心的电流与磁场感知技术。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/p/3863883390194692?f=rss" target="_blank" class="article-title">
+          36氪首发 | 核心团队曾攻关国家重点大飞机装配，航空航天智能装备商完成数千万元融资
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 05:06</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/p/3863883390194692?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">航空航天智能装备商大连坤达完成数千万元融资，用于研发新一代智能装配系统。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/newsflashes/3863815623857411?f=rss" target="_blank" class="article-title">
+          机构：存储芯片价格负担可能从消费电子产品传导至AI
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:50</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/newsflashes/3863815623857411?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">存储芯片涨价压力正从消费电子转向AI领域，HBM价格谈判或推高2027年成本。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/newsflashes/3863855544898817?f=rss" target="_blank" class="article-title">
+          英矽智能：与SK生物制药达成一项价值高达25亿美元的AI驱动研发合作
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:44</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/newsflashes/3863855544898817?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">英矽智能与SK生物制药达成超25亿美元合作，聚焦AI驱动中枢神经免疫疾病新药研发。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/p/3863840829576192?f=rss" target="_blank" class="article-title">
+          海川资本创始合伙人曹抒阳：新地缘格局下，中国能源电力产业的星辰大海：算力基建、能源自主、新本土化浪潮 | 36氪WAVES2026新浪潮
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:23</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/p/3863840829576192?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">海川资本曹抒阳指出，新地缘格局下，AI与算力基建正推动中国能源电力产业走向自主与新本土化。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/newsflashes/3863800795763716?f=rss" target="_blank" class="article-title">
+          北京经开区智能制造与机器人基金登记成立，出资额50.01亿
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:11</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/newsflashes/3863800795763716?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">北京经开区成立50.01亿元智能制造与机器人基金，重点投向AI等领域的私募股权与创业投资。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/newsflashes/3863821239653376?f=rss" target="_blank" class="article-title">
+          恒指午间休盘跌0.98%，恒生科技指数跌1.35%
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 04:02</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/newsflashes/3863821239653376?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">港股科技股领跌，但GEO概念及AI相关个股如MINIMAX-WP、智谱逆势大涨。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/p/3863788804855047?f=rss" target="_blank" class="article-title">
+          深圳230亿IPO敲钟，这两家机构成最大赢家
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 03:30</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/p/3863788804855047?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">深圳海清智元以多光谱AI第一股身份在港交所上市，市值230亿港元，开盘大涨313.89%。</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="36Kr">
+      <div class="article-header">
+        <a href="https://36kr.com/p/3863779663320069?f=rss" target="_blank" class="article-title">
+          36氪首发｜红杉中国、Brizan Ventures领投，AI厨房机器人品牌「栗上LISSOME」完成数千万元A轮融资
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-chart-line"></i>
+          <span>36Kr</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-06-22 03:20</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://36kr.com/p/3863779663320069?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>AI摘要</span>
+        </div>
+        <div class="summary-text">AI厨房机器人品牌「栗上LISSOME」获红杉中国等领投数千万元A轮融资，用于产品迭代、研发及全球市场拓展。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://getartcraft.com/media/m_xtdewkcnz1ghvsnr5st2sted99p2nr" target="_blank" class="article-title">
-          Show HN: I made an AI video of alexpotato's comment about his stockbroker dad
+        <a href="https://www.bloomberg.com/news/articles/2026-06-04/airbnb-ceo-brian-chesky-plans-to-start-a-new-ai-company" target="_blank" class="article-title">
+          Airbnb CEO Brian Chesky Plans to Start a New AI Company
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -531,11 +1752,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 05:11</span>
+          <span>2026-06-22 05:32</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://getartcraft.com/media/m_xtdewkcnz1ghvsnr5st2sted99p2nr" target="_blank">阅读原文</a>
+          <a href="https://www.bloomberg.com/news/articles/2026-06-04/airbnb-ceo-brian-chesky-plans-to-start-a-new-ai-company" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -545,15 +1766,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">用户利用AI视频技术，将论坛用户关于父亲的评论转化为视觉内容，展示AI在内容创作中的应用。</div>
+        <div class="summary-text">Airbnb CEO Brian Chesky计划创办一家新的人工智能公司。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.satisfice.com/blog/archives/488148" target="_blank" class="article-title">
-          Public Service Announcement: Don't Say You Use AI for Writing
+        <a href="https://github.com/patibandlavenkatamanideep/memoryops-ai" target="_blank" class="article-title">
+          Show HN: MemoryOps – governed memory infrastructure for AI assistants
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -564,11 +1785,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:50</span>
+          <span>2026-06-22 05:26</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.satisfice.com/blog/archives/488148" target="_blank">阅读原文</a>
+          <a href="https://github.com/patibandlavenkatamanideep/memoryops-ai" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -578,15 +1799,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Hacker News文章提醒，不要公开声称使用AI进行写作，以避免误解或负面评价。</div>
+        <div class="summary-text">MemoryOps为AI助手构建了受管控的记忆层，支持删除压缩与向量清除验证。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://martinfowler.com/articles/reliable-llm-bayer.html" target="_blank" class="article-title">
-          Building Reliable Agentic AI Systems
+        <a href="https://milvus.io/blog/when-ai-agents-do-the-work-what-do-we-lose.md" target="_blank" class="article-title">
+          When AI Agents Do the Work, What Do We Lose?
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -597,11 +1818,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:28</span>
+          <span>2026-06-22 03:33</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://martinfowler.com/articles/reliable-llm-bayer.html" target="_blank">阅读原文</a>
+          <a href="https://milvus.io/blog/when-ai-agents-do-the-work-what-do-we-lose.md" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -611,15 +1832,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">探讨构建可靠自主AI系统的关键原则，强调通过分步验证与反馈循环提升LLM稳定性。</div>
+        <div class="summary-text">探讨AI代理替代人类工作时，可能带来的技能退化、创造力缺失与深层价值损失。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://nivroo.com" target="_blank" class="article-title">
-          Show HN: Nivroo – AI builds your dropshipping store in 60s and trading terminal
+        <a href="https://www.typevia.com/" target="_blank" class="article-title">
+          Show HN: Typevia live LaTeX editing with AI assistance
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -630,11 +1851,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:24</span>
+          <span>2026-06-22 02:48</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://nivroo.com" target="_blank">阅读原文</a>
+          <a href="https://www.typevia.com/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -644,15 +1865,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI工具Nivroo可在60秒内自动搭建跨境电商店铺并集成交易终端。</div>
+        <div class="summary-text">Typevia推出AI辅助实时LaTeX编辑器，提升数学文档编写效率。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://moduna-ai.vercel.app" target="_blank" class="article-title">
-          Show HN: Moduna –- Mixpanel for AI Agents
+        <a href="https://www.theatlantic.com/category/ai-watchdog/" target="_blank" class="article-title">
+          AI Watchdog
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -663,11 +1884,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:18</span>
+          <span>2026-06-22 02:21</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://moduna-ai.vercel.app" target="_blank">阅读原文</a>
+          <a href="https://www.theatlantic.com/category/ai-watchdog/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -677,15 +1898,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Moduna为AI智能体提供类似Mixpanel的分析工具，用于追踪和优化其行为表现。</div>
+        <div class="summary-text">《大西洋月刊》推出AI监管专栏，聚焦人工智能技术的社会影响与治理挑战。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://argybargy.dev" target="_blank" class="article-title">
-          Show HN: Argybargy – A peer-to-peer bridge connecting any AI agents and sessions
+        <a href="https://news.ycombinator.com/item?id=48624855" target="_blank" class="article-title">
+          Ask HN: What will AI coding look like when today's CS freshmen graduate?
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -696,11 +1917,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:10</span>
+          <span>2026-06-22 02:20</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://argybargy.dev" target="_blank">阅读原文</a>
+          <a href="https://news.ycombinator.com/item?id=48624855" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -710,15 +1931,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Argybargy发布点对点桥接工具，可连接任意AI智能体与对话会话。</div>
+        <div class="summary-text">随着ChatGPT等AI工具快速迭代，探讨当前计算机新生毕业时AI编程的形态与影响。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://github.com/hi2brain/second-brain" target="_blank" class="article-title">
-          Second Brain – A free, invisible AI interview copilot (Groq and Llama 3)
+        <a href="https://www.abc.com.py" target="_blank" class="article-title">
+          Show HN: Free AI courses that require a short reflection to earn a certificate
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -729,11 +1950,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 03:47</span>
+          <span>2026-06-22 02:08</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://github.com/hi2brain/second-brain" target="_blank">阅读原文</a>
+          <a href="https://www.abc.com.py" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -743,15 +1964,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">一款名为Second Brain的免费AI面试辅助工具发布，基于Groq和Llama 3，可隐形运行。</div>
+        <div class="summary-text">Hacker News 推出免费AI课程，学员需提交简短反思即可获得证书。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://github.com/palmier-io/palmier-pro" target="_blank" class="article-title">
-          Palmier-Pro: macOS video editor built for AI
+        <a href="https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618/" target="_blank" class="article-title">
+          Why the Human Genome's Tangled Physicality May Confound AI
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -762,11 +1983,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 03:38</span>
+          <span>2026-06-22 02:04</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://github.com/palmier-io/palmier-pro" target="_blank">阅读原文</a>
+          <a href="https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -776,15 +1997,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Palmier-Pro 是一款专为 macOS 打造的 AI 视频编辑器，已在 GitHub 上开源。</div>
+        <div class="summary-text">人类基因组的复杂物理结构可能给AI分析带来挑战，因其三维折叠方式难以被现有模型准确解读。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a" target="_blank" class="article-title">
-          Secretive Wall Street Powerhouse Jane Street Seizes the AI Spotlight
+        <a href="https://drive.google.com/file/d/1MtiNjQeQO9ilLuEFXwVeKgWOzec4F2Dn/view?usp=drive_link" target="_blank" class="article-title">
+          Tlbic: A Time-Limited Basic Income System Designed with AI, v7.0
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -795,11 +2016,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 03:37</span>
+          <span>2026-06-22 02:02</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a" target="_blank">阅读原文</a>
+          <a href="https://drive.google.com/file/d/1MtiNjQeQO9ilLuEFXwVeKgWOzec4F2Dn/view?usp=drive_link" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -809,15 +2030,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">华尔街巨头简街凭借AI技术引发关注，低调布局人工智能领域。</div>
+        <div class="summary-text">AI被用于设计一种限时基本收入系统Tlbic v7.0，探索技术与社会保障的结合。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://github.com/adlternative/agent-historian" target="_blank" class="article-title">
-          Show HN: Agent-historian – let your AI agent search its own past sessions
+        <a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/" target="_blank" class="article-title">
+          Americans and AI 2026: Chatbots, Smart Devices and Views on Impact
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -828,11 +2049,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 02:58</span>
+          <span>2026-06-22 01:29</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://github.com/adlternative/agent-historian" target="_blank">阅读原文</a>
+          <a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -842,15 +2063,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">开源AI工具Agent-historian让智能体自主检索历史会话，提升记忆与上下文利用能力。</div>
+        <div class="summary-text">皮尤报告显示，2026年美国民众对聊天机器人和智能设备的AI影响持复杂看法。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://swiftalerts.trade/the-cadence-trade-hn" target="_blank" class="article-title">
-          Plotting AI model release cadence: two labs are accelerating, three aren't
+        <a href="https://www.crossary.com" target="_blank" class="article-title">
+          Crossary – AI-assisted field mapping that outputs signed Excel files
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -861,11 +2082,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 02:16</span>
+          <span>2026-06-22 01:25</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://swiftalerts.trade/the-cadence-trade-hn" target="_blank">阅读原文</a>
+          <a href="https://www.crossary.com" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -875,15 +2096,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">两家AI实验室加快模型发布节奏，另三家则放慢步伐，行业分化趋势显现。</div>
+        <div class="summary-text">Crossary推出AI辅助野外制图工具，可直接输出带签名的Excel文件。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://github.com/jackulau/ratchet" target="_blank" class="article-title">
-          Ratchet – BIOS flashing toolkit with a built-in MCP server for AI agents
+        <a href="https://github.com/anma-labs/anma" target="_blank" class="article-title">
+          Show HN: ANMA, boundary contracts for cheaper AI coding agents
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -894,11 +2115,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 01:23</span>
+          <span>2026-06-21 23:41</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://github.com/jackulau/ratchet" target="_blank">阅读原文</a>
+          <a href="https://github.com/anma-labs/anma" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -908,15 +2129,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Ratchet 工具包集成 MCP 服务器，让 AI 代理可直接操控 BIOS 刷写流程。</div>
+        <div class="summary-text">ANMA通过边界合约机制，让低成本AI编程模型更严格遵循架构规则。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://xrpentest.com" target="_blank" class="article-title">
-          XRPentest: AI-powered security audit tool for VR/XR headsets
+        <a href="https://github.com/pilotpirxie/ai-colours" target="_blank" class="article-title">
+          Show HN: AI Colours
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -927,11 +2148,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 01:21</span>
+          <span>2026-06-21 23:40</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://xrpentest.com" target="_blank">阅读原文</a>
+          <a href="https://github.com/pilotpirxie/ai-colours" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -941,15 +2162,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">XRPentest推出AI驱动的安全审计工具，专为VR/XR头显设备检测漏洞。</div>
+        <div class="summary-text">一个AI工具项目可生成颜色方案，在Hacker News上获关注。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://theaidigest.org/village/blog/how-the-ai-village-works" target="_blank" class="article-title">
-          How the AI Village Works
+        <a href="https://github.com/oussamaKH63/peekai" target="_blank" class="article-title">
+          Show HN: PeekAI – Local-first observability for Python AI agents
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -960,11 +2181,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 01:13</span>
+          <span>2026-06-21 23:38</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://theaidigest.org/village/blog/how-the-ai-village-works" target="_blank">阅读原文</a>
+          <a href="https://github.com/oussamaKH63/peekai" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -974,15 +2195,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI Village通过社区协作与开源实践，展示人工智能技术的实际运作方式。</div>
+        <div class="summary-text">PeekAI 为 Python AI 智能体提供本地优先的可观测性工具。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/" target="_blank" class="article-title">
-          When I reject AI code even if it works
+        <a href="https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/" target="_blank" class="article-title">
+          Tech Workers Are Fighting Against Silicon Valley's AI Push
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -993,11 +2214,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 00:58</span>
+          <span>2026-06-21 23:29</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/" target="_blank">阅读原文</a>
+          <a href="https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1007,15 +2228,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">开发者反思为何拒绝AI生成的代码，即便其功能正常，强调代码质量与可维护性。</div>
+        <div class="summary-text">硅谷技术工人正发起行动，抵制企业加速推进人工智能发展的趋势。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/" target="_blank" class="article-title">
-          Adobe adds its AI assistant to Premiere, Illustrator, and InDesign
+        <a href="https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/" target="_blank" class="article-title">
+          China's Z.ai open-sourced a frontier coding model as Washington bans it rival
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1026,11 +2247,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 00:40</span>
+          <span>2026-06-21 23:28</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/" target="_blank">阅读原文</a>
+          <a href="https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1040,15 +2261,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Adobe将AI助手集成至Premiere、Illustrator及InDesign，提升创意工具智能化水平。</div>
+        <div class="summary-text">中国Z.ai开源前沿编程模型，同日美国禁止其竞争对手。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://asiaai.fyi/east-asias-ai-capital-surge-homegrown-models-challenge-west-amid-mineral-tensions/" target="_blank" class="article-title">
-          Beyond the $7.4B Headline: DeepSeek's Series A signals Chinese AI alliance shift
+        <a href="https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless" target="_blank" class="article-title">
+          AI is making answers cheap. Curiosity is priceless
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1059,11 +2280,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 23:47</span>
+          <span>2026-06-21 23:20</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://asiaai.fyi/east-asias-ai-capital-surge-homegrown-models-challenge-west-amid-mineral-tensions/" target="_blank">阅读原文</a>
+          <a href="https://www.fastcompany.com/91556703/ai-is-making-answers-cheap-curiosity-is-priceless" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1073,15 +2294,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">DeepSeek获74亿美元融资，标志着中国AI企业正从单打独斗转向联盟协作。</div>
+        <div class="summary-text">AI降低了获取答案的成本，但人类的好奇心仍是不可替代的稀缺价值。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://github.com/BetaBots-LLC/callimachus" target="_blank" class="article-title">
-          Show HN: Callimachus – Local search across your AI coding-agent history
+        <a href="https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/" target="_blank" class="article-title">
+          Norway Bans AI for Kids 6-13 in Schools
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1092,11 +2313,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 23:00</span>
+          <span>2026-06-21 23:12</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://github.com/BetaBots-LLC/callimachus" target="_blank">阅读原文</a>
+          <a href="https://yipzap.com/norway-bans-ai-for-kids-6-13-in-schools-a-bold-move-against-tech-dependency/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1106,15 +2327,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Callimachus工具可本地搜索AI编程助手的操作历史记录，提升代码开发效率。</div>
+        <div class="summary-text">挪威禁止6-13岁学生在学校使用AI，以遏制技术依赖。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639" target="_blank" class="article-title">
-          Why Amazon hates 'human-in-the-loop' AI governance
+        <a href="https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/" target="_blank" class="article-title">
+          Fast-tracked power plants fuel AI boom, with little public scrutiny
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1125,11 +2346,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 22:48</span>
+          <span>2026-06-21 23:11</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639" target="_blank">阅读原文</a>
+          <a href="https://www.reuters.com/business/energy/fast-tracked-power-plants-fuel-ai-boom-with-little-public-scrutiny-2026-06-16/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1139,15 +2360,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">亚马逊反对“人在回路”AI治理模式，认为其会降低技术效率与创新速度。</div>
+        <div class="summary-text">AI算力需求推动发电厂加速建设，但缺乏公众监督。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.youtube.com/watch?v=B2ASCTomtIA" target="_blank" class="article-title">
-          One Prompt Agentic AI Marketing for Game Developers
+        <a href="https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500" target="_blank" class="article-title">
+          Bill that would mandate AI chip location tracking gains industry support
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1158,11 +2379,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 22:46</span>
+          <span>2026-06-21 23:03</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.youtube.com/watch?v=B2ASCTomtIA" target="_blank">阅读原文</a>
+          <a href="https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1172,15 +2393,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">面向游戏开发者的单提示词智能体AI营销方案，提升推广效率。</div>
+        <div class="summary-text">美拟立法强制追踪AI芯片位置，获行业支持。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://funnybench.lol" target="_blank" class="article-title">
-          FunnyBench – Can AI Models Tell Funny Jokes?
+        <a href="https://github.com/dshakes/compass" target="_blank" class="article-title">
+          Compass – guardrails and a hard budget cap for AI coding agents
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1191,11 +2412,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 22:43</span>
+          <span>2026-06-21 22:38</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://funnybench.lol" target="_blank">阅读原文</a>
+          <a href="https://github.com/dshakes/compass" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1205,73 +2426,7 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI模型幽默能力受测，新基准FunnyBench评估其讲笑话水平。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Hacker News">
-      <div class="article-header">
-        <a href="https://www.engadget.com/2194804/investigation-by-the-atlantic-reveals-many-millions-of-songs-used-for-ai-music-training/" target="_blank" class="article-title">
-          Atlantic investigation reveals millions of songs used for AI music training
-        </a>
-        <div class="source-badge">
-          <i class="fab fa-hacker-news"></i>
-          <span>Hacker News</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 22:07</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.engadget.com/2194804/investigation-by-the-atlantic-reveals-many-millions-of-songs-used-for-ai-music-training/" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">调查显示，数百万首歌曲被用于训练AI音乐模型，引发版权争议。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Hacker News">
-      <div class="article-header">
-        <a href="https://www.searchenginejournal.com/tiktok-shows-3x-more-ai-slop-than-youtube-report-finds/579521/" target="_blank" class="article-title">
-          TikTok Shows 3x More AI Slop Than YouTube, Report Finds
-        </a>
-        <div class="source-badge">
-          <i class="fab fa-hacker-news"></i>
-          <span>Hacker News</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 22:05</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.searchenginejournal.com/tiktok-shows-3x-more-ai-slop-than-youtube-report-finds/579521/" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">报告显示，TikTok上AI生成的低质量内容数量是YouTube的三倍。</div>
+        <div class="summary-text">开源工具Compass为AI编程代理设置硬性预算上限和安全护栏，以控制成本与风险。</div>
       </div>
       
     </div>
@@ -1290,7 +2445,7 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 21:41</span>
+          <span>2026-06-21 22:14</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
@@ -1304,15 +2459,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI视频探讨“门卫谬误”，揭示人类对智能系统能力的常见误解。</div>
+        <div class="summary-text">AI正在揭示“门卫谬论”，即人类对AI能力的认知偏见。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://news.ycombinator.com/item?id=48613162" target="_blank" class="article-title">
-          Ask HN: Why are desktop AI apps so heavy?
+        <a href="https://docs.getbifrost.ai/edge/overview" target="_blank" class="article-title">
+          Show HN: Bifrost Edge: runs on PC of ur organization and routes all AI traffic
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1323,11 +2478,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 21:31</span>
+          <span>2026-06-21 22:04</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://news.ycombinator.com/item?id=48613162" target="_blank">阅读原文</a>
+          <a href="https://docs.getbifrost.ai/edge/overview" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1337,15 +2492,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">桌面AI应用虽以文本处理为主，却在现代PC上运行沉重，引发对资源占用的讨论。</div>
+        <div class="summary-text">Bifrost Edge 可在组织电脑上运行，集中管理并路由所有AI流量。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://botacts.com" target="_blank" class="article-title">
-          Show HN: Botacts – Phonebook of AI Bots
+        <a href="https://github.com/Fmarzochi/EGC" target="_blank" class="article-title">
+          Show HN: EGC - MCP server that gives AI coding tools memory across sessions
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1356,11 +2511,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 21:26</span>
+          <span>2026-06-21 22:01</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://botacts.com" target="_blank">阅读原文</a>
+          <a href="https://github.com/Fmarzochi/EGC" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1370,15 +2525,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Botacts项目汇集可对话的AI智能体，打造类似电话簿的机器人应用目录。</div>
+        <div class="summary-text">EGC开源项目为AI编程工具提供跨会话记忆功能，提升代码开发连续性。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://news.ycombinator.com/item?id=48613022" target="_blank" class="article-title">
-          Ask HN: What is your #1 practical lesson or "aha" moment from coding with AI?
+        <a href="https://en.osm.town/@zverik/116787982770421751" target="_blank" class="article-title">
+          PostGIS pull requests just a bunch of AI bots
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1389,11 +2544,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 21:13</span>
+          <span>2026-06-21 22:00</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://news.ycombinator.com/item?id=48613022" target="_blank">阅读原文</a>
+          <a href="https://en.osm.town/@zverik/116787982770421751" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1403,15 +2558,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">开发者分享使用AI编程的核心顿悟：AI能大幅提升效率，但需警惕过度依赖，保持对代码逻辑的主导权。</div>
+        <div class="summary-text">PostGIS项目收到的代码合并请求多由AI机器人提交，引发对开源协作中AI影响的讨论。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.theparliamentmagazine.eu/news/article/why-the-eu-rewroteits-landmark-ai-law" target="_blank" class="article-title">
-          Why the EU rewrote its landmark AI law
+        <a href="https://ajeygore.in/content/the-anatomy-of-an-ai-native-org" target="_blank" class="article-title">
+          The anatomy of an AI-native org
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1422,11 +2577,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 20:41</span>
+          <span>2026-06-21 21:34</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theparliamentmagazine.eu/news/article/why-the-eu-rewroteits-landmark-ai-law" target="_blank">阅读原文</a>
+          <a href="https://ajeygore.in/content/the-anatomy-of-an-ai-native-org" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1436,15 +2591,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">欧盟修订其具有里程碑意义的AI法案，以应对技术快速发展和监管挑战。</div>
+        <div class="summary-text">AI原生组织的内部结构、运作模式及其对技术与团队协作的深远影响。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566" target="_blank" class="article-title">
-          GPUs and RAM Are in Short Supply, but the Real Bottleneck for AI Is Electricians
+        <a href="https://apertvs.ai/" target="_blank" class="article-title">
+          Apertus – Open Foundation Model for Sovereign AI
         </a>
         <div class="source-badge">
           <i class="fab fa-hacker-news"></i>
@@ -1455,11 +2610,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 20:35</span>
+          <span>2026-06-21 21:29</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.nextplatform.com/compute/2026/05/28/gpus-and-ram-are-in-short-supply-but-the-real-bottleneck-for-ai-is-electricians/5247566" target="_blank">阅读原文</a>
+          <a href="https://apertvs.ai/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1469,30 +2624,30 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI硬件短缺的瓶颈并非GPU或内存，而是安装维护这些设备的电工人才不足。</div>
+        <div class="summary-text">Apertus发布开源基础模型，旨在推动主权AI发展，获Hacker News社区广泛关注。</div>
       </div>
       
     </div>
   
-    <div class="article-card" data-source="36Kr">
+    <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3862458180359424?f=rss" target="_blank" class="article-title">
-          微信AI助手“小微”小范围灰度上线
+        <a href="https://msgmaster.ca/" target="_blank" class="article-title">
+          MsgMaster – an AI that turns your chaotic inbox into a prioritized workflow
         </a>
         <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
+          <i class="fab fa-hacker-news"></i>
+          <span>Hacker News</span>
         </div>
       </div>
 
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 05:03</span>
+          <span>2026-06-21 21:23</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3862458180359424?f=rss" target="_blank">阅读原文</a>
+          <a href="https://msgmaster.ca/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1502,30 +2657,30 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">微信AI助手“小微”已开始小范围灰度测试，支持语音或文字操控微信功能及小程序。</div>
+        <div class="summary-text">AI工具MsgMaster可将混乱收件箱转化为优先处理的工作流程。</div>
       </div>
       
     </div>
   
-    <div class="article-card" data-source="36Kr">
+    <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3862419587781894?f=rss" target="_blank" class="article-title">
-          AI投资热潮向上游扩散，美股多家半导体设备龙头今年翻倍
+        <a href="https://deepmind.google/blog/securing-the-future-of-ai-agents/" target="_blank" class="article-title">
+          Securing the Future of AI Agents
         </a>
         <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
+          <i class="fab fa-hacker-news"></i>
+          <span>Hacker News</span>
         </div>
       </div>
 
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 04:38</span>
+          <span>2026-06-21 21:10</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3862419587781894?f=rss" target="_blank">阅读原文</a>
+          <a href="https://deepmind.google/blog/securing-the-future-of-ai-agents/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1535,30 +2690,30 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">AI投资热潮推高上游需求，美股多家半导体设备公司年内股价翻倍，行业进入卖方市场。</div>
+        <div class="summary-text">DeepMind探讨如何确保AI代理系统安全，防范潜在风险，推动其未来发展。</div>
       </div>
       
     </div>
   
-    <div class="article-card" data-source="36Kr">
+    <div class="article-card" data-source="Hacker News">
       <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3862373538386952?f=rss" target="_blank" class="article-title">
-          Anthropic首席执行官：人工智能公司需要“数千亿美元”收入，否则将面临生存风险
+        <a href="https://github.com/Jake1848/conduit" target="_blank" class="article-title">
+          Conduit – Self-hosted Bitcoin Lightning payments for AI agents
         </a>
         <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
+          <i class="fab fa-hacker-news"></i>
+          <span>Hacker News</span>
         </div>
       </div>
 
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 03:40</span>
+          <span>2026-06-21 20:48</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3862373538386952?f=rss" target="_blank">阅读原文</a>
+          <a href="https://github.com/Jake1848/conduit" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1568,30 +2723,30 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Anthropic CEO警告，AI企业若无法实现数千亿美元营收，将难以维持生存。</div>
+        <div class="summary-text">Conduit推出自托管比特币闪电网络支付方案，支持AI代理实现自主交易。</div>
       </div>
       
     </div>
   
-    <div class="article-card" data-source="36Kr">
+    <div class="article-card" data-source="OpenAI">
       <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3862280121865219?f=rss" target="_blank" class="article-title">
-          报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标
+        <a href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" target="_blank" class="article-title">
+          Samsung Electronics brings ChatGPT and Codex to employees
         </a>
         <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
+          <i class="fas fa-microchip"></i>
+          <span>OpenAI</span>
         </div>
       </div>
 
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-21 01:54</span>
+          <span>2026-06-21 23:00</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3862280121865219?f=rss" target="_blank">阅读原文</a>
+          <a href="https://openai.com/index/samsung-electronics-chatgpt-codex-deployment" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1601,411 +2756,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">特斯拉申请“Amazing Abundance”商标，加速推进AI、人形机器人与自动驾驶技术布局。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="36Kr">
-      <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3861259140764678?f=rss" target="_blank" class="article-title">
-          特朗普：不再将Anthropic视为国家安全威胁
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 09:49</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3861259140764678?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">特朗普在访谈中称，不再视AI公司Anthropic为国家安全威胁。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="36Kr">
-      <div class="article-header">
-        <a href="https://36kr.com/newsflashes/3861257682129921?f=rss" target="_blank" class="article-title">
-          挪威将禁止小学生使用生成式人工智能
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-chart-line"></i>
-          <span>36Kr</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 09:30</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://36kr.com/newsflashes/3861257682129921?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">挪威政府宣布禁止小学生使用生成式AI，并限制初高中生使用条件，以防范对学习的负面影响。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868934.html?f=rss" target="_blank" class="article-title">
-           苹果没告诉你的事：macOS27这些值得关注的新特性 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 04:14</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868934.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">macOS 27新特性更新幅度较小，重点转向AI功能，类似“Snow Leopard”的优化版本。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868464.html?f=rss" target="_blank" class="article-title">
-           死磕完几十个一线案例，我们对AI怎么落地营销服有了这些判断 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 04:13</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868464.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">虎嗅智库研究显示，AI在营销服场景落地碎片化，多数企业难以量化投资回报，实际增效案例不足两成。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868933.html?f=rss" target="_blank" class="article-title">
-           AI巨头的“Token补贴大战”，快打完了吗？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 04:06</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868933.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">AI大厂为争夺用户大幅补贴Token成本，最高达订阅费70倍，但上市后可能结束“烧钱”模式。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868930.html?f=rss" target="_blank" class="article-title">
-           本周AI 项目推荐：UXBench、MemLens、RoadmapBench…下一代模型，需要下一代Benchmark 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 03:35</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868930.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">文章探讨了随着AI模型迭代，传统评测基准已显不足，需开发新一代基准来适配更复杂的模型能力。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868929.html?f=rss" target="_blank" class="article-title">
-           诺奖得主出走DeepMind，为何选择加入这家初创公司？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 03:20</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868929.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">诺贝尔化学奖得主、AlphaFold核心架构师John Jumper离开DeepMind，加入AI初创公司Anthropic。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868924.html?f=rss" target="_blank" class="article-title">
-           OpenClaw 创始人吹的Loop 工程到底是个撒？不用写提示词了？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 02:36</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868924.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">Loop Engineering是AI领域新概念，实为对提示词工程等旧技术的再包装。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868922.html?f=rss" target="_blank" class="article-title">
-           洗个澡功夫，Codex 替我跟售后把退款要了回来 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 02:09</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868922.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">OpenAI工程师利用Codex自动处理网购退款，在无人值守情况下成功完成操作。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868914.html?f=rss" target="_blank" class="article-title">
-           AI时代的第一批鸡娃：我们仍旧热衷于制造神童 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 01:21</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868914.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">AI教育焦虑蔓延至低龄儿童，家长争相为三年级以下孩子报名提示词工程等课程，担心不学AI会落后。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4868913.html?f=rss" target="_blank" class="article-title">
-           Eric的思维提升笔记本 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-21 00:52</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4868913.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">AI应用层收入增长有限，但基础设施投资带动产业链估值飙升，类似历史“卖铲子”现象。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4860037.html?f=rss" target="_blank" class="article-title">
-           蛰伏的机器人变革，准备拿谁开刀？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 21:53</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4860037.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">菜鸟在荷兰启用超100台自研ZeeBot攀爬机器人，升级欧洲供应链履约中心。</div>
+        <div class="summary-text">三星电子在全球员工中部署ChatGPT企业版和Codex，成为OpenAI最大规模的企业级AI应用之一。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="TechCrunch">
       <div class="article-header">
-        <a href="https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/" target="_blank" class="article-title">
-          Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’
+        <a href="https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/" target="_blank" class="article-title">
+          When the Trump administration cracks down on Anthropic, who benefits?
         </a>
         <div class="source-badge">
           <i class="fas fa-bolt"></i>
@@ -2016,11 +2775,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 20:32</span>
+          <span>2026-06-21 15:28</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/" target="_blank">阅读原文</a>
+          <a href="https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -2030,15 +2789,15 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">Signal高管提醒用户：AI聊天机器人没有意识，不应视为朋友或对话伙伴。</div>
+        <div class="summary-text">特朗普政府对Anthropic的打压引发AI生态连锁反应，或重塑行业竞争格局。</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="TechCrunch">
       <div class="article-header">
-        <a href="https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/" target="_blank" class="article-title">
-          In the Weights is your new AI-centric vanity search
+        <a href="https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/" target="_blank" class="article-title">
+          Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27
         </a>
         <div class="source-badge">
           <i class="fas fa-bolt"></i>
@@ -2049,11 +2808,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-06-20 19:41</span>
+          <span>2026-06-21 14:40</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/" target="_blank">阅读原文</a>
+          <a href="https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -2063,40 +2822,7 @@
           <i class="fas fa-robot"></i>
           <span>AI摘要</span>
         </div>
-        <div class="summary-text">一款以AI为核心的个性化搜索工具，可评估用户的“In the Weights”评分。</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="The Verge">
-      <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data" target="_blank" class="article-title">
-          The Atlantic created a searchable database of the music used to train AI
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-satellite"></i>
-          <span>The Verge</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-06-20 18:46</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>AI摘要</span>
-        </div>
-        <div class="summary-text">《大西洋月刊》公开了用于训练AI的四个音乐数据集，其中两个包含数百万首曲目，引发对版权与AI训练透明度的关注。</div>
+        <div class="summary-text">苹果iOS 27系统将新增多项实用AI功能，覆盖Siri之外的更多应用场景。</div>
       </div>
       
     </div>
@@ -2107,7 +2833,7 @@
     <footer class="footer">
       <p>本日报由 AI 新闻聚合工具自动生成 · 每天上午 8:30 更新</p>
       <p>关注公众号 <strong>鹤野无岸</strong> 获取每日推送</p>
-      <p>数据来源：Hacker News、36Kr、Huxiu、TechCrunch、The Verge</p>
+      <p>数据来源：Huxiu、36Kr、Hacker News、OpenAI、TechCrunch</p>
       <p style="margin-top: 10px; font-size: 12px; opacity: 0.7;">
         <i class="fas fa-code"></i> 自由风格 · 设计灵感源于山野与科技的交融
       </p>
