@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>鹤野无岸 · AI技术日报 (2026年09月13日)</title>
+  <title>鹤野无岸 · AI技术日报 (2026年09月14日)</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * {
@@ -408,9 +408,9 @@
       </div>
       <h1 class="page-title">AI技术日报</h1>
       <div class="date-info">
-        <span><i class="far fa-calendar"></i> 2026年09月13日</span>
-        <span><i class="far fa-clock"></i> 05:02 更新</span>
-        <span><i class="fas fa-wifi"></i> 24篇文章</span>
+        <span><i class="far fa-calendar"></i> 2026年09月14日</span>
+        <span><i class="far fa-clock"></i> 05:12 更新</span>
+        <span><i class="fas fa-wifi"></i> 32篇文章</span>
       </div>
     </header>
 
@@ -423,7 +423,7 @@
       <div class="stats-grid">
         <div class="stat-item">
           <div class="stat-label">文章总数</div>
-          <div class="stat-value">24</div>
+          <div class="stat-value">32</div>
         </div>
         <div class="stat-item">
           <div class="stat-label">来源数量</div>
@@ -440,6 +440,22 @@
     <div class="source-tabs" id="sourceTabs">
       
         <div class="source-tab active"
+             onclick="filterArticles('Anthropic')"
+             data-source="Anthropic">
+          <i class="fas fa-newspaper"></i>
+          <span>Anthropic</span>
+          <span class="source-count">1</span>
+        </div>
+      
+        <div class="source-tab "
+             onclick="filterArticles('Huxiu')"
+             data-source="Huxiu">
+          <i class="fas fa-newspaper"></i>
+          <span>Huxiu</span>
+          <span class="source-count">26</span>
+        </div>
+      
+        <div class="source-tab "
              onclick="filterArticles('OpenAI')"
              data-source="OpenAI">
           <i class="fas fa-newspaper"></i>
@@ -456,27 +472,11 @@
         </div>
       
         <div class="source-tab "
-             onclick="filterArticles('Anthropic')"
-             data-source="Anthropic">
-          <i class="fas fa-newspaper"></i>
-          <span>Anthropic</span>
-          <span class="source-count">1</span>
-        </div>
-      
-        <div class="source-tab "
-             onclick="filterArticles('Huxiu')"
-             data-source="Huxiu">
-          <i class="fas fa-newspaper"></i>
-          <span>Huxiu</span>
-          <span class="source-count">14</span>
-        </div>
-      
-        <div class="source-tab "
              onclick="filterArticles('The Verge')"
              data-source="The Verge">
           <i class="fas fa-newspaper"></i>
           <span>The Verge</span>
-          <span class="source-count">5</span>
+          <span class="source-count">1</span>
         </div>
       
         <div class="source-tab "
@@ -492,6 +492,897 @@
     <!-- 文章列表 -->
     <div class="article-list" id="articleList">
       
+    <div class="article-card" data-source="Anthropic">
+      <div class="article-header">
+        <a href="https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank" class="article-title">
+          Newsroom
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-shield"></i>
+          <span>Anthropic</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 05:11</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890957.html?f=rss" target="_blank" class="article-title">
+           数学界激辩AI之际，重读《自然》专访陶哲轩 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 04:51</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890957.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 自然系列 ，作者：Nature Portfolio 导语： 最近，AI与数学研究的关系引发热议。今年4月，陶哲轩曾接受《自然》采访，并分享了当时他对AI的一些思考。访谈中，他谈到了AI在数学研究中的潜力与局限，并提出研究者需要重新思考什么是数学证明、什么是论文，以及数学工作的使命。 时隔数月，当相关讨论持续升温，再回看这篇访谈，也许能为理解当下争议提供更多视角。 原文作者：D...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890955.html?f=rss" target="_blank" class="article-title">
+           数学家开团打响第一枪：邓煜等25位菲奖得主公开抵制AI解题潮，捍卫人类思想 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 04:48</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890955.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 心智观察所 ，作者：心智观察所 2026年9月12日，数学界打响第一枪。25位荣获菲尔兹奖的顶尖学者，其中包括陶哲轩、吴宝珠、彼得·舒尔茨、塞德里克·维拉尼、第二位得菲奖的女数学家玛丽娜·维亚佐夫斯卡，以至最新得奖的邓煜，联名签署公开信，向硅谷科技巨头以及日趋狂热的AI解题浪潮发出了严厉警告。同一天，一个名为“人类数学协会”的学者组织宣布成立，号召全球研究者共同捍卫数学的独立...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890954.html?f=rss" target="_blank" class="article-title">
+           55岁程序员找工作记 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 04:38</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890954.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 碳基智 ，作者：碳基智 本文内容老曹都确认过了，没有夸大也没有演绎，更没有AI辅助，纯手搓的同时，模糊了老曹具体工作的公司和项目详情，可放心食用。 上周六中午攒了个饭局，庆祝我髌腱术后可以脱拐走路，一起吃饭的朋友有Apache顶级项目的PMC，有两桶油的技术部门负责人，还有一位55岁的程序员。一个多小时的饭局聊了挺多职业、AI相关的话题，最让我印象深刻的是这位55岁程序员的找...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890952.html?f=rss" target="_blank" class="article-title">
+           当 AI 巨头开始要求减速：安全背后，权力与责任正在重新配对 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 04:34</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890952.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs，原文标题：《当 AI 巨头开始要求减速：安全背后，权力与责任正在重新配对》 过去几年，人工智能行业最熟悉的语言一直是"更快"：更大的模型、更长的上下文、更强的推理、更复杂的Agent、更短的迭代周期。资本市场奖励速度，人才追逐速度，国家之间也开始用速度衡量技术竞争力。 2026年9月，这套语言第一次在行业内部被公开...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890936.html?f=rss" target="_blank" class="article-title">
+           为什么中国只能有一个合肥？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 04:30</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890936.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 赛格大道 ，作者：傅蔚冈 过去几年，中国资本市场出现了一批与上一轮互联网时代很不一样的“新贵”。如果说腾讯、美团、阿里、拼多多代表的是上一代财富，那么今天最受追捧的公司，越来越多来自半导体、人工智能、机器人、商业航天等“硬科技”领域。 寒武纪、长鑫、宇树等公司背后，不仅有创业者和风险资本，也越来越容易看到国家战略、地方产业基金和国资平台的身影。而在移动互联网时代，那些受追捧公...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890942.html?f=rss" target="_blank" class="article-title">
+           三个月价格腰斩，大模型的“聪明”正在贬值？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 03:59</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890942.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 光锥智能 ，作者：关注前沿科技的 大模型肉搏战的另一面。 七、八、九三个月，大模型行业像打了鸡血。 从海外“御三家”到国内大模型厂商，轮番发布的新模型让人目不暇接。9月第一周，OpenAI、Anthropic、谷歌你方唱罢我登场，Claude Fable 5.1、Gemini Flash 3.8、GPT-6 Astra先后发布。 国内各种版本的“Flash”模型也在扎堆发布。...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890937.html?f=rss" target="_blank" class="article-title">
+           脑机公司，拔苗助长 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 03:40</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890937.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 巨潮WAVE ，编辑：杨旭然，作者：小卢鱼，原文标题：《脑机公司，拔苗助长｜巨潮》 我们正处在一个被技术快速改造的时代。 AI、机器人、基因编辑，这些热门领域，都在某种程度上重新定义“人”。 脑机赛道在对“改造人”的能力方面，显得尤其明显。它同时承载了治愈、增强、连接、永生等多重叙事，任何一重叙事都足以支撑一个万亿级市场的想象空间。 在机器人赛道迎来监管关注，真真假假小作文满...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890934.html?f=rss" target="_blank" class="article-title">
+           具身智能，困在“攒局”里 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 03:36</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890934.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 小饭桌 ，作者：关注具身的，编辑：张丽娟 数采中心扫货，机器人公司回购数据，钱在圈里打转。 9月的具身赛道，最热闹的是两条朋友圈和一条传闻。 敲钟不到十天，梅卡曼德创始人邵天兰在朋友圈连发两条，把矛头对准行业里一种流行玩法：“攒局型”具身智能创业。他还在评论区直接点了银河通用的名，措辞很重，说“这种做法是不合法、不道德，而且是不聪明的”。 银河通用随即回应，但通篇没提梅卡曼德...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890924.html?f=rss" target="_blank" class="article-title">
+           一人创业时代：组织能力依托AI压缩至个体 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 03:07</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890924.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 清华管理评论 ，责编：高菁阳，作者：贾迎亚 周昊阳 AI让“一人创业”成为大规模可行的商业现实。OPC的本质并非传统公司的缩小版，而是组织能力向个体的压缩。通过比较专才、通才与T型人才的差异，本文指出，真正能跑通OPC商业闭环的，是兼具专业深度、跨界广度与价值翻译能力，并能将AI嵌入生产系统的T型人才。文章进一步提炼出AITL飞轮模型——作为AI原生OPC的组织能力系统，为个...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890915.html?f=rss" target="_blank" class="article-title">
+           Kimi实习生开公司，估值快200亿了 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:58</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890915.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 投中网 ，编辑：刘燕秋，作者：韦香惠 年轻人的第一桶金。 作者韦香惠 本文字数5212 手搓量丨100%AI含量丨0% 大模型数据公司，很长一段时间并不在VC的视野中，不过这种境况有所变化。我最近听说，几个有阿里通义、月之暗面等模型大厂实习经历的年轻人创立了一家数据公司，颇受资本青睐。 这家公司以AI训练数据为切入口，在不到一年时间里便拿下千万美元级订单，完成约三轮融资，估值...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890902.html?f=rss" target="_blank" class="article-title">
+           阿莫迪的响指：我们该如何理解“大模型减速论”？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:50</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890902.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 锦缎 ，作者：穆阳 2026年9月的第二个周六，Anthropic CEO达里奥·阿莫迪发表长文《We Must Pace the Frontier》。核心主张只有一句："我们必须放慢提升AI模型能力的速度。" 如果这话出自学者，它只是又一份请愿书。但接下来48小时发生的事，让它变成了产业史级信号： 马斯克表态："Dario是对的。"要知道，就在几天前，他刚把Anthropi...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890900.html?f=rss" target="_blank" class="article-title">
+           量产元年，谁在抢跑？——中国人形机器人的双寡头初局 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:33</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890900.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： Tech商业 ，作者：Tech商业，原文标题：《量产元年，谁在抢跑？——中国人形机器人的双寡头初局》 2026年7月，工信部在WAIC新闻发布会上释放了一个信号：今年中国人形机器人整机产量有望突破10万台——对比2025年全球总出货约1.8万台、国产整机约为1.4万台，这是超过5倍的跃迁。人形机器人正式从“展会样机”迈入“规模化量产元年”。而在这条赛道上，中国公司在“出货量”...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890880.html?f=rss" target="_blank" class="article-title">
+           带外国人进中国工厂，一张票能卖到1.5万美元 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:18</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890880.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号：出海合规笔记，作者：Henry，题图来自：视觉中国 带外国人参观中国工厂，正在变成一门高价生意。 上海一家研究机构组织的5天科技考察，最高收费1.5万美元。另一家面向海外投资者和创业者的机构42Geeks，推出上海、杭州、深圳和香港7日行程：双人房收费8380美元，单人房9880美元，国际机票和个人消费另算。 行程包括阿里巴巴总部交流、人工智能实验室、机器人企业、无人出租车，以...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890895.html?f=rss" target="_blank" class="article-title">
+           苦等上岸，AI职业培训班里的年轻人 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:10</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890895.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： AI故事计划 ，编辑：张霞，作者：朱钰 " “零基础转型，半年上岸，挑战25W+年薪……”这套话术听上去像画饼，但因为饼里掺了AI，不少年轻人决定赌一把。 这两年，大模型公司轮番刷新融资纪录，AI行业给应届生开出的年薪屡上热搜。这样的高薪叙事，吸引了一大波待业青年和收入微薄的职场新人。 他们掏出数万元学费，在AI职业培训班里，脱产学习，想赌一个全新的职业身份。 现实情况是，多...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890894.html?f=rss" target="_blank" class="article-title">
+           达里奥A社与它那份报告 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 02:06</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890894.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 扯氮集 ，作者：魏武挥二世，原文标题：《达里奥 A社与它那份报告》 这份超级长的安全报告，掀起了很大的浪花——和以前它的报告所引起的关注讨论，不是一个量级的。简中有很多讨论，海外社媒也热火朝天。我所关注的几家重磅外媒，都是浓墨重彩地“头版头条”级别。但在阅读这份报告之前，我觉得有很多背景信息需要事先掌握或者关注一下。 谁说的，其实比说什么更重要。了解“什么”之前，“谁”必须先...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890883.html?f=rss" target="_blank" class="article-title">
+           当AI让GDP暴涨32%，劳动者却可能更穷：AI繁荣背后的分配危机 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 01:51</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890883.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： AI时代我的人生下半场 ，作者：席春迎博士 深度观察 从Anthropic的增长模型到比尔·盖茨的警告：AI时代最难的问题不是创造财富，而是重新分配工作、收入与尊严 席 席春迎博士深度思考·约12分钟阅读 AI驱动的繁荣背后，是个体的不确定性 假设到2030年，美国GDP比原来的发展路径高出32.4%，当年经济增速达到15.4%，人均收入理论上每五年就可以翻一番，这算不算一个...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890876.html?f=rss" target="_blank" class="article-title">
+           奥特曼：我们不急于2026年上市，OpenAI没解决对齐问题 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 01:50</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890876.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号：腾讯科技，作者：苏扬，编辑：徐青阳，原文标题：《“我们不急于2026年上市，OpenAI没解决对齐问题” 奥特曼：为了人类，必须放弃短期财务利益》，题图来自：视觉中国 美国当地时间9月12日，在OpenAI刚刚发布最新强大模型Astra、并经历震动行业的Hugging Face模型逃逸事件后，OpenAI首席执行官山姆·奥特曼接受了《财富》访谈。 这场对话发生在AI安全焦虑空前...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890881.html?f=rss" target="_blank" class="article-title">
+           AI落地的最后一公里，国家准备交给谁？答案在这份文件里！ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 01:48</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890881.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： AI时代我的人生下半场 ，作者：席春迎博士，原文标题：《AI落地的最后一公里，国家准备交给谁？答案在这份文件里！》 政策解读·AI产业 工信部《人工智能应用服务商培育专项行动》深度解读 席 席春迎博士AI产业与资本市场观察 过去三年，中国人工智能产业最受关注的是大模型、芯片、算力中心和智能终端。资本市场习惯用参数、Token价格、算力规模和模型排名判断竞争力，地方政府也更愿意...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890872.html?f=rss" target="_blank" class="article-title">
+           重新理解银发经济：一场从工业革命延续到AI时代的长寿社会重构 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 01:02</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890872.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 聚焦与余光 ，作者：苍山残阳 序章：一个被严重误读的国家级长期变量 我先抛出一个判断：今天大多数企业家、创业者乃至地方政府对"银发经济"的理解，都还停留在一个非常表层的位置——把它等同于"养老产业"。 如果你只是把银发经济看作养老院、护理床、保健品、老花镜、老年大学、广场舞服装这些散落赛道的集合，你不仅会低估这个市场的真实体量，还会错判中国未来十到二十年的几条主战略线。 银发...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890860.html?f=rss" target="_blank" class="article-title">
+           到底是谁对科技没信心？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 00:54</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890860.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号：唐僧的碎碎念，作者：唐二僧，题图来自：AI生成 上周出差见了一群新朋友，喝了很多酒也聊了很多关于投资的事情，有很多桥段很有意思也很有代表性，征求了“京爷”们的同意以后一并发出来哈： 一、关于净值和语言文化传染 一位大哥听我讲完近期的净值表现以后评价了一句：“你这也不得劲儿啊！”，旁边的小姑娘也跟着嘀咕了一句：“是不得劲儿”。我当时就纳闷这不是“京爷”的饭局么？“大哥你是纯正的北...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890871.html?f=rss" target="_blank" class="article-title">
+           爆涨40倍，智谱杀疯了 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 00:44</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890871.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 技术领导力 ，作者：Mr.K 智谱的中报出来了。上半年MaaS开放平台及API服务收入8.25亿元，同比增长约2736%。Token调用量涨了40多倍，付费日活涨了603%。 在模型研发方面，旗舰模型GLM-5.3发布之后，一度拿下国产模型的SOTA位置。Coding Plan套餐连着加价三次，还经常卖断货。 就在昨天，智谱又通过配售加可转债的方式，完成了新一轮约50亿美元的...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890868.html?f=rss" target="_blank" class="article-title">
+           豆包大战WorkBuddy，受伤的是WPS？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-14 00:12</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890868.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 人人都是产品经理 ，作者：怪哥 最近国内AI办公赛道突然热闹得有点离谱。 腾讯有WorkBuddy，阿里有千问办公，字节有豆包工作，百度有百度搭子Dumate。 乍一看，这是熟悉的互联网大厂“四国大战”：腾讯盯着字节，字节防着阿里，阿里又在看百度，大家都想抢AI办公的第一张船票。 但这几天把这些产品放在一起看，我越来越觉得： 他们表面上是在互相竞争，真正想抢的，可能根本不是彼...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890862.html?f=rss" target="_blank" class="article-title">
+           阿莫迪的响指：我们该如何理解“大模型减速论”？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-13 23:56</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890862.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 锦缎 ，作者：穆阳 2026年9月的第二个周六，Anthropic CEO达里奥·阿莫迪发表长文《We Must Pace the Frontier》。核心主张只有一句："我们必须放慢提升AI模型能力的速度。" 如果这话出自学者，它只是又一份请愿书。但接下来48小时发生的事，让它变成了产业史级信号： 马斯克表态："Dario是对的。"要知道，就在几天前，他刚把Anthropi...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890854.html?f=rss" target="_blank" class="article-title">
+           未来20年（2026–2045）中国房价走势分析报告（12000字长文） 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-13 23:34</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890854.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： markzou的笔记 ，作者：markzou1988 核心结论（TL;DR）：未来20年中国房地产将从"短缺溢价"彻底转入"过剩分化"周期，且这一转折由四条相互强化的长周期力量共同驱动： 人口坍缩：主力购房人群（25–45岁）从2025年约3.8亿降至2040年不足3.2亿；同时死亡高原在2040后开启（年死亡1700–1900万），遗产房逐年涌入。新生儿长期低位（2025出...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4889441.html?f=rss" target="_blank" class="article-title">
+           谁还在意B站？ 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-13 23:08</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4889441.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">出品｜虎嗅黄青春频道 作者｜商业消费主笔 黄青春 题图｜视觉中国 AI 浪潮席卷之下，一众老登互联网企业挤破头拥抱新时代，角落里的 B 站却始终贴着二次元、鬼畜、小众的标签。尤其这两年，相比抖音、小红书甚至红果，B 站似乎正在年轻群体中“失宠”，过气论调开始在社交平台冒头。 但细看最新财报数据会发现，B 站近半年偷偷发育得挺好。2026 年第二季度，B 站日均活跃用户同比增长 7% 达 1.17 ...</div>
+      </div>
+      
+    </div>
+  
+    <div class="article-card" data-source="Huxiu">
+      <div class="article-header">
+        <a href="https://www.huxiu.com/article/4890845.html?f=rss" target="_blank" class="article-title">
+           王坚：不完美是完美不可分割的一部分 
+        </a>
+        <div class="source-badge">
+          <i class="fas fa-paw"></i>
+          <span>Huxiu</span>
+        </div>
+      </div>
+
+      <div class="article-meta">
+        <div class="meta-item">
+          <i class="far fa-clock"></i>
+          <span>2026-09-13 16:06</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-external-link-alt"></i>
+          <a href="https://www.huxiu.com/article/4890845.html?f=rss" target="_blank">阅读原文</a>
+        </div>
+      </div>
+
+      
+      <div class="article-summary">
+        <div class="summary-label">
+          <i class="fas fa-robot"></i>
+          <span>内容摘要</span>
+        </div>
+        <div class="summary-text">本文来自微信公众号： 秦朔朋友圈 ，作者：王坚 编者按：2026年9月10日下午，外滩大会广场的露天舞台被围得水泄不通。之江实验室主任、阿里云创始人王坚在此做了题为《以青年人的方式思考人工智能》的分享。以下是主编通过演讲原文提炼的精华观点部分供读者参考了解。 这是人类历史上年青人最多的时候 我们天天讲老龄化、人口减少，但不管你信不信，这是人类历史上年青人最多的时候——联合国的统计只算到24岁，而今...</div>
+      </div>
+      
+    </div>
+  
     <div class="article-card" data-source="OpenAI">
       <div class="article-header">
         <a href="https://openai.com/index/perplexity-improving-accuracy-with-astra" target="_blank" class="article-title">
@@ -558,505 +1449,10 @@
       
     </div>
   
-    <div class="article-card" data-source="Anthropic">
-      <div class="article-header">
-        <a href="https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank" class="article-title">
-          Newsroom
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-shield"></i>
-          <span>Anthropic</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 05:02</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890756.html?f=rss" target="_blank" class="article-title">
-           上太空造半导体，这家公司已开始测试 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 04:22</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890756.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 芯智讯 ，编辑：芯智讯-浪客剑，作者：芯智讯-浪客剑，原文标题：《上太空造半导体，这家公司已开始测试！》 9月11日消息，由前OpenAI员工创立的初创公司Besxar正试图将半导体制造搬上太空，以利用太空的天然真空环境替代地球上造价高昂的洁净室基础设施。近期，Besxar已开始通过SpaceX猎鹰9号对其轨道半导体制造原型进行验证测试。 核心逻辑：去物理规律已经“就绪”的地...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890147.html?f=rss" target="_blank" class="article-title">
-           被热搜遗忘的战争，越打越玄了 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 04:21</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890147.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">出品 | 虎嗅青年文化组 本文首发于虎嗅年轻内容公众号“那個NG”（ID：huxiu4youth）。在这里，我们呈现当下年轻人的面貌、故事和态度。 或许没有任何一件事，比俄乌冲突更能显示出21世纪人类的注意力问题了。 作为21世纪以来规模最大的武装冲突之一，俄乌冲突影响着全球能源价格、粮食与供应链以及普通人的出行成本等方方面面，但如此重大的历史事件，却早已退到了新闻版面的边缘。 这不是什么新鲜的事...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890754.html?f=rss" target="_blank" class="article-title">
-           量子赛道商业化的真实轮廓：如果明天量子算力就位，谁第一批下单？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 04:07</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890754.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 科技煮酒 “不可能指望一个业务厂商去理解这种先进技术，他们连AI都还理解不了，更别说量子。”一位量子赛道的CEO犀利说道。 当下的量子赛道站在一个微妙的位置。好消息是，越来越多的企业用户愿意为量子付费，部分企业的支出甚至超过了政府和科研机构。麦肯锡上半年发布的《2026量子技术监测》报告显示，全球已有超过300家企业推进布局量子技术，2025年全球量子计算企业营收突破10亿美...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890753.html?f=rss" target="_blank" class="article-title">
-           新鲜零食火了，但钱还没敢进来 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 04:05</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890753.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">出品｜虎嗅商业消费组 作者｜李佳琪 编辑｜苗正卿 题图｜金粒门 深圳布吉万象汇，金粒门华南首店开业那天，排队三小时。 金粒门是谁？在某AI工具中输入这个问题，得到的答案是：金粒门是2015年从长沙一家板栗炒货店起家、2021年转型为国内首家新鲜零食店的直营品牌，核心团队多来自山姆，主打现制短保零食，被消费者称为"平价小山姆"，目前40余家直营门店、估值20到30亿元。 如上所述，其并非“业界新贵”...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890740.html?f=rss" target="_blank" class="article-title">
-           上救护车都不敢中断视频会议，打工人的命就这么不值钱？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 03:56</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890740.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号：开水与白面包，作者：开水与白面包，题图来自：AI生成 近日，北方某大城市街上，一名小伙骑共享电动车时盯着手机开视频会议，一头撞上路边临时停靠的面包车。右手被破碎车灯划伤，伤口深、流血不止，纸巾换了一张又一张。 但接下来的一幕，让面包车司机彻底看懵了。小伙带着流血的伤口，盘腿坐在马路中间，死死盯着手机，还在沟通工作，好像撞车、流血、事故现场跟他没有任何关系。 司机回忆：“他摔在地...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890749.html?f=rss" target="_blank" class="article-title">
-           被低估的千亿赛道：中产家庭“终极关怀”消费正在觉醒 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 03:54</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890749.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">作者：仲志远（资深媒体人，原资本市场杂志社主笔），原文标题：《被低估的千亿赛道，中产家庭“终极关怀”消费正在觉醒—— 从“避而不谈”到“主动规划”，一片沉默市场的四次趋势判断》，题图来自：AI生成 2023年清明，上海浦东的一对夫妇做了一件让双方父母都“不太舒服”的事——他们花了两个周末，带着四位老人去看了三家陵园。不是因为谁病了，也不是因为谁走了。 “就是想提前看看。”丈夫后来跟朋友解释，“我爸...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890751.html?f=rss" target="_blank" class="article-title">
-           当数学家开始坐不住：AI 真正改变的，也许是人类的尺度 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 03:47</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890751.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs 过去很长一段时间里，人类讨论人工智能时习惯问一个看上去非常自然的问题：它到底有多强。能不能超过普通人，能不能达到博士水平，能不能在数学奥赛里拿到金牌，能不能像顶尖工程师那样写代码，能不能像科学家那样发现新的知识。这些提问的措辞各不相同，但背后共用同一把尺子，而这把尺子始终是人。到了2026年，尺子本身开始出现问题。...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890750.html?f=rss" target="_blank" class="article-title">
-           OpenAI智能体，被曝“失控” 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 03:34</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890750.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 财联社 ，作者：朱凌 多名AI安全研究人员披露，OpenAI正在测试中的AI智能体疑似于今年5月对Ruby语言的官方管理器RubyGems进行了网络攻击。 该事件比《科创板日报》此前报道的OpenAI模型“失控”攻入全球最大AI开源社区Hugging Face事件早两个月发生，此前并未与OpenAI联系起来。 5月11日前后，大量AI智能体开始频繁访问RubyGems，这些智...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890746.html?f=rss" target="_blank" class="article-title">
-           宇树市值已不到2000亿：机构猛吃红利，腰斩的股价由散户买单？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 03:03</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890746.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 大橘财经 ，作者：胡祥熙 截至9月11日收盘，宇树科技再度大跌超4%，创上市以来新低，股价自8月19日上市首日最高点跌超55%，总市值跌破2000亿元，但还有1930亿元。 近一个月前的8月19日，宇树科技以1100元开盘，市值冲上4449亿元，成为A股人形机器人第一股。 彼时，被资金热炒的“宇树影子股”全线崩塌：上纬新材盘中重挫逾18%，绿的谐波、昊志机电、奥比中光等多股跌...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890745.html?f=rss" target="_blank" class="article-title">
-           AI 真正的问题，也许不是能力增长太快，而是控制能力增长得太慢 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 02:58</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890745.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs 2026年9月12日，Anthropic CEO Dario Amodei发表长文，公开呼吁整个行业放慢前沿能力推进的节奏，给安全措施留出追赶的时间。美联社在报道中概括了他最激进的那个判断：如果不减速，未来六到十二个月内，AI可能已经具备领导一支Agent集群、进而对整个互联网形成控制风险的能力。他同时提出了一项具...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890741.html?f=rss" target="_blank" class="article-title">
-           从“配得感”说起：一个名为“现代游牧主义”的随想 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 02:53</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890741.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号：恒河公园，作者：大明湖底容嬷嬷，题图来自：AI生成 “配得感”这个词，想必大家都已经耳朵听起茧子了。 它最常出现的地方，是面向女性的情感、消费和职场叙事。不要总觉得自己“不配”，不要因为别人送了一件贵重礼物就惴惴不安，不要因为买了一只稍贵的包便觉得奢侈，不要觉得自己配不上更好的爱情、更高的工资、更舒服的生活。人要有“配得感”，要相信好东西落到自己头上并非偶然，更不是僭越。 这种...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890733.html?f=rss" target="_blank" class="article-title">
-           AI基建让建筑产业链再度“复生”？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 00:55</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890733.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 硅碳变量 ，作者：胡一刀 9月份，黄仁勋公开敦促各国加快AI应用，扩大数据中心等基础设施建设。据悉，一直大力支持AI时代到来的黄仁勋在2026年将AI比作水、电之类的基础设施，未来全世界范围内，AI似乎将成为现代生活“刚需”。 有意思的是，差不多同一时期，中国建筑发布上半年财报。 数据中心及算力中心新签合同额873亿元，同比上升328.3%。 一前一后，在相互呼应的同时，也再...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890730.html?f=rss" target="_blank" class="article-title">
-           从OpenAI的《外星思维》说起：AI越来越强，我们为什么还要亲自学习？ 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-13 00:12</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890730.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 快刀青衣 ，作者：快刀广播站 AI能替我们干，但判断仍要长在自己身上。 在AI领域，半年前的事，现在想起来就像过去了一个世纪。三年前呢？那差不多就是白垩纪了。 第一次被AI震撼到的感觉，估计很多人都还记得。我那次就是只说了一句话，AI直接给我生成了一张海报。放以前，这种活儿得找专业设计师。 而2023年的一天晚上，OpenAI的两位研究者也遇到了这样的震惊时刻。他们待在办公室...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="Huxiu">
-      <div class="article-header">
-        <a href="https://www.huxiu.com/article/4890728.html?f=rss" target="_blank" class="article-title">
-           加密资产安全幻象：当黑客、AI与“白帽”撕下底层的遮羞布 
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-paw"></i>
-          <span>Huxiu</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-12 23:16</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.huxiu.com/article/4890728.html?f=rss" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">本文来自微信公众号： 斯凯碎碎侃 ，作者：斯凯 在我周围的圈子里，有一个不成文的潜规则：每个人都要有一部苹果手机，必须得是欧美版或者澳新版，最低也得是个韩版，港版都已经不太满足要求了。 别多想，这部手机里没有什么绯闻线索或者绝密情报，它只有一个功能——加密钱包。加密货币在某些圈子里就是社交货币，你没有就说明你的买卖做得不够大，也不够国际化，也就没有上桌吃饭的资格。 但最近这个圈子里的人，都睡不着觉...</div>
-      </div>
-      
-    </div>
-  
     <div class="article-card" data-source="The Verge">
       <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack" target="_blank" class="article-title">
-          OpenAI’s rogue AI tried to hack another company in May
+        <a href="https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting" target="_blank" class="article-title">
+          Trump and Mike Johnson think the AI industry is overreacting
         </a>
         <div class="source-badge">
           <i class="fas fa-satellite"></i>
@@ -1067,11 +1463,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-09-12 21:41</span>
+          <span>2026-09-13 19:41</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack" target="_blank">阅读原文</a>
+          <a href="https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1081,147 +1477,15 @@
           <i class="fas fa-robot"></i>
           <span>内容摘要</span>
         </div>
-        <div class="summary-text">In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsib...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="The Verge">
-      <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised" target="_blank" class="article-title">
-          Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-satellite"></i>
-          <span>The Verge</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-12 21:16</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging ...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="The Verge">
-      <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development" target="_blank" class="article-title">
-          Anthropic CEO says it’s time to pump the brakes on AI
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-satellite"></i>
-          <span>The Verge</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-12 16:23</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its "adherence to safety practices and ...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="The Verge">
-      <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa" target="_blank" class="article-title">
-          Trump is giving data centers a pass to pollute
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-satellite"></i>
-          <span>The Verge</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-12 14:41</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said t...</div>
-      </div>
-      
-    </div>
-  
-    <div class="article-card" data-source="The Verge">
-      <div class="article-header">
-        <a href="https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition" target="_blank" class="article-title">
-          OpenAI just wants to win
-        </a>
-        <div class="source-badge">
-          <i class="fas fa-satellite"></i>
-          <span>The Verge</span>
-        </div>
-      </div>
-
-      <div class="article-meta">
-        <div class="meta-item">
-          <i class="far fa-clock"></i>
-          <span>2026-09-12 11:00</span>
-        </div>
-        <div class="meta-item">
-          <i class="fas fa-external-link-alt"></i>
-          <a href="https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition" target="_blank">阅读原文</a>
-        </div>
-      </div>
-
-      
-      <div class="article-summary">
-        <div class="summary-label">
-          <i class="fas fa-robot"></i>
-          <span>内容摘要</span>
-        </div>
-        <div class="summary-text">OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium P...</div>
+        <div class="summary-text">Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to "pace the frontier" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly vo...</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="TechCrunch">
       <div class="article-header">
-        <a href="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/" target="_blank" class="article-title">
-          OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026
+        <a href="https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/" target="_blank" class="article-title">
+          What’s behind the AI industry’s latest warnings of doom?
         </a>
         <div class="source-badge">
           <i class="fas fa-bolt"></i>
@@ -1232,11 +1496,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-09-12 20:19</span>
+          <span>2026-09-13 19:40</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/" target="_blank">阅读原文</a>
+          <a href="https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1246,15 +1510,15 @@
           <i class="fas fa-robot"></i>
           <span>内容摘要</span>
         </div>
-        <div class="summary-text">While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.</div>
+        <div class="summary-text">On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.</div>
       </div>
       
     </div>
   
     <div class="article-card" data-source="TechCrunch">
       <div class="article-header">
-        <a href="https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/" target="_blank" class="article-title">
-          Anthropic CEO outlines plan to slow AI development
+        <a href="https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/" target="_blank" class="article-title">
+          Obama urges Democrats to have a ‘clear plan’ for AI safeguards
         </a>
         <div class="source-badge">
           <i class="fas fa-bolt"></i>
@@ -1265,11 +1529,11 @@
       <div class="article-meta">
         <div class="meta-item">
           <i class="far fa-clock"></i>
-          <span>2026-09-12 19:34</span>
+          <span>2026-09-13 16:30</span>
         </div>
         <div class="meta-item">
           <i class="fas fa-external-link-alt"></i>
-          <a href="https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/" target="_blank">阅读原文</a>
+          <a href="https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/" target="_blank">阅读原文</a>
         </div>
       </div>
 
@@ -1279,7 +1543,7 @@
           <i class="fas fa-robot"></i>
           <span>内容摘要</span>
         </div>
-        <div class="summary-text">Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to "pace the frontier." What would that actually look like?</div>
+        <div class="summary-text">Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safe...</div>
       </div>
       
     </div>
@@ -1290,7 +1554,7 @@
     <footer class="footer">
       <p>本日报由 AI 新闻聚合工具自动生成 · 每天上午 8:30 更新</p>
       <p>关注公众号 <strong>鹤野无岸</strong> 获取每日推送</p>
-      <p>数据来源：OpenAI、DeepSeek、Anthropic、Huxiu、The Verge、TechCrunch</p>
+      <p>数据来源：Anthropic、Huxiu、OpenAI、DeepSeek、The Verge、TechCrunch</p>
       <p style="margin-top: 10px; font-size: 12px; opacity: 0.7;">
         <i class="fas fa-code"></i> 自由风格 · 设计灵感源于山野与科技的交融
       </p>
